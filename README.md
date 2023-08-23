@@ -26,7 +26,9 @@
 
 -----------------------------------------------------------------------------------------------
 
-### Инструкцию по установке версии для Community Remaster вы можете найти здесь:
-**https://github.com/ksh1vn/DoomerWave/blob/main/ComRemInstallGuide.md**
-
-### ПОСЛЕ РЕЛИЗА COMMOD 2.0 ИНСТРУКЦИЯ НЕАКТУАЛЬНА! СЛЕДИТЕ ЗА ОБНОВЛЕНИЯМИ, СКОРО ПОЯВИТСЯ ССЫЛКА НА НОВУЮ ИНСТРУКЦИЮ ПО УСТАНОВКЕ!
+### Инструкцию по установке версии для Community Remaster вы можете найти в моём ролике (картинка кликабельна):
+<div align="center">
+<a href="https://www.youtube.com/watch?v=CJyvEuSTiyk">
+    <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/60093741/262672349-c863f945-338a-4cd2-99b4-b182afa2666a.png" alt="Logo" width="400">
+  </a>
+</div>
