@@ -21,7 +21,7 @@
 
 **Выражаю благодарность сообществу [Deus Ex Machina](https://discord.gg/PVW57kr), [Carsen'y](https://github.com/MrPlayerEx) за помощь в разработке, а так же отдельная благодарность [pavlikRPG](https://github.com/zatinu322) (автору **[Improved Storyline](https://github.com/zatinu322/ImprovedStoryline)**) за предоставление разрешения на использование титров из его модификации в конце игры.**
 
-**Так-же в Community Remaster версии как дополнительный контент с разрешения автора (DOLBOYASCHERS_TEAM) добавлен Ex Machina: Fall. Он входит в комлект с Doomer Wave. Скачать отдельно его можно [здесь](https://www.moddb.com/mods/exm-fall/downloads/exm-fall-eng)**
+**Так-же в Community Remaster версии как дополнительный контент с разрешения автора (DOLBOYASCHERS_TEAM) добавлен Ex Machina: Fall. Он входит в комплект с Doomer Wave. Скачать отдельно его можно [здесь](https://www.moddb.com/mods/exm-fall/downloads/exm-fall-eng)**
 
 
 -----------------------------------------------------------------------------------------------
