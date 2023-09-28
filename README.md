@@ -1,11 +1,46 @@
 # Ex Machina: Doomer Wave
 
-![General pic of repo](https://user-images.githubusercontent.com/60093741/215395684-c812444b-7aa0-46a9-b7a4-aa4eb60492d7.png)
+![dw_banner](https://github.com/ksh1vn/DoomerWave/assets/60093741/424ba622-42cd-43b4-90e2-91c836675dbf)
 
 **Doomer Wave** - модификация, направленная на изменение игровой атмосферы в депрессивную сторону. Данная модификация не добавляет новый сюжет, он остаётся оригинальным.
- Трейлер мода можно посмотреть **[тут](https://youtu.be/oGKfYa-B-08)**.
 
-**Список изменений:**
+
+**Трейлер **Ex Machina: Doomer Wave** можно посмотреть **[здесь](https://www.youtube.com/watch?v=oGKfYa-B-08)**.**
+
+-----------------------------------------------------------------------------------------------
+
+### [Скачать последнюю версию для Community Remaster](https://github.com/ksh1vn/DoomerWave/releases/tag/community_remaster_1.3.6) (требуемая версия игры 1.14)
+
+### [Скачать последнюю версию для оригинальной игры](https://github.com/ksh1vn/DoomerWave/releases/tag/clean_hta_1.3.7) (требуемая версия игры 1.02)
+
+-----------------------------------------------------------------------------------------------
+
+### Скриншоты модификации:
+
+> ![scr_1](https://github.com/ksh1vn/DoomerWave/assets/60093741/9084e705-63be-40e5-b785-52327e592551)
+**Главное меню Ex Machina: Doomer Wave (Community Remaster версия)**
+
+> ![scr_2](https://github.com/ksh1vn/DoomerWave/assets/60093741/8238351b-531e-4fb9-b73d-bb532e5157fa)
+**Дневной Край**
+
+> ![scr_3](https://github.com/ksh1vn/DoomerWave/assets/60093741/138249ee-f518-4d33-a3e6-8974ada18b73)
+**Ночной Край**
+
+> ![scr_4](https://github.com/ksh1vn/DoomerWave/assets/60093741/aecfd24f-9ef1-4366-8e60-92a271402857)
+**Ночной Либриум**
+
+> ![scr_5](https://github.com/ksh1vn/DoomerWave/assets/60093741/95e41764-c065-432e-bc4f-34d273aff334)
+**Ночной Посёлок Учёного**
+
+> ![scr_6](https://github.com/ksh1vn/DoomerWave/assets/60093741/db8f9899-1399-48a0-b1e9-c29012d074b8)
+**Вечерняя Гельвеция**
+
+> ![scr_7](https://github.com/ksh1vn/DoomerWave/assets/60093741/0774205a-d659-45a5-bdb3-4b787e3fd964)
+**Глухое с установленным Ex Machina: Fall (Только в Community Remaster версии)**
+
+-----------------------------------------------------------------------------------------------
+
+### Список изменений:
 
 - **На 99% игра теперь в чёрно-белом формате.**
 
@@ -19,10 +54,18 @@
 
 -----------------------------------------------------------------------------------------------
 
-**Выражаю благодарность сообществу [Deus Ex Machina](https://discord.gg/PVW57kr), [Carsen'y](https://github.com/MrPlayerEx) за помощь в разработке, а так же отдельная благодарность [pavlikRPG](https://github.com/zatinu322) (автору **[Improved Storyline](https://github.com/zatinu322/ImprovedStoryline)**) за предоставление разрешения на использование титров из его модификации в конце игры.**
+## Выражаю благодарность:
 
+**Сообществу [Deus Ex Machina](https://discord.gg/PVW57kr)** - за помощь в разработке
+
+**[Carsen](https://github.com/CarsenStream)** - за помощь в разработке
+
+**[Varisane](https://github.com/Varisane)** - за помощь в реализации некоторых идей
+
+**[pavlikRPG](https://github.com/zatinu322)** - за предоставление разрешения на использование титров из его модификации [Improved Storyline](https://github.com/zatinu322/ImprovedStoryline) в конце игры.
+
+**И спасибо всем тем, кто играет в данную модификацию!**
 
 -----------------------------------------------------------------------------------------------
 
-### Инструкцию по установке версии для Community Remaster вы можете найти здесь:
-**https://github.com/ksh1vn/DoomerWave/blob/main/ComRemInstallGuide.md**
+**README written by [стакан](https://github.com/ksh1vn)**
