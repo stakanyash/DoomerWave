@@ -39,7 +39,7 @@
 			font="0"
 			clientEdges="0.000 0.000 0.000 0.000"
 			wndColor="00000000"
-			textColor="ffffffff"
+			textColor="ffBEBEBE"
 			textColorDisabled="ff8f8f8f"
 			btnIsImaged="1"
 			btnImage="data\if\ico\Mainmenu\mm_button_1.dds"
@@ -66,7 +66,7 @@
 			font="0"
 			clientEdges="0.000 0.000 0.000 0.000"
 			wndColor="00000000"
-			textColor="ffffffff"
+			textColor="ffBEBEBE"
 			textColorDisabled="ff8f8f8f"
 			btnIsImaged="1"
 			btnImage="data\if\ico\Mainmenu\mm_button_1.dds"
@@ -93,7 +93,7 @@
 			font="0"
 			clientEdges="0.000 0.000 0.000 0.000"
 			wndColor="00000000"
-			textColor="ffffffff"
+			textColor="ffBEBEBE"
 			textColorDisabled="ff8f8f8f"
 			btnIsImaged="1"
 			btnImage="data\if\ico\Mainmenu\mm_button_1.dds"
@@ -120,7 +120,7 @@
 			font="0"
 			clientEdges="0.000 0.000 0.000 0.000"
 			wndColor="00000000"
-			textColor="ffffffff"
+			textColor="ffBEBEBE"
 			textColorDisabled="ff8f8f8f"
 			btnIsImaged="1"
 			btnImage="data\if\ico\Mainmenu\mm_button_1.dds"
@@ -147,7 +147,7 @@
 			font="0"
 			clientEdges="0.000 0.000 0.000 0.000"
 			wndColor="00000000"
-			textColor="ffffffff"
+			textColor="ffBEBEBE"
 			textColorDisabled="ff8f8f8f"
 			btnIsImaged="1"
 			btnImage="data\if\ico\Mainmenu\mm_button_1.dds"
@@ -174,7 +174,7 @@
 			font="0"
 			clientEdges="0.000 0.000 0.000 0.000"
 			wndColor="00000000"
-			textColor="ffffffff"
+			textColor="ffBEBEBE"
 			textColorDisabled="ff8f8f8f"
 			btnIsImaged="1"
 			btnImage="data\if\ico\Mainmenu\mm_button_1.dds"
@@ -252,7 +252,7 @@
 			font="0"
 			clientEdges="0.000 0.000 0.000 0.000"
 			wndColor="00000000"
-			textColor="ffa0a0a0"
+			textColor="ffBEBEBE"
 			textColorDisabled="ff8f8f8f">
 			<Animations/>
 		</Node>
@@ -275,7 +275,7 @@
 			font="1"
 			clientEdges="0.000 0.000 0.000 0.000"
 			wndColor="00000000"
-			textColor="ffffffff"
+			textColor="ffA0A0A0"
 			textColorDisabled="ff7f7f7f">
 			<Animations/>
 		</Node>
@@ -298,7 +298,7 @@
 			font="1"
 			clientEdges="0.000 0.000 0.000 0.000"
 			wndColor="00000000"
-			textColor="ffffffff"
+			textColor="ffA0A0A0"
 			textColorDisabled="ff7f7f7f">
 			<Animations/>
 		</Node>
@@ -321,7 +321,7 @@
 			font="1"
 			clientEdges="0.000 0.000 0.000 0.000"
 			wndColor="00000000"
-			textColor="ffffffff"
+			textColor="ffA0A0A0"
 			textColorDisabled="ff7f7f7f">
 			<Animations/>
 		</Node>
@@ -344,7 +344,7 @@
 			font="1"
 			clientEdges="0.000 0.000 0.000 0.000"
 			wndColor="00000000"
-			textColor="fffed11b"
+			textColor="ffffffff"
 			textColorDisabled="ff8f8f8f">
 			<Animations/>
 		</Node>

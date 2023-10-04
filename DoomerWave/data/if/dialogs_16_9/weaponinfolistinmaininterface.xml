@@ -21,7 +21,7 @@
 		font="0"
 		clientEdges="0.000 0.000 0.000 0.000"
 		wndColor="00000000"
-		textColor="ff505050"
+		textColor="ff000000"
 		textColorDisabled="ff7f7f7f">
 		<Node
 			name="WeaponInfoWnd"
