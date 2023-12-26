@@ -7,6 +7,8 @@
 
 **Трейлер **Ex Machina: Doomer Wave** можно посмотреть **[здесь](https://www.youtube.com/watch?v=oGKfYa-B-08)**.**
 
+**Трейлер **Ex Machina: Doomer Wave for Improved Storyline** можно посмотреть **[здесь](https://youtu.be/YkAFHkLSdzc)**.**
+
 -----------------------------------------------------------------------------------------------
 
 ### [Скачать последнюю версию для Community Remaster](https://github.com/ksh1vn/DoomerWave/releases/tag/community_remaster_1.4) (требуемая версия игры 1.14)
