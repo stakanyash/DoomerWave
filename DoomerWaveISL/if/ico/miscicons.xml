@@ -298,23 +298,6 @@
 	<Item id="NpcBgBar"		file="data\if\ico\TalkWithNpcDlg\bardialog1.dds"		file1=""/>	
 	<Item id="NpcBgLocation"	file="data\if\ico\TalkWithNpcDlg\cardialog1.dds"		file1=""/>	
 
-<!-- Какого ситха эти иконки запихали в этот файл?! Они должны быть в файлах иконок соответствующих карт -->
-
-   <Item id="Olme_Bar"	file="data\if\ico\TalkWithNpcDlg\bardialog1.dds" file1=""/>
-   <Item id="FVOnOcean_Bar"	file="data\if\ico\TalkWithNpcDlg\bardialog1.dds" file1=""/>
-   <Item id="FVNearOlme_Bar"	file="data\if\ico\TalkWithNpcDlg\bardialog1.dds" file1=""/>
-   <Item id="FVCalis_Bar"	file="data\if\ico\TalkWithNpcDlg\bardialog1.dds" file1=""/>
-   <Item id="FVCordan_Bar"	file="data\if\ico\TalkWithNpcDlg\bardialog1.dds" file1=""/>
-   <Item id="FVPerch_Bar"	file="data\if\ico\TalkWithNpcDlg\bardialog1.dds" file1=""/>
-   <Item id="FVBerko_Bar"	file="data\if\ico\TalkWithNpcDlg\bardialog1.dds" file1=""/>
-   <Item id="StorageVilBar"	file="data\if\ico\TalkWithNpcDlg\bardialog1.dds" file1=""/>
-
-   <Item id="TheRazboynik_Bar"	file="data\if\ico\TalkWithNpcDlg\bardialog3.dds" file1=""/>
-   <Item id="Fist_Bar"			file="data\if\ico\TalkWithNpcDlg\bardialog3.dds" file1=""/>
-   <Item id="Set_Bar"			file="data\if\ico\TalkWithNpcDlg\bardialog3.dds" file1=""/>
-   <Item id="Uluk_Bar"			file="data\if\ico\TalkWithNpcDlg\bardialog3.dds" file1=""/>
-   <Item id="AloneDruid_Bar"	file="data\if\ico\TalkWithNpcDlg\bardialog3.dds" file1=""/>
-
  <!-- MotherPanel -->
 	<Item id="TabBtn_Questlog_InField"		file="data\if\ico\MotherPanel\tab_quest_s.dds"			file1="data\if\ico\MotherPanel\tab_quest_e.dds"/>	
 	<Item id="TabBtn_Map_InField"			file="data\if\ico\MotherPanel\tab_map_s.dds"			file1="data\if\ico\MotherPanel\tab_map_e.dds"/>	

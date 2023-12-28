@@ -45,7 +45,13 @@
 		file="data\maps\r2m1\icons.xml"
 		loadType="AT_LEVEL_START"
 		level="r2m1"
-	/>                       
+	/>
+
+	<Item
+		file="data\maps\r2m1_bossfight\icons.xml"
+		loadType="AT_LEVEL_START"
+		level="r2m1_bossfight"
+	/>
 
 	<Item
 		file="data\maps\r2m2\icons.xml"
@@ -76,6 +82,24 @@
 		loadType="AT_LEVEL_START"
 		level="r4m2"
 	/>                       
+
+	<Item
+		file="data\maps\r1m5\icons.xml"
+		loadType="AT_LEVEL_START"
+		level="r1m5"
+	/>  
+
+	<Item
+		file="data\maps\r1m6\icons.xml"
+		loadType="AT_LEVEL_START"
+		level="r1m6"
+	/>  
+
+	<Item
+		file="data\maps\r1m7\icons.xml"
+		loadType="AT_LEVEL_START"
+		level="r1m7"
+	/>  
 
 	<Item
 		file="data\maps\d1\icons.xml"
