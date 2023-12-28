@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<resource>
+	<string
+		id="0"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_0_hero.ogg"
+		value="|Далеко же я забрался... Не время любоваться красотами! Надо скорее связаться с местными. А вот и они."
+		time="8" />
+
+	<string
+		id="1"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_1_hero.ogg"
+		value="|День добрый. Я ищу Акселя. Вы не слышали про такого?"
+		time="4" />
+
+	<string
+		id="2"
+		modelName="r2_woman"
+		modelSkin="1"
+		modelCfg="59"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_2_stranger.ogg"
+		value="НЕЗНАКОМЕЦ|Аксель - это величайший из живущих, наш вождь и кормилец, альфа и омега! Он ведет нас к победе добра и справедливости во всем мире!"
+		time="8" />
+
+	<string
+		id="3"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_3_hero.ogg"
+		value="|Ничего себе... Могу ли я повстречаться с этим «кормильцем»?"
+		time="4" />
+
+	<string
+		id="4"
+		modelName="r2_woman"
+		modelSkin="1"
+		modelCfg="59"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_4_stranger.ogg"
+		value="НЕЗНАКОМЕЦ|Так ты что, не агитатор? Черт, я уж подумал, что тебя к нам подослали проверить боевой дух. Хотя мне бояться нечего. Я честный вояка!"
+		time="8" />
+
+	<string
+		id="5"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_5_hero.ogg"
+		value="|Я много наслышан о вашем лидере. И очень хотел бы пожать его мужественную руку."
+		time="4" />
+
+	<string
+		id="6"
+		modelName="r2_woman"
+		modelSkin="1"
+		modelCfg="59"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_6_stranger.ogg"
+		value="НЕЗНАКОМЕЦ|Кто попало не может с ним встретиться. Только тот, кто совершит подвиг, будет допущен в его тайное жилище. Но тебе это явно не грозит."
+		time="8" />
+
+	<string
+		id="7"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_7_hero.ogg"
+		value="|Пожалуй, я все-таки попытаюсь попасть туда. Раз вы ничего не знаете, поищу тех, кто может мне помочь."
+		time="8" />
+
+	<string
+		id="8"
+		modelName="r2_woman"
+		modelSkin="1"
+		modelCfg="59"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_8_stranger.ogg"
+		value="НЕЗНАКОМЕЦ|Постой, а кто ты вообще такой? Как ты проехал через тоннель? "
+		time="4" />
+
+	<string
+		id="9"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_9_hero.ogg"
+		value="|А твое какое дело? Я свободный бродяга: куда хочу, туда лечу!"
+		time="4" />
+
+	<string
+		id="10"
+		modelName="r2_woman"
+		modelSkin="1"
+		modelCfg="59"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_10_stranger.ogg"
+		value="НЕЗНАКОМЕЦ|Я защищаю свой народ от таких, как ты: шпионов и провокаторов! "
+		time="4" />
+
+	<string
+		id="11"
+		modelName="r2_woman"
+		modelSkin="1"
+		modelCfg="59"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_11_stranger.ogg"
+		value="НЕЗНАКОМЕЦ|А ты крутой парень, как я погляжу.  Если нужна будет работенка, отправляйся в Мареццию - там у нас штаб."
+		time="8" />
+
+	<string
+		id="12"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_12_hero.ogg"
+		value="|Не в этой жизни."
+		time="4" />
+
+	<string
+		id="13"
+		modelAutosized="true"
+		modelName="gadget_12"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_13_CIT_officer_radio.ogg"
+		value="РАДИО|Солдат! Враг нападает на деревню, а твоя машина – ближе всех к горячей точке. Защити жителей, пока не подтянется подкрепление! "
+		time="8" />
+
+	<string
+		id="14"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_14_hero.ogg"
+		value="|Как я ненавижу это бандитское отродье!"
+		time="4" />
+
+	<string
+		id="15"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_15_hero.ogg"
+		value="|Вот и подмога! Сюда, ребята! Задайте им перцу."
+		time="4" />
+
+	<string
+		id="16"
+		modelName="r2_man"
+		modelSkin="0"
+		modelCfg="326"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_16_CIT_soldier.ogg"
+		value="СОЛДАТ СНГ|Ты хорошо поработал. Возвращайся на базу. Тебя ждет награда и новое задание."
+		time="4" />
+
+	<string
+		id="17"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_17_hero.ogg"
+		value="|Гуманитарная помощь поможет людям в этой деревне."
+		time="4" />
+
+	<string
+		id="18"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_18_hero.ogg"
+		value="|Эти люди страдают. Я чувствую, что мои действия помогают им."
+		time="4" />
+
+	<string
+		id="19"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_19_hero.ogg"
+		value="|Я очищу эту землю от бандитов!"
+		time="4" />
+
+	<string
+		id="20"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_20_hero.ogg"
+		value="|Теперь через тоннель смогут ездить не только бандиты, а все свободные люди! Вернусь в штаб с докладом. Пусть присылают своих людей обустраивать здесь все по-новому."
+		time="8" />
+
+	<string
+		id="2012"
+		modelAutosized="true"
+		modelName="gadget_12"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_2012_CIT_officer_radio.ogg"
+		value="РАДИО|Ты - настоящий герой, и наши лидеры хотят доверить тебе одно ответственное задание, о котором не знаю даже я. Отправляйся прямиком в Гельвецию. Передаю координаты. Отбой."
+		time="8" />
+
+	<string
+		id="21"
+		modelName="r2_man"
+		modelSkin="0"
+		modelCfg="326"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_21_CIT_soldier.ogg"
+		value="СОЛДАТ СНГ|Мы возьмем на себя охрану, а ты захвати генерала АР. Он едет в личном авто, ты сразу узнаешь его."
+		time="4" />
+
+	<string
+		id="22"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_22_hero.ogg"
+		value="|Генерал в наших руках! В Гельвеции его заставят выложить все, что он знает об Акселе!"
+		time="4" />
+
+	<string
+		id="23"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_23_hero.ogg"
+		value="|Теперь-то Лиса от меня не сбежит! Осталось только узнать у местных жителей, где же она спряталась. "
+		time="4" />
+
+	<string
+		id="24"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_24_hero.ogg"
+		value="|Привет! Вам не знакома девушка, по имени Лиса. Не подскажете, где ее искать?"
+		time="4" />
+
+	<string
+		id="25"
+		modelName="r2_woman"
+		modelSkin="1"
+		modelCfg="59"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_25_stranger.ogg"
+		value="НЕЗНАКОМЕЦ|Кто же не знает Лису! Только вот добраться до нее будет трудновато. Она в подружках у Акселя, нашего командира."
+		time="8" />
+
+	<string
+		id="26"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_26_hero.ogg"
+		value="|Значит, мне придется поговорить с ним по душам."
+		time="4" />
+
+	<string
+		id="27"
+		modelName="r2_woman"
+		modelSkin="1"
+		modelCfg="59"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_27_stranger.ogg"
+		value="НЕЗНАКОМЕЦ|Ха-ха-ха! Насмешил! Да его тебе увидеть нет никаких шансов! Только тот, кто совершит подвиг, может получить награду из его рук. Но тебе это явно не грозит."
+		time="8" />
+
+	<string
+		id="28"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_28_hero.ogg"
+		value="|Это мы еще посмотрим."
+		time="4" />
+
+	<string
+		id="29"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_29_hero.ogg"
+		value="|Лиса! Попалась обманщица! Теперь я тебя так просто не отпущу! Ты мне за все ответишь!"
+		time="4" />
+
+	<string
+		id="30"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_30_alice.ogg"
+		value="ЛИСА|Какой ты настырный. Похоже, придется тебя проучить, как следует, чтобы ты отстал от меня."
+		time="4" />
+
+	<string
+		id="31"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_31_alice.ogg"
+		value="ЛИСА|Стой! Я расскажу всю правду..."
+		time="4" />
+
+	<string
+		id="32"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_32_hero.ogg"
+		value="|Если ты меня обманешь еще раз – пожалеешь! Говори, кто на самом деле убил моего отца?"
+		time="4" />
+
+	<string
+		id="33"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_33_alice.ogg"
+		value="ЛИСА|Это были странные люди на очень необычной технике. Я видела, как они уезжали на восток."
+		time="4" />
+
+	<string
+		id="34"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_34_hero.ogg"
+		value="|Да? Прямо в пустыню смерти? Сначала ты отправила меня на запад, теперь - на восток. Куда в следующий раз? Хотя, нет...  следующего раза не будет!"
+		time="8" />
+
+	<string
+		id="35"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_35_alice.ogg"
+		value="ЛИСА|Не стреляй, я говорю правду! Выслушай, как все было, а потом можешь делать, что хочешь."
+		time="4" />
+
+	<string
+		id="36"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_36_hero.ogg"
+		value="|Ты испытываешь мое терпение. Говори..."
+		time="4" />
+
+	<string
+		id="37"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_37_alice.ogg"
+		value="ЛИСА|Я посвятила свою жизнь решению одной загадки. Был такой человек, Айвен. Он объехал весь мир, совершил множество удивительных открытий, а потом бесследно пропал в зените славы. "
+		time="8" />
+
+	<string
+		id="38"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_38_alice.ogg"
+		value="ЛИСА| Многие пытались найти его, но никому это не удалось. Я изучила всю жизнь Айвена, я выяснила, что у него были жена и сын, но они трагически погибли... Возможно, поэтому он и решил уйти. "
+		time="8" />
+
+	<string
+		id="39"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_39_alice.ogg"
+		value="ЛИСА|Много лет я разыскивала улики, пока, совсем недавно, мне не удалось получить информацию о давнем друге Айвена. Тогда я направилась в город Южный, чтобы найти его..."
+		time="8" />
+
+	<string
+		id="40"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_40_hero.ogg"
+		value="|Но ты не знала, где именно искать. И устроила этот спектакль с продажей наркотиков, чтобы я показал тебе все местные деревни!"
+		time="8" />
+
+	<string
+		id="41"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_41_alice.ogg"
+		value="ЛИСА|Да. Но я опоздала - чья-то злая воля убила несчастного... "
+		time="4" />
+
+	<string
+		id="42"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_42_hero.ogg"
+		value="|Чтобы убить последнего свидетеля, кто-то разрушил целую деревню. Мою деревню! Кем же нужно быть, чтобы совершить такое!? Наверное,  Айвен обнаружил что-то очень важное, и теперь кто-то пытается замести все следы."
+		time="12" />
+
+	<string
+		id="43"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_43_alice.ogg"
+		value="ЛИСА|Все сходится! Вот почему так трудно было найти малейшую зацепку. Возможно, он даже был захвачен живым и..."
+		time="8" />
+
+	<string
+		id="44"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_44_hero.ogg"
+		value="|Я должен выяснить, кто стоит за всем этим!"
+		time="4" />
+
+	<string
+		id="45"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_45_alice.ogg"
+		value="ЛИСА|Мы должны. Это мой поиск. К тому же у меня есть наводка!"
+		time="4" />
+
+	<string
+		id="46"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_46_hero.ogg"
+		value="|О чем ты говоришь?"
+		time="4" />
+
+	<string
+		id="47"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_47_alice.ogg"
+		value="ЛИСА|Около свидетеля я нашла диск. Я проконсультировалась с лучшими учеными и выяснила, что это что-то вроде книги, прочитать которую может только всезнающий Оракул."
+		time="8" />
+
+	<string
+		id="48"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_48_hero.ogg"
+		value="|Всезнающий... возможно, он сможет подсказать способ пересечь Пустыню смерти. Решено, отправляемся вместе на поиски!"
+		time="8" />
+
+	<string
+		id="49"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_49_hero.ogg"
+		value="|И какие у нас планы? Где искать твоего Оракула?"
+		time="4" />
+
+	<string
+		id="50"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_50_alice.ogg"
+		value="ЛИСА|Я слышала, он живет где-то за морем. Здесь поблизости начинается подземный ход, ведущий на остров Оракула. Только, похоже, что он охраняется."
+		time="8" />
+
+	<string
+		id="51"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_51_hero.ogg"
+		value="|Это не проблема. После победы над Акселем я - национальный герой и никто не посмеет мне перечить."
+		time="8" />
+
+	<string
+		id="52"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_52_alice.ogg"
+		value="ЛИСА|Проблема в том, что охранники не совсем люди... Посмотри сам."
+		time="4" />
+
+	<string
+		id="60"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_60_hero.ogg"
+		value="|Работа сделана! Караван остановлен. Можно возвращаться на базу."
+		time="4" />
+
+	<string
+		id="100"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_100_hero.ogg"
+		value="|Кто вы такие и зачем прячетесь здесь, когда мой народ страдает? "
+		time="4" />
+
+	<string
+		id="101"
+		modelAutosized="true"
+		modelName="boss04dronegun"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_101_njeri.ogg"
+		value="НЬЕРИ|Мы – Ньери, гости из далеких миров. Волею судеб, наш вечный путь пересекся с траекторией вашей планеты. И это принесло всем лишь горе."
+		time="8" />
+
+	<string
+		id="102"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_102_hero.ogg"
+		value="|Один из ваших механизмов отравляет эту планету, и я хочу знать, почему это происходит!"
+		time="4" />
+
+	<string
+		id="103"
+		modelAutosized="true"
+		modelName="boss04dronegun"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_103_njeri.ogg"
+		value="НЬЕРИ|Грузовой транспорт был сбит земным оружием и упал на поверхность планеты. Пока мы планировали спасательную операцию, прибор, предназначенный для работы в открытом космосе вдали от живой материи, был включен землянами."
+		time="10" />
+
+	<string
+		id="104"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_104_hero.ogg"
+		value="|Что это был за прибор? Каковы последствия его работы?"
+		time="12" />
+
+	<string
+		id="105"
+		modelAutosized="true"
+		modelName="boss04dronegun"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_105_njeri.ogg"
+		value="НЬЕРИ|Технические подробности тебе ничего не скажут. Эффект же – губителен для всего живого. Лишь самые живучие организмы, включая людей, сумели приспособиться и, изменившись, выжить в новых условиях."
+		time="12" />
+
+	<string
+		id="106"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_106_hero.ogg"
+		value="|Признаю, в том, что произошло, виноваты обе наших расы... Но вы знали, что происходит, и ничего не сделали!"
+		time="8" />
+
+	<string
+		id="107"
+		modelAutosized="true"
+		modelName="boss04dronegun"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_107_njeri.ogg"
+		value="НЬЕРИ|Мы находимся здесь уже много лет, чтобы исправить зло, причиненное нашей технологией. Увы, пока наши успехи весьма незначительны. Дело в том,  что устройство, вызвавшее катастрофу, рассчитано на автономную работу и не может быть выключено."
+		time="12" />
+
+	<string
+		id="108"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_108_hero.ogg"
+		value="|Все это лишь слова! Что мешает вам уничтожить излучатель?"
+		time="4" />
+
+	<string
+		id="109"
+		modelAutosized="true"
+		modelName="boss04dronegun"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_109_njeri.ogg"
+		value="НЬЕРИ|Неизвестно какой эффект на выживших окажет резкий перепад в информационном поле. Это может стать последней каплей и убить всех. Но ресурс человечества не безграничен и через некоторое время даже самые стойкие из вас не смогут больше существовать."
+		time="8" />
+
+	<string
+		id="110"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_110_hero.ogg"
+		value="|Должен быть какой-то выход! За столько лет вы уже нашли решение, говорите же, что нужно сделать!"
+		time="4" />
+
+	<string
+		id="111"
+		modelAutosized="true"
+		modelName="boss04dronegun"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_111_njeri.ogg"
+		value="НЬЕРИ|Нам удалось разработать устройство, которое будет медленно снижать уровень излучения, пока мы будем исследовать происходящие с людьми перемены. Его нужно расположить рядом со сбитым кораблем, но ни мы, ни наша техника не можем приблизиться на нужное расстояние."
+		time="12" />
+
+	<string
+		id="112"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_112_hero.ogg"
+		value="|Все понятно. Я уже был там, и со мной ничего не случилось. Значит, я смогу доставить ваш блокиратор."
+		time="12" />
+
+	<string
+		id="113"
+		modelAutosized="true"
+		modelName="boss04dronegun"
+		modelSlot="1"
+		sound="data\sounds\Speech\r2m1\r2m1_113_njeri.ogg"
+		value="НЬЕРИ|Мы надеялись на твою помощь. Ты – последняя надежда человечества."
+		time="4" />
+
+	<string
+		id="120"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_120_hero.ogg"
+		value="|... Ошибка в .... расчетах. Источник помех это ... вторая база..."
+		time="4" />
+
+	<string
+		id="121"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_121_hero.ogg"
+		value="|Вот это размер!"
+		time="4" />
+
+	<string
+		id="122"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_122_hero.ogg"
+		value="|Пришельцы прятались, используя энергию Селя."
+		time="4" />
+
+	<string
+		id="123"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_123_hero.ogg"
+		value="|Теперь, когда они раскрыли себя, я нарушу их планы!"
+		time="4" />
+
+	<string
+		id="130"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_130_hero.ogg"
+		value="|Эти неполадки вызвали странный эффект... Мне туда! Я больше ничему не удивляюсь."
+		time="4" />
+
+	<string
+		id="131"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_131_hero.ogg"
+		value="|Скоро мир будет очищен от скверны, и люди смогут снова дышать воздухом!"
+		time="4" />
+
+	<string
+		id="70"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r2m1\r2m1_70_hero.ogg"
+		value="|Шкатулка теперь у меня."
+		time="4" />
+
+	<string
+		id="777"
+		value="Караван уничтожен. Вы не смогли обеспечить его безопасность."
+		numButtons="1" />
+
+	<string
+		id="8801"
+		value="Вы желаете покинуть эту область?"
+		numButtons="2" />
+
+	<string
+		id="8802"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r3m1\r3m1_8802_hero.ogg"
+		value="Я не знаю, куда ведет эта дорога, поэтому останусь здесь."
+		time="3" />
+
+	<string
+		id="8803"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r3m1\r3m1_8803_hero.ogg"
+		value="Какое-то странное место. Лучше держаться отсюда подальше. "
+		time="3" />
+
+	<string
+		id="77771"
+		msgType="SCROLL"
+		image="data\if\ico\CinemaPanel\foreground_movie_shade_midle.dds"
+		upOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_up.dds"
+		downOverlay="data\if\ico\CinemaPanel\foreground_movie_shade.dds"
+		value="@ffffffff|    Разрушение форпоста Ньери, пришельцев из других миров, развязало руки Оракулу. Первым делом он взял под контроль орбитальное вооружение и нанес ядерный удар по Зармеку. Когда источник заражения был уничтожен, многие испытали шок, от которого не все смогли оправиться. Слишком глубоко укоренилось таинственное излучение в человеческой сущности. Пытаясь исправить причиненное зло, суперкомпьютер понемногу начал проникать во все области человеческой жизни. По его чертежам были восстановлены многочисленные полезные устройства. Всевозможные роботы-помощники были приставлены к каждому выжившему, чтобы помогать им во всем. Однако люди не приняли перемен. Многие отказались от даров Оракула и вернулись к простым занятиям. И все чаще кто-то жалел об исчезновении голоса, беспрестанно шепчущего о восхождении."
+		sound="data\sounds\Speech\rolik\ending2.ogg"
+		fontSize="18"
+		scrollSpeed="0.5"
+		time="67" />
+
+	<string
+		id="5968"
+		msgType="SCROLL"
+		image="data\if\ico\CinemaPanel\foreground_movie_clear_midle.dds"
+		upOverlay="data\if\ico\CinemaPanel\foreground_movie_clear_up.dds"
+		downOverlay="data\if\ico\CinemaPanel\foreground_movie_clear.dds"
+		value="@00ffffff|АААААААААААААAAАААА@ffffa600Компания «Targem Games»| | | |@00ffffffААААААААAAАААААААААААААААА@ffffa600Продюсер||@00ffffffАААААААААAAAАААААААА@ffffffffСтанислав «scorp» Скорб| | |@00ffffffААААААAAААААAAАААА@ffffa600Технический директор проекта||@00ffffffАААААААААААAAAAААААААААА@ffffffffАлексей Скрябин| | |@00ffffffАААААAAАААААААААААААААА@ffffa600Менеджер проекта||@00ffffffААААААААААААAAAАААААА@ffffffffЕвгений «Hrrr» Хрунов| | |@00ffffffААААААААААААААAAАААААААААА@ffffa600Сценарий||@00ffffffАААААААAААААAAААААА@ffffffffАлексей «Alex TG» Честных| | |@00ffffffАААААААAIААААААААА@ffffa600Ведущий программист проекта||@00ffffffАААААIАААAAААААААААААА@ffffffffАнтон «anger» Савин| | |@00ffffffАААААААААAAАААААААА@ffffa600Главный дизайнер проекта||@00ffffffААААААAААААAAАААААА@ffffffffАлексей «Alex TG» Честных| | |@00ffffffААААААААААAAААААААА@ffffa600Ведущий художник проекта||@00ffffffАААААААAAАААААААА@ffffffffАлександр «Alex ML» Маргушин| | |@00ffffffАААААAAАААААААААААААААААА@ffffa600Дизайн игры||@00ffffffАААААААIААААААAAАААА@ffffffffДенис «mif2000» Галанин|@00ffffffААААААААААAAАААААА@ffffffffСергей «JSinx» Удюрминский|@00ffffffАААААААAAАААААААААА@ffffffffАлексей «Razaz» Ануфриев|@00ffffffАААААААААААAIAАААААА@ffffffffСтанислав «scorp» Скорб|@00ffffffАААААААAAАААААААААААА@ffffffffБорис «borg» Смирнов| | |@00ffffffААААААААAAААIАААААААААА@ffffa600Программирование||@00ffffffААААААААААAIIAААААА@ffffffffЕлена «SoftKitty» Евдокимова|@00ffffffАААААААААААААААAAААААА@ffffffffИван «Vano» Власов|@00ffffffАААААААAAААААААААААА@ffffffffИлья «phosgen» Рузаков|@00ffffffАААААААААААААААAAАА@ffffffffМаксим «Shadow» Сарманов|@00ffffffААААААААААAIAААААА@ffffffffСергей «Ice Cat» Ключковский|@00ffffffАААААААААAAААААААААА@ffffffffИгорь «Goryh» Дегтярев| | |@00ffffffААААААААААААAAАААААААААААА@ffffa600Графика||@00ffffffААААААААAAААААААА@ffffffffАлександр «Alex ML» Маргушин|@00ffffffААААААAAАААААААААААААААА@ffffffffИван Снигирев|@00ffffffАААААААААААААAAАААА@ffffffffЕвгений «Dzhin» Гольцов|@00ffffffААААААAAАААААААААА@ffffffffВладимир «Price» Селезнев|@00ffffffААААААААAAАААААААААА@ffffffffСтанислав «Staz» Черва|@00ffffffААААААААAAААААААААААА@ffffffffРустам «Rychi» Турей|@00ffffffАААААААААААAAАААААААААА@ffffffffЕвгений Токарев|@00ffffffАААААААААAAААААААААА@ffffffffСергей «Sega» Митряев|@00ffffffААААААААААAAАААААА@ffffffffВиктор «isymbosi» Корьякин|@00ffffffААААААААААААAAАААААААААА@ffffffffРоман Латынов| | |@00ffffffАААААААААААААAAААААААААА@ffffa600Дизайн миссий||@00ffffffААААААААIААААAAААААА@ffffffffДенис «mif2000» Галанин|@00ffffffАААААААААAAААААААА@ffffffffСергей «JSinx» Удюрминский|@00ffffffАААААААAAАААААIАААААА@ffffffffАртем «solo» Соловьев|@00ffffffАААААААААIААААAAАА@ffffffffКондратьев «HiKiller» Даниил|@00ffffffААААААААААAIAАААААААА@ffffffffСтанислав «Staz» Черва| | |@00ffffffАААААААAAААААААААААА@ffffa600Разработка интерфейсов||@00ffffffАААААААААААAAААААААА@ffffffffМихаил «Rai» Матвиенко| | |@00ffffffААААААААААААААААAAААААААА@ffffa600Спецэффекты||@00ffffffААААААAАААААААAAААААА@ffffffffАлексей «Hal» Лобанов| | |@00ffffffАААААААААААААААAAАААААААА@ffffa600Музыка/звуки||@00ffffffААААААААААААAAААААААААААА@ffffffffАнтон Попов|@00ffffffААААААААААAAАААААААААА@ffffffffЕкатерина Швеммер| | |@00ffffffААААААААААААААААAAААААААА@ffffa600Тестирование||@00ffffffАААААААААAААААAAАААААА@ffffffffВячеслав «ls» Авдеев| | |@00ffffffААААААААААAAААААААААААААА@ffffa600PR-менеджер||@00ffffffААААААААAAAАААААААА@ffffffffСветлана «Сrystal» Честных| | |@00ffffffAAAAA@ffffa600В игре использовались композиции победителей музыкального|@00ffffffААAAАААААААААААААААААААААА@ffffa600конкурса||@00ffffffААААААААААAAАААААААААА@ffffffffАлександр Чекстер|@00ffffffААААААААААААAAААААААААА@ffffffffБорис Веденский|@00ffffffАААААААААAAАААААААААААА@ffffffffАлександр Трегер|@00ffffffАААААААААААААAAААААААААА@ffffffffМихаил Сидоров|@00ffffffАААААААААААAAААААААААА@ffffffffАлександр Лисенков|@00ffffffААААААAAАААААААААААААААААА@ffffffffParalaxeen|@00ffffffАААААААААААAAААААААААААА@ffffffffИгорь Белоусов| | |@00ffffffАААААAAАААА@ffffa600Также принимали участие на разных этапах||@00ffffffААААААAAАААА@ffffffffКонстантин Сохарев - программирование|@00ffffffААААААААAAАААА@ffffffffСвятослав Паташников - руководство|@00ffffffАААААААААAAАААА@ffffffffАлексей Андрущенко - Веб-дизайн"
+		sound=""
+		fontSize="18"
+		scrollSpeed="1.3"
+		time="117" />
+
+	<string
+		id="5969"
+		msgType="SCROLL"
+		image="data\if\ico\CinemaPanel\foreground_movie_clear_midle.dds"
+		upOverlay="data\if\ico\CinemaPanel\foreground_movie_clear_up.dds"
+		downOverlay="data\if\ico\CinemaPanel\foreground_movie_clear.dds"
+		value="@00ffffffАААААААААAAАААААААААААА@ffffa600Компания «Бука»| | | |@00ffffffААААААААAAАААААААААААААААА@ffffa600Продюсер||@00ffffffААААААААААААAAAАIАААААААА@ffffffffИван Бунаков| | |@00ffffffАААААААААААAAААААААААА@ffffa600Старший продюсер||@00ffffffААAAААААААААААААААААААААА@ffffffffИван Мороз| | |@00ffffffААААААААAAАААА@ffffa600Менеджеры по продвижению продуктов||@00ffffffААААААААААААААААААAAАААААА@ffffffffЮрий Вирич|@00ffffffААААААААААAАAAААААААААА@ffffffffАлексей Писклюков| | |@00ffffffАААААААAAААIАААААААААА@ffffa600Технический эксперт||@00ffffffААААААААAAIААААААААААА@ffffffffКирилл Бестемьянов| | |@00ffffffААААААААААААААААAIAААААА@ffffa600Эксперт по звуку||@00ffffffААААААААААААIАAAАААААААА@ffffffffРуслан Дмитриев| | |@00ffffffААААААААAAАААААААААА@ffffa600Дизайнеры-полиграфисты||@00ffffffААААAAААААААААААААААААААА@ffffffffСанан Ушанов|@00ffffffААААAAААIАААААААААААА@ffffffffДаниелла Климашевская| | |@00ffffffААААААААААААААААAAААААААА@ffffa600PR-менеджер||@00ffffffААААААААААААAAАААААААА@ffffffffАлексей Пастушенко| | |@00ffffffААААААAAАААААIААААААА@ffffa600Ассистент PR-менеджера||@00ffffffАААААААААAAАААААААААААААА@ffffffffОлег Морозов| | |@00ffffffААААААААAAААААААIААААА@ffffa600Ассистент продюсера||@00ffffffААААААААААААААIAAАААААА@ffffffffАлексей Пешехонов|@00ffffffААААААААAAАIААААААААААА@ffffffffНиколай Сафронов| | |@00ffffffААААААААААAAАААААА@ffffa600Менеджер по новым командам||@00ffffffААААААААААААAAААААААААА@ffffffffНиколай Сафронов| | |@00ffffffААААAAААААААААААААААА@ffffa600Выпускающий продюсер||@00ffffffАААААААААААAAAААААААААААА@ffffffffАлександр Пак| | |@00ffffffАААAAАААААААIААААААААА@ffffa600Старший тестировщик||@00ffffffАААААААAAАIАААААААААААААА@ffffffffЕвгений Попов|@00ffffffАААААААААААAAААIААААААААААА@ffffffffИван Рид| | |@00ffffffААААААAAААААIААААААААА@ffffa600Служба тестирования||@00ffffffАААААААААААААААААIАAAААААА@ffffffffАнтон Епишин|@00ffffffААААААААААААAIAАААААААААА@ffffffffАлексей Петров|@00ffffffААААААААIАAAААААААААААА@ffffffffАлександр Полосин|@00ffffffАААААААААААIААAAААААААААА@ffffffffЕвгений Попов|@00ffffffААААААААAAАААААААААААIАААА@ffffffffИван Райнов|@00ffffffАААААААААААААААААААIIАAAАААА@ffffffffИван Рид|@00ffffffААААААААААААAAАIААААААА@ffffffffАлексей Чеботарев| | |@00ffffffАААААААААААААAAАААААА@ffffa600Внешнее тестирование||@00ffffffАААААААААAAАААААААААААААА@ffffffffПетр Беляев|@00ffffffАААААААААAAААААААААААААА@ffffffffАлексей Бунак|@00ffffffААААААААAAААААААААААААА@ffffffffИгорь Дмитриев|@00ffffffАААААААAAАААААААААААААА@ffffffffМихаил Матюшов|@00ffffffАААААААААААAAААААААААААА@ffffffffДенис Соколов|@00ffffffАААААААААAAАААААААААААА@ffffffffИгорь Пешехонцев|@00ffffffАААААААААААAAААААААААААА@ffffffffДмитрий Чичков|@00ffffffААААААААААААААAAААААААА@ffffffffАлексей Шеховцов|@00ffffffАААААААААААAAАААААААААААА@ffffffffИлья Юсипов|@00ffffffААААААААААAAААААААААААААА@ffffffffТимур Юсипов| | |@00ffffffАААААААAAААААААААААААААА@ffffa600Служба продаж||@00ffffffАААААААAAААААААААААААА@ffffffffМаксим О. Алексеев|@00ffffffААААААААААААААAAАААААА@ffffffffМаксим Ю. Алексеев|@00ffffffААААААААAAАААААААААААА@ffffffffМаксим А. Алексеев|@00ffffffАААААААААAAАAААААААААА@ffffffffНаталья Анкундинова|@00ffffffААААААААAAАААААААААААААА@ffffffffЕлена Антонова|@00ffffffАААААААAAААААААААААААААА@ffffffffИлья Бровченко|@00ffffffААААААААААААAAААААААААА@ffffffffПавел Григорьев|@00ffffffАААААААAAАААIАААААААААА@ffffffffВиктория Киселева|@00ffffffААААAAААААААААААIАААААА@ffffffffАлександр Кочетков|@00ffffffАААААААAAАААААААAААIААААА@ffffffffПавел Круглов|@00ffffffААААААААAAАААААIААААААААА@ffffffffАндрей Осипов|@00ffffffАААААААААААААААAAАААА@ffffffffАлександр Петринский|@00ffffffАААААААААААAAААААААААА@ffffffffОльга Полковникова|@00ffffffААААААААAAААААААААААААА@ffffffffЛариса Савельева|@00ffffffАААААААAAАААААААААААААА@ffffffffЕвгений Самсонов|@00ffffffААААААААААAAАААААААААА@ffffffffСветлана Самсонова|@00ffffffААААААААААААААAAАААААА@ffffffffВалерий Тихвинский|@00ffffffАААААААAAААААААААААААААА@ffffffffСергей Федосов| | |@00ffffffААААААААААААAAАААААААА@ffffa600Торговый маркетинг||@00ffffffААААААААAAААААААААААААА@ffffffffТатьяна Васекина| | |@00ffffffАААААAAААААААААААААААА@ffffa600Комьюнити менеджер||@00ffffffАААААААААAAААAААААААААА@ffffffffАлександр Ковалев| | |@00ffffffААААААААAAААААААААААААА@ffffa600Экспертный совет||@00ffffffАААААААААААAAАААААААААА@ffffffffВладимир Миняев|@00ffffffААААААААAAАААААААААААА@ffffffffМаксим Н. Михалев|@00ffffffААААААААAAАААААААААААААААА@ffffffffИван Мороз|@00ffffffАААААААААААААААAAААААААА@ffffffffСергей Руденко|@00ffffffААААААААAАAAАААААААААА@ffffffffВиталий Харитоненко| | |@00ffffffАААААААAAААААААААААА@ffffa600Юридическая поддержка||@00ffffffАААААААAAАААААААААААААА@ffffffffГеоргий Виталиев| | |@00ffffffААААААААAAААIАААААААА@ffffa600Техническая поддержка||@00ffffffААААААААААААAAАIАААААААА@ffffffffЕвгений Дмитриев| | |@00ffffffААААААААААAAААААААААА@ffffa600Генеральный директор||@00ffffffААААААААAAАААААААААААА@ffffffffАлександр Михайлов| | |@00ffffffААААААAAААААААААААААА@ffffa600Финансовый директор||@00ffffffАAAАААААААААААААААААААААА@ffffffffМарина Равун| | |@00ffffffАААААААAAАAАААААА@ffffa600Руководитель отдела маркетинга||@00ffffffАААААААААAAААААААААААА@ffffffffМаксим Н. Михалев| | |@00ffffffААААААААAAAАААА@ffffa600Руководитель коммерческого отдела||@00ffffffААААААААAAААААААААААААА@ffffffffТатьяна Устинова| | |@00ffffffААААААААAAАAААААА@ffffa600Руководитель отдела разработок||@00ffffffАААААААААAAАААААААААААААА@ffffffffИван Бунаков| | |@00ffffffААААААAAАААААААААААААА@ffffa600Отдельное спасибо||@00ffffffААААААААААААААААAAААААААА@ffffffffЮлия Белова|@00ffffffААААААААААAAАААААААААААА@ffffffffСергей Бобков|@00ffffffАААААААAAААААААААААААААА@ffffffffИлья Бровченко|@00ffffffАААAAАААААААААААААААААА@ffffffffДмитрий Захаров|@00ffffffААААААААААААААAAААААААА@ffffffffДмитрий Кулешов|@00ffffffАААААААААААААAAААААААААА@ffffffffДмитрий Лесин|@00ffffffАААААААААААААААAAАААААА@ffffffffВладимир Миняев|@00ffffffААААААAAАААААААААААААААААА@ffffffffИван Мороз|@00ffffffАААААААААААAAАААААААААААА@ffffffffМарина Равун|@00ffffffАААААААААААAAАААААААIАААААА@ffffffffИван Рид|@00ffffffАААААААAAААААААААААААААА@ffffffffИнна Суцепина|@00ffffffАААААААААААААААAAААААААА@ffffffffИгорь Устинов|@00ffffffААААААААAAААААААААААААААА@ffffffffИрина Царева|@00ffffffАААААААААААAAААААААААААА@ffffffffВиктория Эннс"
+		sound=""
+		fontSize="18"
+		scrollSpeed="1.3"
+		time="162.5" />
+	
+	<string
+		id="5971"
+		msgType="SCROLL"
+		image="data\if\ico\CinemaPanel\foreground_movie_clear_midle.dds"
+		upOverlay="data\if\ico\CinemaPanel\foreground_movie_clear_up.dds"
+		downOverlay="data\if\ico\CinemaPanel\foreground_movie_clear.dds"
+		value=""
+		sound=""
+		fontSize="18"
+		scrollSpeed="0.5"
+		time="1" />	
+</resource>

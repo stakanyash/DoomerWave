@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?><!-- edited with XML Spy v4.2 U (http://www.xmlspy.com) by Morgoth (Targem) -->
+<resource><!--Default buttons-->
+	<string
+		id="stat_Wares"
+		value="@ff000000Товаров перевезено (шт.)" />
+
+	<string
+		id="stat_RealTime"
+		value="@ff000000Время игры (ч : мин)" />
+
+	<string
+		id="stat_GameTime"
+		value="@ff000000Внутриигровое время (дни)" />
+
+	<string
+		id="stat_PeoplesKilled"
+		value="@ff000000Жителей убито" />
+
+	<string
+		id="stat_PathElapsed"
+		value="@ff000000Пройденный путь (км)" />
+
+	<string
+		id="stat_GDP"
+		value="@ff000000Денег заработано" />
+
+	<string
+		id="stat_DeathCounter"
+		value="@ff000000Количество смертей игрока" />
+
+	<string
+		id="stat_VehiclesKilled"
+		value="@ff000000Машин уничтожено" />
+
+	<string
+		id="stat_ShellsEmitted"
+		value="@ff000000Зарядов выпущено" />
+
+	<string
+		id="stat_FavoriteGun"
+		value="@ff000000Любимое оружие" />
+
+	<string
+		id="stat_HitRatio"
+		value="@ff000000Точность попадания (%)" />
+</resource>

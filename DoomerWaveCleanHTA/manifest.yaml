@@ -1,0 +1,31 @@
+# unique service name
+name: DoomerWave
+
+# required human readable info
+display_name: Doomer Wave
+version: "1.4"
+build: "221004"
+description: |
+  Doomer Wave - модификация, направленная на изменение игровой атмосферы в депрессивную сторону. 
+  Данная модификация не добавляет новый сюжет, он остаётся оригинальным.
+authors: CTAKAH
+change_log: DW_change_log.md
+trailer_link: https://www.youtube.com/watch?v=oGKfYa-B-08
+link: https://github.com/ksh1vn/DoomerWave
+logo: DW_logo.png
+tags: [visual, audio]
+
+# optional human readable info
+release_date: 22.06.2022
+language: ru
+
+# installation configuration
+prerequisites: []
+safe_reinstall_options: true
+
+config_options:
+  firstLevel: "r1m1"
+  DoNotLoadMainmenuLevel: "false"
+
+patcher_version_requirement: "2.0"
+no_base_content: false

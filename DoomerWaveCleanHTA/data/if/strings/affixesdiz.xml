@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?><!-- edited with XML Spy v4.2 U (http://www.xmlspy.com) by Morgoth (Targem) -->
+<resource><!--Default buttons--><!-- Названия -->
+
+	<string
+		id="useless_gun"
+		value="@ff000000Изношенный" />
+	<string
+		id="useless_gun_localizedform_0"
+		value="@ff000000Изношенный" />
+	<string
+		id="useless_gun_localizedform_1"
+		value="@ff000000Изношенная" />
+
+
+	<string
+		id="rusty_gun"
+		value="@ff000000Ржавый" />
+	<string
+		id="rusty_gun_localizedform_0"
+		value="@ff000000Ржавый" />
+	<string
+		id="rusty_gun_localizedform_1"
+		value="@ff000000Ржавая" />
+
+
+	<string
+		id="excellent_gun"
+		value="@ff000000Модернизированный" />
+	<string
+		id="excellent_gun_localizedform_0"
+		value="@ff000000Модернизированный" />
+	<string
+		id="excellent_gun_localizedform_1"
+		value="@ff000000Модернизированная" />
+
+
+	<string
+		id="advanced_gun"
+		value="@ff000000Усовершенствованный" />
+	<string
+		id="advanced_gun_localizedform_0"
+		value="@ff000000Усовершенствованный" />
+	<string
+		id="advanced_gun_localizedform_1"
+		value="@ff000000Усовершенствованная" />
+
+
+	<string
+		id="slow_gun"
+		value="@ff000000Медленный" />
+	<string
+		id="slow_gun_localizedform_0"
+		value="@ff000000Медленный" />
+	<string
+		id="slow_gun_localizedform_1"
+		value="@ff000000Медленная" />
+
+
+	<string
+		id="assault_gun"
+		value="@ff000000Наступательный" />
+	<string
+		id="assault_gun_localizedform_0"
+		value="@ff000000Наступательный" />
+	<string
+		id="assault_gun_localizedform_1"
+		value="@ff000000Наступательная" />
+
+
+	<string
+		id="rapid_firing_gun"
+		value="@ff000000Скорострельный" />
+	<string
+		id="rapid_firing_gun_localizedform_0"
+		value="@ff000000Скорострельный" />
+	<string
+		id="rapid_firing_gun_localizedform_1"
+		value="@ff000000Скорострельная" />
+
+
+	<string
+		id="weak_gun"
+		value="@ff000000Слабый" />
+	<string
+		id="weak_gun_localizedform_0"
+		value="@ff000000Слабый" />
+	<string
+		id="weak_gun_localizedform_1"
+		value="@ff000000Слабая" />
+
+
+	<string
+		id="deadly_gun"
+		value="@ff000000Смертельный" />
+	<string
+		id="deadly_gun_localizedform_0"
+		value="@ff000000Смертельный" />
+	<string
+		id="deadly_gun_localizedform_1"
+		value="@ff000000Смертельная" />
+
+
+	<string
+		id="destructive_gun"
+		value="@ff000000Разрушительный" />
+	<string
+		id="destructive_gun_localizedform_0"
+		value="@ff000000Разрушительный" />
+	<string
+		id="destructive_gun_localizedform_1"
+		value="@ff000000Разрушительная" />
+
+
+	<string
+		id="with_truncated_barrel_gun"
+		value="@ff000000с обрезанным стволом" />
+	<string
+		id="with_truncated_barrel_gun_localizedform_0"
+		value="@ff000000с обрезанным стволом" />
+	<string
+		id="with_truncated_barrel_gun_localizedform_1"
+		value="@ff000000с обрезанным стволом" />
+
+
+	<string
+		id="with_enlarged_barrel_gun"
+		value="@ff000000с увеличенным стволом" />
+	<string
+		id="with_enlarged_barrel_gun_localizedform_0"
+		value="@ff000000с увеличенным стволом" />
+	<string
+		id="with_enlarged_barrel_gun_localizedform_1"
+		value="@ff000000с увеличенным стволом" />
+
+
+	<string
+		id="with_long_barrel_gun"
+		value="@ff000000с длинным стволом" />
+	<string
+		id="with_long_barrel_gun_localizedform_0"
+		value="@ff000000с длинным стволом" />
+	<string
+		id="with_long_barrel_gun_localizedform_1"
+		value="@ff000000с длинным стволом" />
+
+
+	<string
+		id="without_cooling_gun"
+		value="@ff000000без охлаждения" />
+	<string
+		id="without_cooling_gun_localizedform_0"
+		value="@ff000000без охлаждения" />
+	<string
+		id="without_cooling_gun_localizedform_1"
+		value="@ff000000без охлаждения" />
+
+
+	<string
+		id="with_water_cooling_gun"
+		value="@ff000000с водяным охлаждением" />
+	<string
+		id="with_water_cooling_gun_localizedform_0"
+		value="@ff000000с водяным охлаждением" />
+	<string
+		id="with_water_cooling_gun_localizedform_1"
+		value="@ff000000с водяным охлаждением" />
+
+
+	<string
+		id="with_nitro_cooling_gun"
+		value="@ff000000с азотным охлаждением" />
+	<string
+		id="with_nitro_cooling_gun_localizedform_0"
+		value="@ff000000с азотным охлаждением" />
+
+	<string
+		id="with_nitro_cooling_gun_localizedform_1"
+		value="@ff000000с азотным охлаждением" />
+
+
+	<string
+		id="without_sight_gun"
+		value="@ff000000без прицела" />
+	<string
+		id="without_sight_gun_localizedform_0"
+		value="@ff000000без прицела" />
+	<string
+		id="without_sight_gun_localizedform_1"
+		value="@ff000000без прицела" />
+
+
+	<string
+		id="with_laser_sight_gun"
+		value="@ff000000с лазерным прицелом" />
+	<string
+		id="with_laser_sight_gun_localizedform_0"
+		value="@ff000000с лазерным прицелом" />
+	<string
+		id="with_laser_sight_gun_localizedform_1"
+		value="@ff000000с лазерным прицелом" />
+
+
+	<string
+		id="with_electric_gun_sight"
+		value="@ff000000с электрическим наведением" />
+	<string
+		id="with_electric_sight_gun_localizedform_0"
+		value="@ff000000с электрическим наведением" />
+	<string
+		id="with_electric_sight_gun_localizedform_1"
+		value="@ff000000с электрическим наведением" />
+		
+
+	<string
+		id="useless_cabin"
+		value="@ff000000Изношенный" />
+	<string
+		id="useless_cabin_localizedform_0"
+		value="@ff000000Изношенный" />
+	<string
+		id="useless_cabin_localizedform_1"
+		value="@ff000000Изношенный" />
+
+
+	<string
+		id="useless_basket"
+		value="@ff000000Изношенный" />
+	<string
+		id="useless_basket_localizedform_0"
+		value="@ff000000Изношенный" />
+	<string
+		id="useless_basket_localizedform_1"
+		value="@ff000000Изношенный" />
+
+
+	<string
+		id="rusty_cabin"
+		value="@ff000000Ржавый" />
+	<string
+		id="rusty_cabin_localizedform_0"
+		value="@ff000000Ржавый" />
+	<string
+		id="rusty_cabin_localizedform_1"
+		value="@ff000000Ржавая" />
+
+
+	<string
+		id="rusty_basket"
+		value="@ff000000Ржавый" />
+	<string
+		id="rusty_basket_localizedform_0"
+		value="@ff000000Ржавый" />
+	<string
+		id="rusty_basket_localizedform_1"
+		value="@ff000000Ржавая" />
+
+
+	<string
+		id="excellent_cabin"
+		value="@ff000000Укреплённый" />
+	<string
+		id="excellent_cabin_localizedform_0"
+		value="@ff000000Укреплённый" />
+	<string
+		id="excellent_cabin_localizedform_1"
+		value="@ff000000Укреплённая" />
+
+
+	<string
+		id="excellent_basket"
+		value="@ff000000Укреплённый" />
+	<string
+		id="excellent_basket_localizedform_0"
+		value="@ff000000Укреплённый" />
+	<string
+		id="excellent_basket_localizedform_1"
+		value="@ff000000Укреплённая" />
+
+
+	<string
+		id="advanced_cabin"
+		value="@ff000000Бронированный" />
+	<string
+		id="advanced_cabin_localizedform_0"
+		value="@ff000000Бронированный" />
+	<string
+		id="advanced_cabin_localizedform_1"
+		value="@ff000000Бронированная" />
+
+
+	<string
+		id="advanced_basket"
+		value="@ff000000Бронированный" />
+	<string
+		id="advanced_basket_localizedform_0"
+		value="@ff000000Бронированный" />
+	<string
+		id="advanced_basket_localizedform_1"
+		value="@ff000000Бронированная" />
+<!-- Описания -->
+
+	<string
+		id="useless_cabin_diz"
+		value=" Накладывается на кабину| Броня -30% -60%  " />
+
+	<string
+		id="rusty_cabin_diz"
+		value=" Накладывается на кабину| Броня -10% -30% " />
+
+	<string
+		id="excellent_cabin_diz"
+		value=" Накладывается на кабину| Броня +5% +30% " />
+
+	<string
+		id="advanced_cabin_diz"
+		value=" Накладывается на кабину| Броня +30% +60% " />
+
+	<string
+		id="useless_basket_diz"
+		value=" Накладывается на кузов| Броня -30% -60%  " />
+
+	<string
+		id="rusty_basket_diz"
+		value=" Накладывается на кузов| Броня -10% -30% " />
+
+	<string
+		id="excellent_basket_diz"
+		value=" Накладывается на кузов| Броня +5% +30% " />
+
+	<string
+		id="advanced_basket_diz"
+		value=" Накладывается на кузов| Броня +30% +60% " />
+
+	<string
+		id="useless_gun_diz"
+		value=" Накладывается на оружие| Прочность -50% -80% | Скорострельность -20% -40% | Точность -20% -40% | Время перезарядки +50% +100% " />
+	<string
+		id="rusty_gun_diz"
+		value=" Накладывается на оружие| Прочность -25% -50% | Скорострельность -10% -20% |  Точность -10% -20% | Время перезарядки +25% +50% " />
+	<string
+		id="excellent_gun_diz"
+		value=" Накладывается на оружие| Прочность +5% +20% | Скорострельность +5% +10% | Время перезарядки -5% -10% " />
+	<string
+		id="advanced_gun_diz"
+		value=" Накладывается на оружие| Прочность +10% +40% | Скорострельность +10% +20% | Время перезарядки -10% -20% " />
+
+
+	<string
+		id="slow_gun_diz"
+		value=" Накладывается на оружие| Скорострельность -20% -40% " />
+	<string
+		id="assault_gun_diz"
+		value=" Накладывается на оружие| Скорострельность +5% +20% " />
+	<string
+		id="rapid_firing_gun_diz"
+		value=" Накладывается на оружие| Скорострельность +20% +40% " />
+
+
+	<string
+		id="weak_gun_diz"
+		value=" Накладывается на оружие| Повреждение -30% -60% " />
+	<string
+		id="deadly_gun_diz"
+		value=" Накладывается на оружие| Повреждение +5% +20% " />
+	<string
+		id="destructive_gun_diz"
+		value=" Накладывается на оружие| Повреждение +20% +50% " />
+
+
+	<string
+		id="with_truncated_barrel_gun_diz"
+		value=" Накладывается на оружие| Дальность стрельбы -20% -50% " />
+	<string
+		id="with_enlarged_barrel_gun_diz"
+		value=" Накладывается на оружие| Дальность стрельбы +5% +30% " />
+	<string
+		id="with_long_barrel_gun_diz"
+		value=" Накладывается на оружие| Дальность стрельбы +30% +60% " />
+
+
+	<string
+		id="without_cooling_gun_diz"
+		value=" Накладывается на оружие| Время перезарядки +50% +100% " />
+	<string
+		id="with_water_cooling_gun_diz"
+		value=" Накладывается на оружие| Время перезарядки -10% -30% " />
+	<string
+		id="with_nitro_cooling_gun_diz"
+		value=" Накладывается на оружие| Время перезарядки -30% -60% " />
+
+
+	<string
+		id="without_sight_gun_diz"
+		value=" Накладывается на оружие| Точность -20% -50% " />
+	<string
+		id="with_laser_sight_gun_diz"
+		value=" Накладывается на оружие| Точность +5% +15% " />
+	<string
+		id="with_electric_sight_gun_diz"
+		value=" Накладывается на оружие| Точность +15% +30% " />
+</resource>
