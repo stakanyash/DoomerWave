@@ -10,15 +10,6 @@
 		</script>
 	</trigger>
 
-	<trigger	Name="SetRainyWeather"	active="1">
-		<event timeout="0.1" eventid="GE_TIME_PERIOD" />
-		<script>
-			SetWeather(1)
-
-			trigger:Deactivate()
-		</script>
-	</trigger>
-
 	<trigger	Name="trExitFromTowns" 	active="1">
 		<event	eventid="GE_LEAVE_TOWN"	ObjName="Asgard"			/>
 		<event	eventid="GE_LEAVE_TOWN"	ObjName="Minin"				/>

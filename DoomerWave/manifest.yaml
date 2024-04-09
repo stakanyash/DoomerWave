@@ -3,14 +3,14 @@ name: DoomerWave
 
 # required human readable info
 display_name: Doomer Wave
-version: "1.4"
-build: "231004"
+version: "1.4.1"
+build: "240410"
 description: |
   Модификация, направленная на изменение игровой атмосферы в депрессивную сторону. Сюжет остаётся оригинальным и никак его повествование не изменено.
 
   По сравнению с оригиналом интерфейс и карты - серые, саундтрек в slowed + reverb формате, более тёмные ночи, а так-же у главного героя отсутствуют радостные фразы и восклицания.
   
-authors: CTAKAH
+authors: стакан
 
 # optional human readable info
 release_date: "22.06.2022"
@@ -45,12 +45,11 @@ screenshots:
       Глухое с установленным Ex Machina Fall
 
 # installation confguration
+patcher_version_requirement: "2.1"
 prerequisites: 
   - name: community_remaster
     versions:
-      - "1.14"
-patcher_version_requirement: "2.0"
-no_base_content: false
+      - ">=1.14.1"
 
 # optional mod content
 optional_content:

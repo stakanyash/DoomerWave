@@ -29,16 +29,6 @@
 		</script>
 	</trigger>
 
-	<trigger	Name="SetRainyWeather"	active="1">
-		<event timeout="0.1" eventid="GE_TIME_PERIOD" />
-		<script>
-			SetWeather(1)
-
-			trigger:Deactivate()
-		</script>
-	</trigger>
-
-
 	<trigger	Name="trEnterTo_r3m2"	active="1">
 		<event	eventid="GE_OBJECT_ENTERS_LOCATION"	ObjName="EnterTor3m2_loc" />
 		<event	eventid="GE_OBJECT_LEAVES_LOCATION"	ObjName="EnterTor3m2_loc" />
