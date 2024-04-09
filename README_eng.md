@@ -70,7 +70,7 @@ The modification currently works only with the Russian version of the game. Engl
 
 -----------------------------------------------------------------------------------------------
 
-**If you have found a bug, a flaw or just want to leave feedback about the modification, you can do it on my [Discord server](https://discord.gg/5UAjrrsM5B) in the "багрепы" channel, or on the [Deus Ex Machina](https://discord.gg/PVW57kr) server in the channel "Ex Machina Doomer Wave" of the section "витрина-модов"**.
+**If you have found a bug, a flaw or just want to leave feedback about the modification, you can do it on my [Discord server](https://discord.gg/5UAjrrsM5B) in the "багрепы-bugreports" channel, or on the [Deus Ex Machina](https://discord.gg/PVW57kr) server in the channel "Ex Machina Doomer Wave" of the section "витрина-модов"**.
 
 -----------------------------------------------------------------------------------------------
 
