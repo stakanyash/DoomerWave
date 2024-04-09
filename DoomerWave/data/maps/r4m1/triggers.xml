@@ -81,28 +81,21 @@
 			local veh=CreateVehicleEx("Molokovoz01","PlayerMolokovoz",CVector(getPos("MolokovozSpawn_loc")))
 			if veh then
 				veh:SetRotation(Quaternion(-0.007, -0.769, -0.008, 0.639))
-				veh:SetRandomSkin()
 				veh:AttachTrailer("MolokovozTrailer")
 
 			   local nametr = veh:GetName().."_Trailer"
 			   local trailer = getObj(nametr)
 			   if trailer then
-				   trailer:SetSkin(veh:GetSkin())
 				   local tr = getObj("trTrailerDie")
 				   if tr then
 				      tr:AddEvent("GE_OBJECT_DIE",nametr)
 			    	  TActivate("trTrailerDie")
 	   			   end
 			   end
-
-				local vehPlayer = GetPlayerVehicle()
-				if vehPlayer then
-			   		vehPlayer:SetNameFromScript("OilPlayerCar")
-				end
-
+			   local nameplcar =  GetPlayerVehicle():GetName()
 			   local tr = getObj("trPlayerEndExitTown")
 			   if tr then
-			      tr:AddEvent("GE_TARGET_REACHED", "OilPlayerCar")
+			      tr:AddEvent("GE_TARGET_REACHED",nameplcar)
 		    	  TActivate("trPlayerEndExitTown")
  			   end
 			end
@@ -123,7 +116,7 @@
 
 	
 	<trigger	Name="trReturnPlCar"	active="0">
-		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="OilVehicleChange_loc" />
+		<event eventid="GE_TARGET_REACHED" ObjName="PlayerMolokovoz"/>
 		<script>
 --			println("run trPlayerEndExitTown")
 			TActivate("cinPlCarReturnFirst")
@@ -202,11 +195,10 @@
 				AddVehicleGunsWithRandomAffix( attm:GetVehicle(2), "hunterSideGun",  3, 8+random(2))
 				AddVehicleGunsWithRandomAffix( attm:GetVehicle(3), "vulcan01", 3, 10)
 			end
-			CompleteQuest("r4m1_FPR_MeetWithOldMan")
+
 			SetTolerance(1100,1025, RS_ENEMY)
 			SetTolerance(1026,1025, RS_ENEMY)
 			TActivate("trBuharsAttackersDie")
-
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -242,12 +234,12 @@
 		<script>
 --			local bhteam = CreateTeam("Buharers",1026, CVector(getPos("BuhSpawn_loc")),{"DemoUral1","DemoMolokovoz1"})
 
-			local veh1 = CreateVehicleEx("DemoUral1","Buharers_vehicle_0",CVector(getPos("BuhSpawn_loc")), 1026)
+			local veh1 = CreateVehicleEx("DemoUral1","Buharers_vehicle_0",CVector(getPos("BuhSpawn_loc")))
 			if veh1 then
 				veh1:SetExternalPathByName("BuharsEvac_Path1_1")
 				veh1:SetCruisingSpeed(100)
-			end
-			local veh2 = CreateVehicleEx("DemoMolokovoz1","Buharers_vehicle_1",CVector(getPos("BuhSpawn_loc"))+CVector(7, 0, 7), 1026)
+				end
+			local veh2 = CreateVehicleEx("DemoMolokovoz1","Buharers_vehicle_1",CVector(getPos("BuhSpawn_loc"))+CVector(7, 0, 7))
 			if veh2 then
 				veh2:SetExternalPathByName("BuharsEvac_Path2_1")
 				veh2:SetCruisingSpeed(100)
@@ -263,12 +255,6 @@
 			TActivate("trBuharsDie")
 			TActivate("trBuharsEnterToPort")
 			TActivate("trBuhReachPoint")
-
-			TakeQuest("r4m1_RBC_Evacuate")
-
-			local a = GetEntityByName("StartGonka_loc")
-			if a then a:SetProperty("Active",0) end
-
 			trigger:Deactivate() 
 		</script>
 	</trigger>
@@ -365,7 +351,7 @@
 
 
 --			if IsQuestTaken("r4m1_FindMilitaryBase")~=nil or  IsQuestTaken("r4m1_GotoAivenGo")~=nil then 
-			if QuestStatus("r4m1_RescueBuharsCivilian")==Q_COMPLETED then
+			if 1==1 then
 				local b = SpawnMessageBox( "8801" )
 				if b == 1 then
 --					println ("Yes")
@@ -379,6 +365,7 @@
 			else
 --				AddFadingMsgId( "fm_cant_move" )
 				TActivate("cinExit42ReturnFirst")
+				AddCinematicMessage( 8802, 0.5 )
 --				GetPlayerVehicle():SetExternalPathByName("ReturnPathR4M2")
 			end
  		</script>
@@ -389,57 +376,38 @@
 		<script>
 			GetPlayerVehicle():SetThrottle( 0 )
 			GetPlayerVehicle():SetCustomLinearVelocity( 0 )
-			if QuestStatus("r4m1_RescueBuharsCivilian")~=Q_TAKEN and QuestStatus("r4m1_KNO_GotoOiler")~=Q_TAKEN and QuestStatus("r4m1_KNO_BringOil")~=Q_TAKEN then
-				local b = SpawnMessageBox( "8801" )
 
-				if b == 1 then
-	--				println ( "Yes" )
-	--				TActivate("cinExit11OkFirst")
-					PassToMap("r1m1", "FromR4M1", -1 )
-				else
-	--				println ( "No" )
-					TActivate("cinExit11ReturnFirst")
-	--				GetPlayerVehicle():SetExternalPathByName("ReturnPathR1M1")
-				end
+			local b = SpawnMessageBox( "8801" )
+
+			if b == 1 then
+--				println ( "Yes" )
+--				TActivate("cinExit11OkFirst")
+				PassToMap("r1m1", "FromR4M1", -1 )
 			else
+--				println ( "No" )
 				TActivate("cinExit11ReturnFirst")
+--				GetPlayerVehicle():SetExternalPathByName("ReturnPathR1M1")
 			end
  		</script>
 	</trigger>
 
-	<trigger Name="trMoveR2ToR2M2" active="1">
+	<trigger Name="trMovePlToR2M1" active="1">
 		<event	eventid="GE_OBJECT_ENTERS_LOCATION"	ObjName="EnterToSubmarine_loc" />
 		<script>
-			if QuestStatus("r4m2_TalkWithScientific")==Q_COMPLETED then
-				trigger:Deactivate()
-			
-				local Plf = GetPlayerVehicle()
-				local PlfID = GetPlayerVehicleId()
-				local PlfCoor = Plf:GetPosition()
-				PlfCoor.y = PlfCoor.y + 25*0.74
-				PlfCoor.z = PlfCoor.z + 25*0.74
+			GetPlayerVehicle():SetCustomLinearVelocity( 0 )
+			GetPlayerVehicle():SetThrottle( 0 )
 
-				Plf:SetCustomControlEnabled( true )
-				Plf:SetCustomLinearVelocity( 0 )
-				Plf:SetThrottle( 0 )
-				Plf:SetCustomControlEnabled( false )
-
+			if QuestStatus("r4m2_TalkWithScientific")~=Q_COMPLETED then
 				local b = SpawnMessageBox( "8801" )
 				if b == 1 then
-
-					TActivate ("cinMovePlToR2M2_begin")
-
-				else
-					SaveAllToleranceStatus(RS_NEUTRAL)
-
-					TActivate ("StartR2M2No")
-
-					FlyAround( 6, 0, 25, 5, PlfCoor, PlfID, 1, 1 )
-					StartCinematic()
+					getObj("SubmarinaR4M1"):StartMotionToPort()
 				end
+			else
+				SpawnMessageBox( "8804" )
 			end
-			trigger:Deactivate()
-		</script>
+
+
+ 		</script>
 	</trigger>
 
 	<trigger	Name="StartR2M2No"	active="0">
@@ -474,12 +442,11 @@
 		<script>
 --			println("Capture car")
 			if GetPlayerVehicle() then 
---				SetVar("PlayerCarNameRace",GetPlayerVehicle():GetName())
-				GetPlayerVehicle():SetNameFromScript( "PlayerCarGonki" )
+				SetVar("PlayerCarNameRace",GetPlayerVehicle():GetName())
 				SaveWeaponGroups()
 			end
 --			println("Name = "..GetVar("PlayerCarName").AsString)
-			CapturePlayerVehicle(0, "PlayerRace")
+			CapturePlayerVehicle(0, "PlayerRace",CVector(getPos("PlayerCarOnRacePos_loc")))
 			AddPlayerMoney(-10000)
 --			if team then 
 --			   team:SetDestination(CVector(getPos("MolokovozSpawn_loc")))
@@ -517,17 +484,6 @@
 			   plcar:setImmortalMode(1)
 			   pl:AddChild(plcar)
 			end
-
-			local explayercar = getObj("PlayerCarGonki")
-			if explayercar then
-				explayercar:SetGamePositionOnGround(CVector(4410.569, 281.094, 2051.014))
-				explayercar:SetRotation(Quaternion(0.003, 0.571, 0.001, 0.821))
-				explayercar:SetCustomControlEnabled( true )
-				explayercar:SetCustomLinearVelocity( 0 )
-				explayercar:SetThrottle( 0 )
-				explayercar:SetCustomControlEnabled( false )
-			end
-
 
 			SetVar("nummsg",5)
 			SetVar("PlayerPlace",8)
@@ -802,7 +758,7 @@
 
 	<trigger	Name="trFinishRace"	active="0">
 <!--		<event	timeout="1"		eventid="GE_TIME_PERIOD" />-->
-		<event	timeout="0.01"		eventid="GE_TIME_PERIOD" />
+		<event eventid="GE_TARGET_REACHED" ObjName="PlayerFormula"/>
 		<script>
 		    local place = GetVar("PlayerPlace").AsInt
 		    if place==1 then
@@ -823,13 +779,19 @@
 --			println("Ostatok = "..ostcena)
 			AddPlayerMoney(ostcena)
 
-			CreateNewDummyObject( "brick_debris1", "CamTochka", -1, -1, CVector(4176.459, 284.317, 2168.970), Quaternion(0, 0, 0, 0), 0)
-			local CToch = GetEntityByName("CamTochka")
-			local CTochID = CToch:GetId()
+
 			local Plf = GetPlayerVehicle()
 			local PlfID = GetPlayerVehicleId()
+			local PlfCoor = Plf:GetPosition()
+			PlfCoor.y = PlfCoor.y + 25*0.74
+			PlfCoor.z = PlfCoor.z + 25*0.74
 
-			FlyLinked("linkedcam", CTochID, 5, 0, 1, PlfID)
+			Plf:SetCustomControlEnabled(true)
+			Plf:SetCustomLinearVelocity(0)
+			Plf:SetThrottle(0)
+			Plf:SetCustomControlEnabled(false)
+
+			FlyAround(6, 0, 6, 6, PlfCoor, PlfID, 1, 1 )
 			StartCinematic()
 
 		    AddCinematicMessage( place+3, 0.5 )
@@ -917,15 +879,12 @@
 			     veh:Remove()
 			end
 
-			local CToch = GetEntityByName("CamTochka")
-			if CToch then CToch:Remove() end
-
---			local plcarname=GetVar("PlayerCarNameRace").AsString
---			println("Name = "..plcarname)
+			local plcarname=GetVar("PlayerCarNameRace").AsString
+			println("Name = "..plcarname)
 			local pl=g_Player
-			local plcar=getObj("PlayerCarGonki")
+			local plcar=getObj(plcarname)
 			if pl and plcar then
---				println("GiveCar")
+				println("GiveCar")
 				pl:AddChild(plcar)
 				RestoreWeaponGroups()
 			end
@@ -955,23 +914,19 @@
 	</trigger>
 
 
-	<trigger	Name="trCreateHumans"	active="0">
-		<event	timeout="10"			eventid="GE_TIME_PERIOD" />
+	<trigger	Name="trStartHumans"	active="1">
+		<event	timeout="1"			eventid="GE_TIME_PERIOD" />
 		<script>
 			local maxhum = GetVar("MaxWalkHuman").AsInt
 			if maxhum then
 				for i=1,maxhum do
-					local hum = getObj("WalkerHuman"..i)
-					if not hum then      	
-						local hummodlist = {"Human","Human2","Human3"}
-		    		  	local newhum = CreateHuman( hummodlist[random(3)], 1001, CVector(getPos("SpawnHuman"..i.."_loc")), "WalkerHuman"..i, "Human"..i.."_Path")
-		    		  	if newhum then
-		    		  	   newhum:SetSkin(random(2))
-		    		  	end
-			        end
+					local tr = getObj("trHumanDie")
+					if tr then
+					   tr:AddEvent("GE_OBJECT_DIE", "WalkerHuman"..i )
+					end
 				end
-				--TActivate("trHumanDie")
 			end
+			TActivate("trCreateHumans")
         	trigger:Deactivate()
 		</script>
 	</trigger>
@@ -1003,7 +958,6 @@
 			if team then
 --			   team:SetDestination()    
 			   team:SetExternalPathByName("engineerGoAwayPath")
-			   team:setImmortalMode(1)
 			   TActivate("trEngineerFree")
 			end
 			trigger:Deactivate()
@@ -1058,7 +1012,7 @@
 
 			while getObj("SecretPlace"..i.."_loc")~=nil do
 --				println(i)
-				CreateBoxWithAffixGun(CVector(getPos("SecretPlace"..i.."_loc")), gunlist[exrandom(len)], random(0, 2))
+				CreateBoxWithAffixGun(CVector(getPos("SecretPlace"..i.."_loc")), gunlist[exrandom(len)], random(3))
 				i = i + 1
 			end
 

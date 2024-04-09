@@ -17,15 +17,6 @@
 		</script>
 	</trigger>
 
-	<trigger	Name="SetRainyWeather"	active="1">
-		<event timeout="0.1" eventid="GE_TIME_PERIOD" />
-		<script>
-			SetWeather(1)
-
-			trigger:Deactivate()
-		</script>
-	</trigger>
-
 	<trigger	Name="trStartMap"	active="1">
 		<event eventid="GE_GAME_START" ObjName="Player1" />
 		<script>

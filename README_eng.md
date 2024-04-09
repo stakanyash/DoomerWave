@@ -4,12 +4,14 @@
 
 **Doomer Wave** - modification aimed at changing the game atmosphere to a depressing side. This modification does not add a new plot, it remains original.
 
+The modification currently works only with the Russian version of the game. English version is under development!
+
 
 **You can watch trailer for **Ex Machina: Doomer Wave** **[here](https://www.youtube.com/watch?v=oGKfYa-B-08)**.**
 
 -----------------------------------------------------------------------------------------------
 
-### [Download the latest version for Community Remaster](https://github.com/ksh1vn/DoomerWave/releases/tag/community_remaster_1.4) (required game version 1.14)
+### [Download the latest version for Community Remaster](https://github.com/ksh1vn/DoomerWave/releases/tag/community_remaster_1.4.1) (required game version 1.14.1)
 
 ### [Download the latest version for the original game](https://github.com/ksh1vn/DoomerWave/releases/tag/clean_hta_1.4) (required game version 1.02, also supports installation via ComMod)
 

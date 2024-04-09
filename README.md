@@ -9,7 +9,7 @@
 
 -----------------------------------------------------------------------------------------------
 
-### [Скачать последнюю версию для Community Remaster](https://github.com/ksh1vn/DoomerWave/releases/tag/community_remaster_1.4) (требуемая версия игры 1.14)
+### [Скачать последнюю версию для Community Remaster](https://github.com/ksh1vn/DoomerWave/releases/tag/community_remaster_1.4.1) (требуемая версия игры 1.14.1)
 
 ### [Скачать последнюю версию для оригинальной игры](https://github.com/ksh1vn/DoomerWave/releases/tag/clean_hta_1.4) (требуемая версия игры 1.02, так-же поддерживается установка через ComMod)
 

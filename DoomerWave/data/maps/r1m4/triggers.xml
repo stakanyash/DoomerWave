@@ -12,16 +12,6 @@
 		</script>
 	</trigger>
 
-	<trigger	Name="SetRainyWeather"	active="1">
-		<event timeout="0.1" eventid="GE_TIME_PERIOD" />
-		<script>
-			SetWeather(1)
-
-			trigger:Deactivate()
-		</script>
-	</trigger>
-
-
 	<trigger	Name="trHelPlaceSecret"	active="1">
 		<event	timeout="0.1"			eventid="GE_TIME_PERIOD" />
 		<script>
@@ -211,7 +201,7 @@
 	</trigger>
 
 <!-- ������ ������ ������� -->
-<trigger Name="trMainCarDie" active="0">
+	<trigger Name="trMainCarDie" active="0">
 		<event eventid="GE_VEHICLE_WITHOUT_HEALTH" ObjName="LeaderCar_vehicle_0" />
 		<script>
 			local count = GetVar("NPTTeamsDead").AsInt
