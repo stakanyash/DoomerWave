@@ -1,0 +1,37 @@
+# unique service name
+name: doomer_wave_clean
+
+# required human readable info
+display_name: Doomer Wave [Clean]
+version: "1.4.1"
+build: "240410b"
+description: |
+  Модификация, направленная на изменение игровой атмосферы в депрессивную сторону. Сюжет остаётся оригинальным и никак его повествование не изменено.
+
+  По сравнению с оригиналом интерфейс и карты - серые, саундтрек в slowed + reverb формате, более тёмные ночи, а так-же у главного героя отсутствуют радостные фразы и восклицания.
+  
+authors: стакан
+
+trailer_link: https://www.youtube.com/watch?v=oGKfYa-B-08
+link: https://github.com/ksh1vn/DoomerWave
+logo: assets/dw_logo.png
+install_banner: assets/dw_banner.png
+tags: [visual, audio]
+
+# optional human readable info
+release_date: 22.06.2022
+language: ru
+
+data_dirs:
+  - data
+
+# installation configuration
+prerequisites: []
+safe_reinstall_options: true
+
+config_options:
+  firstLevel: "r1m1"
+  DoNotLoadMainmenuLevel: "false"
+
+patcher_version_requirement: "2.1"
+no_base_content: false

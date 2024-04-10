@@ -7,21 +7,6 @@
 		</script>
 	</trigger>
 
-	<trigger	Name="trStartMap"	active="1">
-		<event eventid="GE_GAME_START" ObjName="Player1" />
-		<script>
-			local submar = getObj("SubmR2M2")
-			if submar then
-				submar:Remove()
-			end
-			
-			TActivate("trMoveR2ToR4M1")
-			
-			trigger:Deactivate()
-
-		</script>
-	</trigger>
-	
 	<trigger	Name="trExitFromTowns" 	active="1">
 		<event	eventid="GE_LEAVE_TOWN"	ObjName="Monastery"			/>
 		<event	eventid="GE_LEAVE_TOWN"	ObjName="Marezzia"			/>
@@ -38,19 +23,8 @@
 		</script>
 	</trigger>
 
-	<trigger	Name="trGraciassPlaceSecret"	active="1">
-		<event	timeout="0.1"			eventid="GE_TIME_PERIOD" />
-		<script>
-			local gunlist = {"hornet01","specter01","pkt01","kord01","vector01","kpvt01","rainmetal01","flag01","maxim01","fagot01","octopus01","elephant01","odin01"}
-			local len = getn(gunlist)
 
-			for i=1,12 do
-				--println("step"..i.."succesful")
-				CreateBoxWithAffixGun(CVector(getPos("SecretPlace"..i.."_loc")), gunlist[random(len)], random(0, 2))
-			end
-			trigger:Deactivate()
-		</script>
-	</trigger>
+
 
 
 	<trigger Name="SNGPROVIANT" active="0">
@@ -62,8 +36,6 @@
 			TeamCreate("SNGProviantRiders",1016,CVector(1237, 261, 3657),{"r2m2_Fighter01","r2m2_Molokovoz01","r2m2_Fighter02"}, CVector(2658, 316, 3485), 1)
 			
 			TActivate("SNGPROVIANTDIE")
-
-			TakeQuest("r2m2_GiveBardakToEnemy")
 
 			trigger:Deactivate()
 		</script>
@@ -112,8 +84,6 @@
 
 			TeamCreate("SNGInVill1",1016,CVector(1367, 261, 3709),{"r2m1_scout01","r2m2_Fighter01","r2m1_scout02"}, CVector(1233, 261, 3656), 1)
 
-			TakeQuest("r2m2_GiveBardakToSideVillage")
-
 			TActivate( "INVILL1DIE" )
 
 			trigger:Deactivate() 
@@ -125,8 +95,6 @@
 		<script>
 			TeamCreate("SNGInVill2",1016,CVector(1143, 261, 3951),{"r2m1_scout03","r2m1_scout01","r2m1_scout02","r2m1_scout03"}, CVector(1233, 261, 3656), 1)
 
-			CompleteQuest("r2m2_GiveBardakToSideVillage_1")
-
 			TActivate( "INVILL2DIE" )
 
 			trigger:Deactivate()
@@ -136,7 +104,7 @@
 	<trigger	Name="INVILL2DIE" active="0">
 		<event	eventid="GE_OBJECT_DIE" ObjName="SNGInVill2" />
 		<script>
-			CompleteQuest( "r2m2_GiveBardakToSideVillage_2" )
+			CompleteQuest( "r2m2_GiveBardakToSideVillage" )
 
 			CinemaFiltersUse()
 
@@ -192,7 +160,7 @@
 	<trigger Name="FELIXMONAXDIE" active="0">
 		<event eventid="GE_OBJECT_DIE" ObjName="FelixCars" />
 		<script>
-			CompleteQuest( "r2m2_FightFelix_2" )
+			CompleteQuest( "r2m2_FightFelix" )
 
 			CinemaFiltersUse()
 
@@ -263,8 +231,6 @@
 
 			TActivate( "LAGERWARBEGINDIE" )
 
-			CompleteQuest("r2m2_ToKillAllSNGPeople_1")
-
 			trigger:Deactivate()    
 		</script>
 	</trigger>
@@ -272,7 +238,7 @@
 	<trigger	Name="LAGERWARBEGINDIE"	active="0">
 		<event	eventid="GE_OBJECT_DIE" ObjName="LagerCarrrs" />
 		<script>
-			CompleteQuest( "r2m2_ToKillAllSNGPeople_2" )
+			CompleteQuest( "r2m2_ToKillAllSNGPeople" )
 
 			CinemaFiltersUse()
 
@@ -324,8 +290,6 @@
 			SetTolerance( 1100, 1016, RS_ENEMY )
 
 			TeamCreate("LeadersSNG",1016,CVector(770,261,3281),{"r2m2_Hunter01","r2m2_scout01","r2m2_Ural01"}, nil, 1)
-
-			TakeQuest("r2m2_KillMrPresidentAndOther")
 
 			TActivate( "LEADERMEETDIE" )
 
@@ -397,7 +361,7 @@
 		<script>
 			GameFiltersUse()
 
-			CompleteQuest( "r2m2_FightWithAxelInArena_Quest_2" )
+			CompleteQuest( "r2m2_FightWithAxelInArena_Quest" )
 
 			if IsQuestComplete("d_Lisa_Quest") then
 				TActivate("RolikBegin_AXELARENADIE")
@@ -407,7 +371,7 @@
 				AddHistory( "r2_After_Axel_01" )
 				AddFadingMsgId( "fm_history_got" )
 			else
-				TActivate("RolikBegin_AXELARENADIE")
+				TActivate("RolikBegin_AXELARENADIE2")
 				
 				TakeQuest( "r2m2_ToLisaToMonastir" )
 
@@ -434,8 +398,6 @@
 				FVehicle:setImmortalMode(1)
 				FVehicle:AddItemsToRepository("add_damage_guns_and_grouping_angle_guns", 1)
 			end
-
-			TakeQuest("r2m2_FightLisaToMonastir")
 
 			TActivate( "LISARUNOUTDIE" )
 
@@ -518,7 +480,11 @@
  
 				local b = SpawnMessageBox( "8800" )
 				if b == 1 then
-					TActivate ("cinMovePlToR4M1_begin")
+					SaveAllToleranceStatus(RS_NEUTRAL)
+
+					TActivate ("StartR4M1Yes")
+
+					getObj("SubmarinaR2M2"):StartMotionToPort()
 				else
 					SaveAllToleranceStatus(RS_NEUTRAL)
 
@@ -531,29 +497,37 @@
 				end
 			end
 
-			trigger:Deactivate()
+			trigger:Activate()
  		</script>
+	</trigger>
+	<trigger	Name="StartR4M1Yes"	active="0">
+		<event	eventid="GE_SKIP_CINEMATIC"	ObjName="Player1" />
+		<event	eventid="GE_END_CINEMATIC"	ObjName="Player1" />
+		<script>
+			GameFiltersUse()
+
+			RestoreAllToleranceStatus()
+
+			PassToMap("r4m1", "FromR2M2", -1 )
+
+			SetCameraBehindPlayerVehicle()
+
+			trigger:Deactivate() 
+		</script>
 	</trigger>
 
 	<trigger	Name="StartR4M1No"	active="0">
 		<event	eventid="GE_SKIP_CINEMATIC"	ObjName="Player1" />
 		<event	eventid="GE_END_CINEMATIC"	ObjName="Player1" />
 		<script>
+			GameFiltersUse()
+
 			RestoreAllToleranceStatus()
 
-			local vehPlayer = GetPlayerVehicle()
-			if vehPlayer then
-				vehPlayer:SetExternalPathByName("r4m1_path")
-				vehPlayer:PlaceToEndOfPath("r4m1_path")
-				vehPlayer:SetCustomLinearVelocity( 0 )
-				vehPlayer:SetThrottle( 0 )
-				vehPlayer:SetPosition( CVector(2944.455, 267.272, 2014.799))
-		   		vehPlayer:SetRotation(Quaternion(0.002, 0.944, -0.001, -0.331))
-		   	end
+			local Plf = GetPlayerVehicle()
+			Plf:PlaceToEndOfPath()
 
 			SetCameraBehindPlayerVehicle()
-
-			TActivate("trMoveR2ToR4M1")
 
 			trigger:Deactivate() 
 		</script>
@@ -614,19 +588,9 @@
 			PlfCoor.y = PlfCoor.y + 25*0.74
 			PlfCoor.z = PlfCoor.z + 25*0.74
 
-			if QuestStatus("r2m2_FightLisaToMonastir")~=Q_TAKEN and QuestStatus("r2m2_FightWithAxelInArena_Quest_2")~=Q_TAKEN and QuestStatus("r2m2_FightFelix_2")~=Q_TAKEN then
-				local b = SpawnMessageBox( "8801" )
-				if b == 1 then
-					PassToMap("r2m1", "FromR2M2", -1 )
-				else
-					SaveAllToleranceStatus(RS_NEUTRAL)
-
-					FlyAround(1, 0, 25, 1, PlfCoor, PlfID, 1, 1 )
-					StartCinematic()
-
-					TActivate ("RolikExitToMap21")
-					TActivate ("RolikENDExitToMap21")
-				end
+			local b = SpawnMessageBox( "8801" )
+			if b == 1 then
+				PassToMap("r2m1", "FromR2M2", -1 )
 			else
 				SaveAllToleranceStatus(RS_NEUTRAL)
 
@@ -683,7 +647,7 @@
 			PlfCoor.y = PlfCoor.y + 25*0.74
 			PlfCoor.z = PlfCoor.z + 25*0.74
 
-			if IsQuestTaken("d_GetAkselBandit_Quest") and QuestStatus("r2m2_FightLisaToMonastir")~=Q_TAKEN and QuestStatus("r2m2_FightWithAxelInArena_Quest_2")~=Q_TAKEN and QuestStatus("r2m2_FightFelix_2")~=Q_TAKEN then 
+			if IsQuestTaken("d_GetAkselBandit_Quest") then 
 				local b = SpawnMessageBox( "8801" )
 				if b == 1 then
 					PassToMap("r2m1", "FromR2M2small", -1 )
@@ -697,12 +661,9 @@
 					TActivate ("RolikENDExitToMap21small")
 				end
 			else
-				SaveAllToleranceStatus(RS_NEUTRAL)
 				FlyAround(1, 0, 25, 6, PlfCoor, PlfID, 1, 1 )
 				StartCinematic()
-				if not(IsQuestTaken("d_GetAkselBandit_Quest")) then
-					AddCinematicMessage( 8803, 0.5 )
-				end
+				AddCinematicMessage( 8803, 0.5 )
 
 				TActivate ("RolikExitToMap21small")
 				TActivate ("RolikENDExitToMap21small")

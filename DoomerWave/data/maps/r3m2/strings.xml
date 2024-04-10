@@ -10,35 +10,35 @@
 	<string
 		id="1002"
 		modelName="mask_hero"
-		value="|Для начала надо отделить её от туловища. Надо проявить сноровку."
+		value="|Для начала надо отделить ее от туловища. Надо проявить сноровку."
 		sound="data\sounds\Speech\r3m2\r3m2_1002_hero.ogg"
 		time="3" />
 
 	<string
 		id="1003"
 		modelName="mask_hero"
-		value="|Готово. Можно возвращаться, голова у меня."
+		value="|Готово. Можно возвращаться, голова у меня. "
 		sound="data\sounds\Speech\r3m2\r3m2_1003_hero.ogg"
 		time="3" />
 
 	<string
 		id="1004"
 		modelName="mask_hero"
-		value="|Что это блестит? Похоже, это одна из тех вещей, про которые говорил Оракул!"
+		value="|Что это блестит? Похоже, это одна из тех вещей, про которые говорил оракул!"
 		sound="data\sounds\Speech\r3m2\r3m2_1004_hero.ogg"
 		time="1" />
 
 	<string
 		id="1005"
 		modelName="mask_hero"
-		value="|Осталось найти вторую."
+		value="|Осталось найти второю."
 		sound="data\sounds\Speech\r3m2\r3m2_1005_hero.ogg"
 		time="1" />
 
 	<string
 		id="1006"
 		modelName="mask_hero"
-		value="|Теперь у меня есть всё, что нужно. Пора возвращаться к Оракулу."
+		value="|Теперь у меня есть все, что нужно. Пора возвращаться к Оракулу."
 		sound="data\sounds\Speech\r3m2\r3m2_1006_hero.ogg"
 		time="1" />
 
@@ -66,21 +66,21 @@
 	<string
 		id="4"
 		modelName="mask_hero"
-		value="|Чего только я не насмотрелся за время своих путешествий. Ещё и эти следы на полях. Кто же их оставляет?"
+		value="|Чего только я не насмотрелся за время своих путешествий. Еще и эти следы на полях. Кто же их оставляет?"
 		sound="data\sounds\Speech\r3m2\r3m2_4_hero.ogg"
 		time="1" />
 
 	<string
 		id="5"
 		modelName="mask_hero"
-		value="|Эту загадку мне помогут решить учёные в Мидгарде."
+		value="|Эту загадку мне помогут решить ученые в Мидгарде."
 		sound="data\sounds\Speech\r3m2\r3m2_5_hero.ogg"
 		time="1" />
 
 	<string
 		id="6"
 		modelName="mask_hero"
-		value="|Слишком узкий проезд. Мой грузовик тут не проедет, а пешком ходить слишком опасно."
+		value="|Слишком узкий проезд. Мой грузовик тут не проедет, а пешком ходить слишком опасно. "
 		sound="data\sounds\Speech\r3m2\r3m2_6_hero.ogg"
 		time="1" />
 
@@ -94,21 +94,21 @@
 	<string
 		id="8"
 		modelName="mask_hero"
-		value="|Спасибо тому, кто забыл здесь эту тачку. На ней я смогу проникнуть на завод."
+		value="|Спасибо тому, кто забыл здесь эту тачку. На ней я смогу проникнуть на завод. "
 		sound="data\sounds\Speech\r3m2\r3m2_8_hero.ogg"
 		time="1" />
 
 	<string
 		id="9"
 		modelName="mask_hero"
-		value="|Думаю, никто не обидится, если я позаимствую её ненадолго."
+		value="|Думаю, никто не обидится, если я позаимствую ее ненадолго."
 		sound="data\sounds\Speech\r3m2\r3m2_9_hero.ogg"
 		time="1" />
 
 	<string
 		id="10"
 		modelName="mask_hero"
-		value="|А тачка-то резвая, зараза!"
+		value="|А тачка то резвая, зараза."
 		sound="data\sounds\Speech\r3m2\r3m2_10_hero.ogg"
 		time="1" />
 
@@ -122,7 +122,7 @@
 	<string
 		id="12"
 		modelName="mask_hero"
-		value="|Вот и монстр. Вряд ли он добровольно расстанется с головой, так что придётся драться."
+		value="|Вот и монстр. Вряд ли он добровольно расстанется с головой, так что придется драться."
 		sound="data\sounds\Speech\r3m2\r3m2_12_hero.ogg"
 		time="1" />
 
@@ -132,11 +132,11 @@
 		value="|Опасный противник, но я смогу с ним справиться!"
 		sound="data\sounds\Speech\r3m2\r3m2_13_hero.ogg"
 		time="1" />
-<!-- Подъехали к заводу, показывает общий план, потом машинка едет к проезду. -->
+<!-- Подехали к заводу, показывает общий план, потом машинка едет к проезду. -->
 	<string
 		id="14"
 		modelName="mask_hero"
-		value="|Мне ещё не приходилось видеть таких огромных руин... Интересно, что здесь было до катастрофы?"
+		value="|Мне еще не приходилось видеть таких огромных руин... Интересно, что здесь было до катастрофы? "
 		sound="data\sounds\Speech\r3m2\r3m2_14_hero.ogg"
 		time="1" />
 
@@ -147,6 +147,12 @@
 		sound="data\sounds\Speech\r3m2\r3m2_15_hero.ogg"
 		time="1" />
 <!--  -->
+	<string
+		id="16"
+		image=""
+		value="|"
+		time="1" />
+
 	<string
 		id="17"
 		value="Нельзя покидать территорию завода на краденой машине."
