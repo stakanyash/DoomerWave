@@ -1,10 +1,10 @@
 # unique service name
-name: DoomerWave
+name: doomer_wave
 
 # required human readable info
-display_name: Doomer Wave
+display_name: Doomer Wave [ComRemaster]
 version: "1.4.1"
-build: "240410"
+build: "240410b"
 description: |
   Модификация, направленная на изменение игровой атмосферы в депрессивную сторону. Сюжет остаётся оригинальным и никак его повествование не изменено.
 
@@ -43,6 +43,14 @@ screenshots:
   - img: assets/scr_7.jpg
     text: |
       Глухое с установленным Ex Machina Fall
+
+variants: [clean]
+
+data_dirs:
+  - data
+  - data_hd
+
+options_base_dir: options
 
 # installation confguration
 patcher_version_requirement: "2.1"

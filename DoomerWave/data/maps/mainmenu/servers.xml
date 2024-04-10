@@ -2,10 +2,6 @@
 <Servers>
 	<AnimatedModelsServer>
 		<Item
-			id="cub"
-			file="data\models\AnimModels.xml" />
-
-		<Item
 			id="cargo"
 			file="data\models\AnimModels.xml" />
 
@@ -69,7 +65,7 @@
 			id="dub2"
 			file="data\models\AnimModels.xml" />
 
-		<Item
+        <Item
 			id="fighterCab02menu"
 			file="data\models\AnimModels.xml" />	
 
@@ -246,7 +242,15 @@
 			file="data\models\AnimModels.xml" />
 
 		<Item
+			id="fighterCab02"
+			file="data\models\AnimModels.xml" />
+
+		<Item
 			id="uralChassis"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="uralCab05"
 			file="data\models\AnimModels.xml" />
 
 		<Item
@@ -281,24 +285,24 @@
 			id="molokovozChassis"
 			file="data\models\AnimModels.xml" />
 
-		<Item 
-			id="molokovozSus_f_r" 
-			file="data\models\AnimModels.xml"/>
+		<Item
+			id="molokovozSusp01l"
+			file="data\models\AnimModels.xml" />
 
-		<Item 
-			id="molokovozSus_f_l" 
-			file="data\models\AnimModels.xml"/>
+		<Item
+			id="molokovozSusp01r"
+			file="data\models\AnimModels.xml" />
 
-		<Item 
-			id="molokovozSus_r_r" 
-			file="data\models\AnimModels.xml"/>
-		
-		<Item 
-			id="molokovozSus_r_l" 
-			file="data\models\AnimModels.xml"/>
+		<Item
+			id="molokovozSusp02"
+			file="data\models\AnimModels.xml" />
 
 		<Item
 			id="molokovozWheel01"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="molokovozCab02"
 			file="data\models\AnimModels.xml" />
 
 		<Item
@@ -590,10 +594,6 @@
 			file="data\models\AnimModels.xml" />
 
 		<Item
-			id="r1_man"
-			file="data\models\AnimModels.xml" />
-
-		<Item
 			id="r2_man"
 			file="data\models\AnimModels.xml" />
 
@@ -603,14 +603,6 @@
 
 		<Item
 			id="r3_man"
-			file="data\models\AnimModels.xml" />
-
-		<Item
-			id="r4_man"
-			file="data\models\AnimModels.xml" />
-		
-		<Item
-			id="mask_oracul"
 			file="data\models\AnimModels.xml" />
 
 	</AnimatedModelsServer>

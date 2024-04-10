@@ -19,13 +19,20 @@
 	</trigger>
 <!--
 **************************************************************************************************
-** ï¿½ï¿½ï¿½ï¿½ï¿½
+** ‘î¦¥â
 **************************************************************************************************
 -->
+	<trigger	Name="trAutoSave"	active="0">
+		<event eventid="GE_GAME_START" ObjName="Player1" />
+		<script>
+		</script>
+	</trigger>
+
 	<trigger	Name="trStartMap"	active="1">
 		<event eventid="GE_GAME_START" ObjName="Player1" />
 		<script>
 			if QuestStatus("r4m1_FindNative")==Q_CANBEGIVEN then
+			   TakeQuest("r4m1_FindNative")
 			   TActivate("cinPriezdFirst")
 			   trigger:Deactivate()
 			end
@@ -48,30 +55,6 @@
 		<event	eventid="GE_LEAVE_TOWN"	ObjName="PetrolStationTown7"/>
 		<script>
 			UpdateWeather()
-		</script>
-	</trigger>
-
-	<trigger	Name="SetRainyWeather"	active="1">
-		<event timeout="0.1" eventid="GE_TIME_PERIOD" />
-		<script>
-			SetWeather(1)
-
-			trigger:Deactivate()
-		</script>
-	</trigger>
-
-    <trigger	Name="trSubDelete"	active="1">
-		<event eventid="GE_GAME_START" ObjName="Player1" />
-		<script>
-			local submar = getObj("SubmR4M1")
-			if submar then
-				submar:Remove()
-			end
-			
-			TActivate("trMoveR2ToR2M2")
-			
-			trigger:Deactivate()
-	
 		</script>
 	</trigger>
 
@@ -113,8 +96,6 @@
 		</script>
 	</trigger>
 
-
-	
 	<trigger	Name="trReturnPlCar"	active="0">
 		<event eventid="GE_TARGET_REACHED" ObjName="PlayerMolokovoz"/>
 		<script>
@@ -216,7 +197,7 @@
 
 <!--
 **************************************************************************************************
-** ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ ï¿½ï¿½ï¿½ï¿½
+**  ¢ ªã æ¨ï ¢ ¯®àâ
 **************************************************************************************************
 -->
 	<trigger	Name="trPlayerEnterToPort"	active="0">
@@ -322,7 +303,7 @@
 
 <!--
 **************************************************************************************************
-** ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½
+**  ‚§àë¢ë ¡®ç¥ª
 **************************************************************************************************
 -->
 	<trigger	Name="trBabah"	active="1">
@@ -410,31 +391,9 @@
  		</script>
 	</trigger>
 
-	<trigger	Name="StartR2M2No"	active="0">
-		<event	eventid="GE_SKIP_CINEMATIC"	ObjName="Player1" />
-		<event	eventid="GE_END_CINEMATIC"	ObjName="Player1" />
-		<script>
-			RestoreAllToleranceStatus()
-			
-			SetCameraBehindPlayerVehicle()
-
-			local vehPlayer = GetPlayerVehicle()
-			if vehPlayer then
-				vehPlayer:SetCustomLinearVelocity( 0 )
-				vehPlayer:SetThrottle( 0 )
-				vehPlayer:SetPosition( CVector(1361.777, 220.570, 3114.695))
-		   		vehPlayer:SetRotation(Quaternion(0.000, -0.826, 0.000, -0.564))
-		   	end
-
-			TActivate("trMoveR2ToR2M2")
-
-			trigger:Deactivate() 
-		</script>
-	</trigger>
-
 <!--
 **************************************************************************************************
-** ï¿½ï¿½ï¿½ï¿½ï¿½
+**   ƒ®­ª¨
 **************************************************************************************************
 -->
 	<trigger	Name="trA"	active="0">
@@ -671,7 +630,7 @@
 					if name=="PlayerFormula" then
 --					  println(2)
 						local pointnum = GetVar("NextPoint").AsInt
--- ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+--¨£à®ª ¯à¨¥å « ¢ ¯à ¢¨«ì­ë© ç¥ª¯®¨­â
 						if locnum==pointnum then
 --					  println(3)
 							AddFadingMsgId( "fm_race_chekpoint" )
@@ -713,9 +672,6 @@
 --							    LOG("Car Num = "..carnum.." NextLap = "..(lap+1))
 							    SetVar("LapCount"..carnum,lap+1)
 							end
-						else
-							AddFadingMsgId( "fm_race_chekpoint_notright" )
-							AddImportantFadingMsgByStrIdFormatted( "fm_race_chekpoint_notright" )
 						end
 					elseif strsub(name,1,10)=="FormulaCar" then
 --						println("==== +1")
@@ -899,24 +855,6 @@
 	<trigger	Name="trStartHumans"	active="1">
 		<event	timeout="1"			eventid="GE_TIME_PERIOD" />
 		<script>
-			-- local maxhum = GetVar("MaxWalkHuman").AsInt
-			-- if maxhum then
-			-- 	for i=1,maxhum do
-			-- 		local tr = getObj("trHumanDie")
-			-- 		if tr then
-			-- 		   tr:AddEvent("GE_OBJECT_DIE", "WalkerHuman"..i )
-			-- 		end
-			-- 	end
-			-- end
-			TActivate("trCreateHumans")
-        	trigger:Deactivate()
-		</script>
-	</trigger>
-
-
-	<trigger	Name="trStartHumans"	active="1">
-		<event	timeout="1"			eventid="GE_TIME_PERIOD" />
-		<script>
 			local maxhum = GetVar("MaxWalkHuman").AsInt
 			if maxhum then
 				for i=1,maxhum do
@@ -927,6 +865,28 @@
 				end
 			end
 			TActivate("trCreateHumans")
+        	trigger:Deactivate()
+		</script>
+	</trigger>
+
+
+	<trigger	Name="trCreateHumans"	active="0">
+		<event	timeout="10"			eventid="GE_TIME_PERIOD" />
+		<script>
+			local maxhum = GetVar("MaxWalkHuman").AsInt
+			if maxhum then
+				for i=1,maxhum do
+					local hum = getObj("WalkerHuman"..i)
+					if not hum then      	
+						local hummodlist = {"Human","Human2","Human3"}
+		    		  	local newhum = CreateHuman( hummodlist[random(3)], 1001, CVector(getPos("SpawnHuman"..i.."_loc")), "WalkerHuman"..i, "Human"..i.."_Path")
+		    		  	if newhum then
+		    		  	   newhum:SetSkin(random(2))
+		    		  	end
+			        end
+				end
+				TActivate("trHumanDie")
+			end
         	trigger:Deactivate()
 		</script>
 	</trigger>
@@ -995,13 +955,6 @@
 		</script>
 	</trigger>
 
-	<trigger Name="cinEngineer_MusicStop" active="0">
-	<event        timeout="20"        eventid="GE_TIME_PERIOD" />
-		<script>
-			StopPlayingCustomMusic()
-			trigger:Deactivate()
-		</script>
-	</trigger>
 
 	<trigger	Name="trPlaceSecret"	active="1">
 		<event	timeout="0.1"			eventid="GE_TIME_PERIOD" />
@@ -1035,5 +988,6 @@
 
 
 
-	
+
 </triggers>
+

@@ -2,10 +2,6 @@
 <Servers>
 	<AnimatedModelsServer>
 		<Item
-			id="point"
-			file="data\models\AnimModels.xml" />
-
-		<Item
 			id="cargo"
 			file="data\models\AnimModels.xml" />
 
@@ -582,13 +578,11 @@
 
 		<Item 
 			id="dozerChassis" 
-			file="data\models\AnimModels.xml"    
-			params = "skins: 1 2 3 5 8;" />
+			file="data\models\AnimModels.xml"/>
 
 		<Item 
 			id="dozerCab01" 
-			file="data\models\AnimModels.xml"    
-			params = "skins: 1 2 3 5 8;" />
+			file="data\models\AnimModels.xml"/>
 
 		<Item 
 			id="dozerSusp01" 
@@ -609,7 +603,7 @@
 		<Item 	
 			id="sml1Cab01" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 2 3 5 8 9 10 11 12 15 16;" />
+			params = "skins: 1 2 3 5 8;" />
 
 		<Item 
 			id="sml1Susp01" 
@@ -634,12 +628,12 @@
 		<Item 
 			id="sml2Cab01" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 2 3 5 8 9 10 11 12 15 16;" />
+			params = "skins: 1 2 3 5 8;" />
 
 		<Item 
 			id="sml2Cab01_formula" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 0 1 2 3 5 8 9 10 11 12 15 16;" />
+			params = "skins: 1 2 3 5 8;" />
 
 		<Item 
 			id="sml2Susp01" 
@@ -664,7 +658,7 @@
 		<Item 
 			id="sml3Cab01" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 0 1 2 3 5 8 9 10 11 12 15 16;" />
+			params = "skins: 1 2 3 5 8;" />
 
 		<Item 
 			id="sml3Susp01" 
@@ -825,16 +819,6 @@
 			params = "skins: 1 2 3 5 8;" />
 
 		<Item 
-			id="cruiserCargo01" 
-			file="data\models\AnimModels.xml"   
-			params = "skins: 1 2 3 5 8;" />
-
-		<Item 
-			id="cruiserCargo02" 
-			file="data\models\AnimModels.xml"   
-			params = "skins: 1 2 3 5 8;" />
-			
-		<Item 
 			id="cruiserSusp01" 
 			file="data\models\AnimModels.xml"/>
 
@@ -853,32 +837,32 @@
 		<Item 
 			id="bugCab01" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 1 2 3 5 8 9 10 11 12 14 15 16;" />
+			params = "skins: 1 2 3 5 8;" />
 
 		<Item 
 			id="bugCab02" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 1 2 3 5 8 9 10 11 12 14 15 16;" />
+			params = "skins: 1 2 3 5 8;" />
 
 		<Item 
 			id="bugCab03" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 1 2 3 5 8 9 10 11 12 14 15 16;" />
+			params = "skins: 1 2 3 5 8;" />
 
 		<Item 
 			id="bugCargo01" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 1 2 3 5 8 9 10 11 12 14 15 16;" />
+			params = "skins: 1 2 3 5 8;" />
 
 		<Item 
 			id="bugCargo02" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 1 2 3 5 8 9 10 11 12 14 15 16;" />
+			params = "skins: 1 2 3 5 8;" />
 
 		<Item 
 			id="bugCargo03" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 1 2 3 5 8 9 10 11 12 14 15 16;" />
+			params = "skins: 1 2 3 5 8;" />
 
 		<Item 
 			id="bugSusp01" 
@@ -981,52 +965,48 @@
 		<Item 
 			id="molokovozCab01" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 1 2 3 5 8 9 10 11 12 14 15 16;" />
+			params = "skins: 1 2 3 5 8;" />
 
 		<Item 
 			id="molokovozCab02" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 1 2 3 5 8 9 10 11 12 14 15 16;" />
+			params = "skins: 1 2 3 5 8;" />
 
 		<Item 
 			id="molokovozCab03" 
 			file="data\models\AnimModels.xml"    
-			params = "skins: 1 2 3 5 8 9 10 11 12 14 15 16;" />
+			params = "skins: 1 2 3 5 8;" />
 
 		<Item 
 			id="molokovozCargo01" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 1 2 3 5 8 9 10 11 12 14 15 16;" />
+			params = "skins: 1 2 3 5 8;" />
 
 		<Item 
 			id="molokovozCargo02" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 1 2 3 5 8 9 10 11 12 14 15 16;" />
+			params = "skins: 1 2 3 5 8;" />
 
 		<Item 
 			id="molokovozCargo03" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 1 2 3 5 8 9 10 11 12 14 15 16;" />
+			params = "skins: 1 2 3 5 8;" />
 
 		<Item 
 			id="molokovozCargo04" 
 			file="data\models\AnimModels.xml"   
-			params = "skins: 1 2 3 5 8 9 10 11 12 14 15 16;" />
+			params = "skins: 1 2 3 5 8;" />
 
 		<Item 
-			id="molokovozSus_f_r" 
+			id="molokovozSusp01l" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="molokovozSus_f_l" 
+			id="molokovozSusp01r" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
-			id="molokovozSus_r_r" 
-			file="data\models\AnimModels.xml"/>
-		
-		<Item 
-			id="molokovozSus_r_l" 
+			id="molokovozSusp02" 
 			file="data\models\AnimModels.xml"/>
 
 		<Item 
@@ -1461,10 +1441,10 @@
 			id="arena_barricade3"
 			file="data\models\AnimModels.xml" />
 
-		<Item
+        <Item
 			id="mask_oracul"
 			file="data\models\AnimModels.xml" />
-	
+
 		<Item
 			id="arena_barricade4"
 			file="data\models\AnimModels.xml" />
@@ -2372,13 +2352,14 @@
 		<Item id="S_CRASH_WOOD06" />
 		<Item id="S_CRASH_WOOD07" />
 		<Item id="S_CRASH_WOOD08" />
-            <!-- <Item id="S_WOODVEHICLEHIT" /> -->
-		<!-- <Item id="S_WOODVEHICLECRASH" /> -->
-            <!-- <Item id="S_BRICKVEHICLEHIT01" /> -->
-            <!-- <Item id="S_BRICKVEHICLEHIT02" /> -->
-            <!-- <Item id="S_SACKVEHICLEHIT" /> -->
-            <!-- <Item id="S_VEHICLESPARKLE" /> -->
-            <!-- <Item id="S_VEHICLEONGROUND" /> -->
+            <Item id="S_WOODVEHICLEHIT" />
+		<Item id="S_WOODVEHICLECRASH" />
+            <Item id="S_BRICKVEHICLEHIT01" />
+            <Item id="S_BRICKVEHICLEHIT02" />
+            <Item id="S_SACKVEHICLEHIT" />
+            <Item id="S_VEHICLESPARKLE" />
+            <Item id="S_VEHICLESPARKLE_SLOW" />
+            <Item id="S_VEHICLEONGROUND" />
             <Item id="S_VEHICLEONGROUND_SLOW" />
             <Item id="S_STATICSSPARKLE" />
             <Item id="S_STATICSSPARKLE_SLOW" />
@@ -2576,6 +2557,7 @@
 		<Item id="S_ROCK_EXPL" />
 		<Item id="S_GROUND_EXPL" />
 		<Item id="S_SAND_EXPL" />
+		<Item id="S_GROUND_EXPL" />
 		<Item id="S_WOOD_EXPL" />
 		<Item id="S_WATER_AC" />
 		<Item id="S_STATIC_AC" />
@@ -2644,6 +2626,7 @@
 		<Item id="S_MARSH" />
 		<Item id="S_MOUNT" />
 		<Item id="S_LAKE" />
+
 		<Item id="S_FOREST" />
 		<Item id="S_DESERT" />
 		<Item id="S_JUNGLE" />
@@ -2657,21 +2640,22 @@
 		<Item id="S_MAN_SCREAM1"/>
 		<Item id="S_MAN_SCREAM2"/>
 		<Item id="S_WOODVEHICLEHIT1"/>
-		<Item id="S_WOODVEHICLEHIT2"/>
-		<Item id="S_WOODVEHICLEHIT3"/>
+	      <Item id="S_WOODVEHICLEHIT2"/>
+	      <Item id="S_WOODVEHICLEHIT3"/>
 		<Item id="S_WOODVEHICLECRASH"/>
 		<Item id="S_BRICKVEHICLEHIT01"/>
 		<Item id="S_BRICKVEHICLEHIT02"/>
-		<Item id="S_BRICKVEHICLEHIT03"/>
+            <Item id="S_BRICKVEHICLEHIT03"/>
 
 		<Item id="S_SACKVEHICLEHIT"/>
-		<Item id="S_SACKVEHICLEHIT02"/>
-		<Item id="S_TREEVEHICLECRASH"/>
+            <Item id="S_SACKVEHICLEHIT02"/>
+            <Item id="S_TREEVEHICLECRASH"/>
+		<Item id="S_VEHICLEONGROUND"/>
 		<Item id="S_VEHICLESPARKLE"/>
-		<Item id="S_VEHICLESPARKLE_SLOW"/>
 		<Item id="S_VEHICLEONGROUND"/>
 		<Item id="S_DRIFT01"/>
-		<Item id="S_CARJUMP"/>
+            <Item id="S_CARJUMP"/>
+
 
 		<Item id="S_VEH_HIT_BULLET01"/>
 		<Item id="S_VEH_HIT_BULLET02"/>

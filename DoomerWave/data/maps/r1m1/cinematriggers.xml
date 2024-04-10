@@ -19,7 +19,6 @@
 			getObj("fatherDw"):SetNodeAction(AT_RESERVED1) 
 			getObj("fatherDw"):SetNextForAnimation(AT_RESERVED1, AT_STAND1) 
 			getObj("hero1Dw"):SetNodeAction(AT_STAND2)
-			getObj("hero1Dw"):SetNextForAnimation(AT_STAND2, AT_STAND1) 
 
 			AddCinematicMessage( 31, 0.25)
 
@@ -30,12 +29,10 @@
 		<event flypath="start_rolik6" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
  		<script>
 			getObj("hero1Dw"):SetNodeAction(AT_RESERVED1)
-			getObj("hero1Dw"):SetNextForAnimation(AT_RESERVED1, AT_STAND1)
  			getObj("fatherDw"):SetNodeAction(AT_STAND2) 
 			getObj("fatherDw"):SetNextForAnimation(AT_STAND2, AT_STAND1)
 
 			AddCinematicMessage( 4, 1 )
-			AddCinematicMessage( 41, 0.1)
 
 			trigger:Deactivate()    
 		</script>
@@ -46,7 +43,7 @@
 			getObj("fatherDw"):SetNodeAction(AT_RESERVED1) 
 			getObj("fatherDw"):SetNextForAnimation(AT_RESERVED1, AT_STAND1) 
 
-			CreateNewDummyObject( "dweller_player", "hero2Dw", -1, -1, CVector(3352.5, 367.858, 3306.266), Quaternion(0.0000, 0.8930, 0.0000, -0.4501), 0)
+			CreateNewDummyObject( "dweller_player", "hero2Dw", -1, -1, CVector(3352.5, 368.13, 3306.266), Quaternion(0.0000, 0.8930, 0.0000, -0.4501), 0)
 
 			local rrr = GetEntityByName ("hero1Dw")
 			if rrr then rrr:Remove() end
@@ -175,11 +172,10 @@
 
 			local FVehicle = GetEntityByName("FirstB_0")
 			if FVehicle then
-				FVehicle:setGodMode( 1 )
-				FVehicle:SetRandomSkin()
+				FVehicle:SetSkin ( 1 )
 				FVehicle:SetRotation(Quaternion(0.021, 0.472, 0.040, 0.880))
 				FVehicle:SetThrottle( 1 )
-				FVehicle:SetCustomLinearVelocity( 25 )
+				FVehicle:SetCustomLinearVelocity( 10 )
 				FVehicle:SetExternalPathByName("fun1_5road")
 			end
 
@@ -212,19 +208,16 @@
 			RestoreAllToleranceStatus()
 
 			local FVehicle = GetEntityByName("FirstB_0")
-			if FVehicle then
-				skin = FVehicle:GetSkin()
-				FVehicle:Remove()
+			if FVehicle then 
+			FVehicle:Remove() 
 			end
 
 			TeamCreate("FirstB",1002,CVector(2957.974, 333.446, 2394.033),{"Sml101"})
 			local terr = GetEntityByName("FirstB_vehicle_0")
 			if terr then
-				terr:SetSkin ( skin )
+				terr:SetSkin ( 1 )
 				SetCameraDirectionToObj(terr:GetId())
 			end
-
-			skin = nil
 
 			TDeactivate( "trZasada1_cam01" )
 			TDeactivate( "trZasada1_StopPl" )
@@ -272,6 +265,7 @@
 
 			TActivate("RolikBegin_Lisa")
 			TActivate("RolikEnd_Lisa")
+			TActivate("trLisa_npc")
 
 			trigger:Deactivate()    
 		</script>
@@ -284,7 +278,7 @@
 
 			local PlVehicle = GetPlayerVehicle()
 			if PlVehicle then
-				PlVehicle:SetGamePositionOnGround( CVector(1245.248, 291.696, 2853.315) )
+				PlVehicle:SetPosition( CVector(1245.248, 291.696, 2853.315) )
 				PlVehicle:SetRotation(Quaternion(0.070, 0.539, 0.000, -0.839))
 				PlVehicle:SetCustomControlEnabled( true )
 				PlVehicle:SetExternalPathByName("player_path01")
@@ -356,7 +350,7 @@
 		<script>
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
---			RuleConsole("cinematic_spring_coeff 1.3")
+			RuleConsole("cinematic_spring_coeff 1.3")
 
 			local PlVehicle = GetPlayerVehicle()
 			if PlVehicle then
@@ -388,7 +382,7 @@
 			local FVehicle = GetEntityByName("CARLISA_vehicle_0")
 			if FVehicle then
 				FVehicle:SetGamePositionOnGround( CVector(3924.175, 233.725, 200.033) )
-				vehLisa = CreateVehicleEx("LisaCar","vehLisa_0",(CVector(1973.089, 301.500, 822.093)), 1042)
+				vehLisa = CreateVehicleEx("LisaCar","vehLisa_0",( CVector(1973.089, 301.500, 822.093) ))
 				vehLisa:SetSkin(2)
 			end
 
@@ -453,7 +447,7 @@
 			local Plf = GetPlayerVehicle()
 			Plf:PlaceToEndOfPath()
 
---			RuleConsole("cinematic_spring_coeff 0.7")
+			RuleConsole("cinematic_spring_coeff 0.7")
 
 			SetCameraBehindPlayerVehicle()
 
@@ -501,7 +495,7 @@
 			local FVehicle = GetEntityByName("CARLISA_vehicle_0")
 			if FVehicle then
 				FVehicle:SetGamePositionOnGround( CVector(3924.175, 233.725, 200.033) )
-				vehLisa = CreateVehicleEx("LisaCar","vehLisa_0",( CVector(3054.574, 317.000, 413.382) ), 1042)
+				vehLisa = CreateVehicleEx("LisaCar","vehLisa_0",( CVector(3054.574, 317.000, 413.382) ))
 				vehLisa:SetSkin(2)
 				vehLisa:SetExternalPathByName("lisa_path03")
 			end
@@ -618,7 +612,7 @@
 			local FVehicle = GetEntityByName("CARLISA_vehicle_0")
 			if FVehicle then
 				FVehicle:SetGamePositionOnGround( CVector(3924.175, 233.725, 200.033) )
-				vehLisa = CreateVehicleEx("LisaCar","vehLisa_0",( CVector(3180.535, 319.867, 1143.735) ), 1042)
+				vehLisa = CreateVehicleEx("LisaCar","vehLisa_0",( CVector(3180.535, 319.867, 1143.735) ))
 				vehLisa:SetSkin(2)
 				vehLisa:SetRotation(Quaternion(-0.087, -0.005, 0.000, 0.996))
 			end
@@ -821,19 +815,19 @@
 		<script>
 			CinemaFiltersUse()
 
-			local vehFelix0 = CreateVehicleEx("FelixVehicle","FelixVehicle01",( CVector(2004.950, 321.673, 2438.249) ), 1013)
+			local vehFelix0 = CreateVehicleEx("FelixVehicle","FelixVehicle01",( CVector(2004.950, 321.673, 2438.249) ))
 			if vehFelix0 then
 				vehFelix0:SetRotation(Quaternion(-0.003, -0.699, 0.012, 0.715))
 				vehFelix0:SetSkin(4)
 			end
 
-			local vehFelix1 = CreateVehicleEx("Sml101","FelixGv01",( CVector(2022.755, 321.985, 2426.375) ), 1013)
+			local vehFelix1 = CreateVehicleEx("Sml101","FelixGv01",( CVector(2022.755, 321.985, 2426.375) ))
 			if vehFelix1 then
 				vehFelix1:SetRotation(Quaternion(0.029, -0.597, -0.009, 0.801))
 				vehFelix1:SetSkin(1)
 			end
 
-			local vehFelix2 = CreateVehicleEx("Sml101","FelixGv02",( CVector(2018.729, 322.269, 2419.867) ), 1013)
+			local vehFelix2 = CreateVehicleEx("Sml101","FelixGv02",( CVector(2018.729, 322.269, 2419.867) ))
 			if vehFelix2 then
 				vehFelix2:SetRotation(Quaternion(0.036, -0.499, -0.011, 0.866))
 				vehFelix2:SetSkin(2)
@@ -1089,7 +1083,6 @@
 			TDeactivate( "trFatherDe_cam04" )
 			TDeactivate( "trFatherDe_cam05" )
 			TDeactivate( "RolikBegin_FatherDeath" )
-			TDeactivate("METALFELIX")
 
 			TActivate("trStopMusic")
 
@@ -1348,7 +1341,7 @@
 
 			CreateNewDummyObject( "dweller_felix", "felix01", -1, -1, CVector(479.414, 305.863, 1801.109), Quaternion(0.031, 0.925, 0.003, 0.379), 1)
 
-			local vehFelix0 = CreateVehicleEx("FelixVehicle","FelixVehicle01",( CVector(477.554, 306.603, 1799.010) ), 1013)
+			local vehFelix0 = CreateVehicleEx("FelixVehicle","FelixVehicle01",( CVector(477.554, 306.603, 1799.010) ))
 			if vehFelix0 then
 				vehFelix0:SetRotation(Quaternion(0.031, 0.925, 0.003, 0.379))
 				vehFelix0:SetSkin(4)
@@ -1403,8 +1396,6 @@
 
 			TeamCreate("FelixBanditCars2",1013,CVector(493.000, 303.000, 1883.000),{"Sml201","Sml301","Sml401"})
 
-			CompleteQuest("d_ArriveToFelix_Quest")
-
 			TActivate( "METALFELIXDIE2" )
 
 			SetCameraBehindPlayerVehicle()
@@ -1428,6 +1419,13 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
+			local vehFelix = CreateVehicleEx("FelixVehicle","FelixVehicle01",( CVector(454.555, 305.278, 1954.817) ))
+			if vehFelix then
+				vehFelix:SetRotation(Quaternion(-0.045, -0.955, 0.066, -0.286))
+				vehFelix:SetSkin(4)
+			end
+
+			local FLID = vehFelix:GetId()
 			local Plf = GetPlayerVehicle()
 			local PlfID = GetPlayerVehicleId()
 			local PlfCoor = Plf:GetPosition()
@@ -1435,6 +1433,7 @@
 			PlfCoor.z = PlfCoor.z + 20
 
 			FlyAround( 1, 0, 25, 6, PlfCoor, PlfID, 1, 0 )
+			FlyLinked( "felix3_cam01", FLID, 12, 0, 1, PlfID )
 			StartCinematic()
 
 			if Plf then
@@ -1443,6 +1442,8 @@
 			end
 
 			TActivate( "trFelix3_cam01" )
+			TActivate( "trFelix3" )
+			TActivate( "RolikEnd_Felix3" )
 
 			AddCinematicMessage( 1153, 0.25 )
 
@@ -1451,33 +1452,16 @@
 	</trigger>
 
 	<trigger Name="trFelix3_cam01" active="0">
-		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
-		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<event flypath="felix3_cam01" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
-
-			local vehFelix = CreateVehicleEx("FelixVehicle","FelixVehicle01",( CVector(454.555, 305.278, 1954.817) ), 1013)
-			if vehFelix then
-				vehFelix:SetRotation(Quaternion(-0.045, -0.955, 0.066, -0.286))
-				vehFelix:SetSkin(4)
-			end
-
-			local FLID = vehFelix:GetId()
-			local PlfID = GetPlayerVehicleId()
-
-			FlyLinked( "felix3_cam01", FLID, 12, 0, 1, PlfID )
-			StartCinematic()
-
 			AddCinematicMessage( 11540, 0.25 )
-
-			TActivate( "trFelix3" )
-			TActivate( "RolikEnd_Felix3" )
 
 			trigger:Deactivate()
 		</script>
 	</trigger>
 
 	<trigger Name="trFelix3" active="0">
-		<event        timeout="12"        eventid="GE_TIME_PERIOD" />
+	<event msgid="11541" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
 		<script>
 			local vehFelix = GetEntityByName("FelixVehicle01")
 			if vehFelix then
@@ -1508,8 +1492,6 @@
 				FVehicle0:SetSkin ( 4 )
 				FVehicle0:setImmortalMode(1)
 			end
-
-			TakeQuest("d_KillFelix_Quest")
 
 			TDeactivate( "RolikBegin_Felix3" )
 			TDeactivate( "trFelix3" )

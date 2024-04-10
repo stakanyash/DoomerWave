@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
 <triggers>
 
-<!-- 	пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ. -->
+<!-- 	Игрок взрывает мост. -->
 	<trigger Name="RolikBegin_BOOOM" active="0">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
@@ -62,7 +62,6 @@
 			CreateEffectTTLed("ET_PS_BRIDGE_EXP_MAIN", CVector(5535.000, 206, 1423.000), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 600000)
 			CreateEffectTTLed("ET_PS_BRIDGE_EXP_MAIN", CVector(5545.000, 213, 1425.000), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 600000)
 			CreateEffectTTLed("ET_PS_BRIDGE_EXP_MAIN", CVector(5555.000, 209, 1422.000), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 600000)
-			CreateEffectInsertedInRemove( "ET_PS_VEH_EXP1_MED1", CVector(5555.000, 209, 1422.000), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), true )
 
 			CreateEffectTTLed("ET_PS_PLASMAWATERSPLASH", CVector(5535.000, 202, 1423.000), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 600000)
 			CreateEffectTTLed("ET_PS_PLASMAWATERSPLASH", CVector(5545.000, 202, 1425.000), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 600000)
@@ -132,7 +131,7 @@
 
 
 
-<!-- пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅ -->
+<!-- Игрок приезжает в дом отца -->
 	<trigger Name="RolikBegin_FATHERHOUSE" active="0">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
@@ -140,9 +139,9 @@
 
 			Fly("FATHERHOUSE_cam01", CINEMATIC_NO_AIM, 0, 20, 1, 0 )
 			Fly("FATHERHOUSE_cam02", CINEMATIC_NO_AIM, 0, 9, 0, 0 )
-			Fly("FATHERHOUSE_cam03", CINEMATIC_NO_AIM, 0, 19, 0, 0 )
+			Fly("FATHERHOUSE_cam03", CINEMATIC_NO_AIM, 0, 10, 0, 0 )
 			Fly("FATHERHOUSE_cam04", CINEMATIC_NO_AIM, 0, 15, 0, 0 )
-			Fly("FATHERHOUSE_cam05", CINEMATIC_NO_AIM, 0, 28, 0, 0 )
+			Fly("FATHERHOUSE_cam05", CINEMATIC_NO_AIM, 0, 20, 0, 0 )
 			Fly("FATHERHOUSE_cam06", CINEMATIC_NO_AIM, 0, 9, 0, 0 )
 			Fly("FATHERHOUSE_cam07", CINEMATIC_NO_AIM, 0, 15, 0, 0 )
 			Fly("FATHERHOUSE_cam08", CINEMATIC_NO_AIM, 0, 15, 0, 0 )
@@ -162,12 +161,6 @@
 
 			PlayCustomMusic("Techno04")
 
-			local PlVehicle = GetPlayerVehicle()
-			if PlVehicle then
-				PlVehicle:SetCustomLinearVelocity(0)
-				PlVehicle:SetThrottle(0)
-			end
-
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -183,6 +176,7 @@
 
 			CreateNewObject{prototypeName = "InFatherHause_01",objName = "FathHause",belong = 1100}
 			getObj("FathHause"):SetPosition( CVector(6456.201, 260.465, 5863.605))
+
 			CreateNewDummyObject( "dweller_player", "humPlayer", -1, -1, CVector(6457.741, 257.799, 5861.850), Quaternion(0.000, -0.174, 0.000, 0.985), 0)
 
 			AddCinematicMessage( 4, 1 )
@@ -231,7 +225,6 @@
 		<event flypath="FATHERHOUSE_cam05" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
 			AddCinematicMessage( 404, 0.1 )
-			AddCinematicMessage( 4041, 0.1 )
 
 			trigger:Deactivate()
 		</script>
@@ -317,7 +310,7 @@
 
 
 
-<!-- пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. -->
+<!-- Игрок возвращается в дом отца после третьего региона. -->
 	<trigger Name="RolikBegin_FATHERHOUSERETURN" active="0">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
@@ -327,7 +320,7 @@
 
 			Fly("FATHERHOUSERETURN_cam01", CINEMATIC_NO_AIM, 0, 15, 1, 1 )
 			StartCinematic()
-
+			
 			local PlVehicle = GetPlayerVehicle()
 			if PlVehicle then
 				PlVehicle:SetCustomLinearVelocity(0)
@@ -352,7 +345,7 @@
 
 			CreateNewObject{prototypeName = "InFatherHause_02",objName = "FathHause",belong = 1100}
 			getObj("FathHause"):SetPosition( CVector(6456.201, 260.465, 5863.605))
-			CreateNewDummyObject( "dweller_player", "humPlayer", -1, -1, CVector(6457.741, 257.556, 5861.850), Quaternion(0.000, -0.174, 0.000, 0.985), 0)
+			CreateNewDummyObject( "dweller_player", "humPlayer", -1, -1, CVector(6457.741, 257.799, 5861.850), Quaternion(0.000, -0.174, 0.000, 0.985), 0)
 
 			AddCinematicMessage( 30, 5 )
 
@@ -386,7 +379,7 @@
 
 
 
-<!-- пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ. -->
+<!-- Игрок видит убегающего мера. -->
 	<trigger Name="RolikBegin_SPYMER" active="0">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
@@ -394,7 +387,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-			CreateVehicleEx("r1m3_MerScout","vehMer",( CVector(6226,277,6001) ), 1010)
+			CreateVehicleEx("r1m3_MerScout","vehMer",( CVector(6226,277,6001) ))
 			CreateNewDummyObject( "cargo", "CamTochka", -1, -1, CVector(6311.421, 280.051, 5881.835), Quaternion(0, 0, 0, 0), 0)
 
 			local vehPlayer = GetPlayerVehicle()
@@ -440,7 +433,6 @@
 			if veh then
 				veh:SetSkin(1)
 				veh:SetExternalPathByName("mer_path")
-				veh:SetCruisingSpeed(30)
 			end
 
 			TActivate("RUNMER")
@@ -450,8 +442,6 @@
 
 			SetCameraBehindPlayerVehicle()
 
-			TakeQuest("d_IntrigaOfMerMinin_Quest")
-
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -460,13 +450,13 @@
 
 
 
-<!-- пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. -->
+<!-- Мер подъезжает к тайнику. -->
 	<trigger Name="RolikBegin_THESPY" active="0">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-			CreateVehicleEx("r1m1_scout03","vehMer",( CVector(0, 0, 0) ), 1010)
+			CreateVehicleEx("r1m1_scout03","vehMer",( CVector(0, 0, 0) ))
 			CreateNewDummyObject( "cargo", "CamTochka", -1, -1, CVector(5343.372, 241.556, 4436.097), Quaternion(0, 0, 0, 0), 0)
 
 			local vehPlayer = GetPlayerVehicle()
@@ -523,8 +513,8 @@
 			local vehM = GetEntityByName("vehMer")
 			if vehM then
 				vehM:PlaceToEndOfPath("TheSpyMerRolik_path")
-				vehM:SetGamePositionOnGround( CVector(5014.082, 203.493, 3997.039))
-				vehM:SetRotation(Quaternion(0.052, -0.145, 0.021, -0.988))
+				vehM:SetGamePositionOnGround( CVector(5015.094, 201.171, 4039.513))
+				vehM:SetRotation(Quaternion(0.011, 0.959, -0.006, 0.283))
 			end
 
 			AddCinematicMessage( 17, 1 )
@@ -575,7 +565,7 @@
 
 
 
-<!-- пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. -->
+<!-- Игрок в первый раз видит вход в тоннель. -->
 	<trigger Name="RolikBegin_Tunel" active="0">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
@@ -617,7 +607,7 @@
 		<event flypath="Tunel_cam02" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
 			local vehPlayer = GetPlayerVehicle()
-			CreateNewDummyObject( "dweller_player", "humPlayer", -1, -1, CVector(1466.568, 292.173, 5546.978), Quaternion(0.000, -0.731, 0.000, 0.682), 0)
+			CreateNewDummyObject( "dweller_player", "humPlayer", -1, -1, CVector(1466.568, 292.363, 5546.978), Quaternion(0.000, -0.731, 0.000, 0.682), 0)
 
 			if vehPlayer then
 				vehPlayer:SetThrottle( 0 )                      
@@ -666,13 +656,13 @@
 
 
 
-<!-- пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ. -->
+<!-- Игрок в засаде видит, как из тоннеля выезжает незнакомец. -->
 	<trigger Name="RolikBegin_Zasada" active="0">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-			CreateVehicleEx("r1m3_hunter02","vehPioneer",( CVector(0, 10000, 0) ), 1015)
+			CreateVehicleEx("r1m3_hunter02","vehPioneer",( CVector(0, 10000, 0) ))
 			CreateNewDummyObject( "cargo", "CamTochka", -1, -1, CVector(1757.628, 285.696, 5439.641), Quaternion(0, 0, 0, 0), 0)
 
 			local vehP = GetEntityByName("vehPioneer")
@@ -763,8 +753,6 @@
 
 			StopPlayingCustomMusic()
 
-			CompleteQuest( "d_FindZasadaInTunel_Quest" )
-
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -773,13 +761,13 @@
 
 
 
-<!-- пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. -->
+<!-- Незнакомец доехал до Асгарда. -->
 	<trigger Name="RolikBegin_PIONEERASGARD" active="0">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-			CreateVehicleEx("r1m3_hunter02","vehPioneer",CVector(0, 10000, 0), 1015)
+			CreateVehicleEx("r1m3_hunter02","vehPioneer",CVector(0, 10000, 0))
 			CreateNewDummyObject( "cargo", "CamTochka", -1, -1, CVector(3722.334, 302.636, 6176.265), Quaternion(0, 0, 0, 0), 0)
 
 			local vehP = GetEntityByName("vehPioneer")
@@ -875,7 +863,7 @@
 
 
 
-<!-- пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ 2 -->
+<!-- Лиса ворует у игрока диск 2 -->
 	<trigger Name="RolikBegin_LISAAFTERTHIEF" active="0">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
@@ -887,7 +875,7 @@
 			Plf:SetThrottle( 0 )
 			Plf:SetCustomControlEnabled( false )
 
-			CreateVehicleEx("LisaCar","vehLisa_0",( CVector(0, 10000, 0) ), 1042)
+			CreateVehicleEx("LisaCar","vehLisa_0",( CVector(0, 10000, 0) ))
 
 			local vehLisa = GetEntityByName("vehLisa_0")
 			local vehLisaID = vehLisa:GetId()
@@ -1035,7 +1023,7 @@
 
 
 
-<!-- пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ.пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ -->
+<!-- Игрок встречает летающего Оракула.Оракул посылает его во второй регион -->
 	<trigger Name="RolikBegin_ORACLEABOTPLATE" active="0">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
@@ -1069,13 +1057,10 @@
 
 			local vehPlayer = GetPlayerVehicle()
 			if vehPlayer then
-				vehPlayer:SetCustomControlEnabled( true )
-				vehPlayer:SetCustomLinearVelocity( 0 )
-				vehPlayer:SetThrottle( 0 )
-				vehPlayer:SetCustomControlEnabled( false )
 				vehPlayer:SetGamePositionOnGround( CVector(6140.754, 259.915, 7647.122))
 				vehPlayer:SetRotation(Quaternion(-0.014, 0.087, -0.007, 0.996))
 				vehPlayer:SetExternalPathByName("player_path02")
+				vehPlayer:SetThrottle( 0 )
 			end
 
 			AddCinematicMessage( 3412, 1 )
@@ -1096,7 +1081,6 @@
 			if vehPlayer then
 				vehPlayer:PlaceToEndOfPath("player_path02")
 				vehPlayer:SetThrottle( 0 )
-				vehPlayer:SetCustomLinearVelocity( 0 )
 			end
 
 			AddCinematicMessage( 362, 0.5 )
@@ -1132,7 +1116,6 @@
 			if vehPlayer then
 				vehPlayer:PlaceToEndOfPath("player_path02")
 				vehPlayer:SetThrottle( 0 )
-				vehPlayer:SetCustomLinearVelocity( 0 )
 			end
 
 			if bossOracle then
@@ -1157,7 +1140,7 @@
 
 
 
-<!-- пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅ -->
+<!-- Игрок встречает Оракула. Бой -->
 	<trigger Name="RolikBegin_ORACLEAGRESSOR" active="0">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>

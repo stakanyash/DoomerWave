@@ -20,7 +20,7 @@
 
 			PlayCustomMusic("mainmenu")
 
-			SetWeather(1)
+            SetWeather(1)
 
 			SetGameTime(20,00)
 

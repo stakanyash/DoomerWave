@@ -427,7 +427,7 @@
 </Path>
 
 <Path Name="UFODIOLOG_cam03">
-	<Point  coord="0 0 7"/>
+	<Point  coord="0 0 5"/>
 </Path>
 
 <Path Name="UFODIOLOG_cam04">
@@ -513,3 +513,4 @@
 </Path>
 
 </Paths>
+
