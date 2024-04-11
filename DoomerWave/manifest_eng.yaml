@@ -6,15 +6,15 @@ display_name: Doomer Wave [ComRemaster]
 version: "1.4.1"
 build: "240410b"
 description: |
-  Модификация, направленная на изменение игровой атмосферы в депрессивную сторону. Сюжет остаётся оригинальным и никак его повествование не изменено.
+  A modification aimed at changing the game atmosphere to a depressing side. The plot remains original and its narration is not changed in any way.
 
-  По сравнению с оригиналом интерфейс и карты - серые, саундтрек в slowed + reverb формате, более тёмные ночи, а так-же у главного героя отсутствуют радостные фразы и восклицания.
+  Compared to the original interface and maps - gray, soundtrack in slowed + reverb format, darker nights, as well as the main character has no joyful phrases and exclamations.
   
-authors: стакан
+authors: stakan
 
 # optional human readable info
 release_date: "22.06.2022"
-language: ru
+language: eng
 link: https://github.com/ksh1vn/DoomerWave
 trailer_url: https://www.youtube.com/watch?v=oGKfYa-B-08
 logo: assets/dw_logo.png
@@ -24,29 +24,25 @@ change_log: assets/changelog_dw.md
 screenshots:
   - img: assets/scr_1.jpg
     text: |
-      Главное меню Doomer Wave
+      Doomer Wave main menu
   - img: assets/scr_2.jpg
     text: |
-      Дневной Край
+      Daylight Krai
   - img: assets/scr_3.jpg
     text: |
-      Ночной Край
+      Nighttime Krai
   - img: assets/scr_4.jpg
     text: |
-      Ночной Либриум
+      Nighttime Librium
   - img: assets/scr_5.jpg
     text: |
-      Ночной Посёлок Учёного
+      Nighttime Village of Scientist
   - img: assets/scr_6.jpg
     text: |
-      Вечерняя Гельвеция
+      Evening Helvetia
   - img: assets/scr_7.jpg
     text: |
-      Глухое с установленным Ex Machina Fall
-
-translations: [eng]
-
-variants: [clean]
+      Gluhoe with HTA: Fall installed (Community Remastered version only)
 
 data_dirs:
   - data
@@ -67,3 +63,10 @@ optional_content:
     display_name: "Ex Machina: Fall"
     description: "Ex Machina: Fall это текстурпак от DOLBOYASCHERS_TEAM, основная цель которого — максимально преобразить атмосферу игры без ущерба оптимизации и стилистике оригинала. Общее настроение — осенний мотив, заброшенность."
     default_option: skip
+  - name: english_localization
+    display_name: English Localization
+    forced_option: True
+    data_dirs: 
+      - "eng_localization"
+    description: |
+      English localization for Doomer Wave without English voiceover.
