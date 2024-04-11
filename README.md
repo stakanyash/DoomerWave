@@ -4,6 +4,8 @@
 
 **Doomer Wave** - модификация, направленная на изменение игровой атмосферы в депрессивную сторону. Данная модификация не добавляет новый сюжет, он остаётся оригинальным.
 
+![ru_banner_sel](assets_for_git/ru_banner_sel.png)
+[![engbanner](assets_for_git/eng_banner.png)](https://github.com/ksh1vn/DoomerWave/blob/main/README_eng.md)
 
 **Трейлер **Ex Machina: Doomer Wave** можно посмотреть [здесь](https://www.youtube.com/watch?v=oGKfYa-B-08).**
 

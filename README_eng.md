@@ -6,6 +6,8 @@
 
 The modification currently works only with the Russian version of the game. English version is under development!
 
+![engbanner_sel](assets_for_git/eng_banner_sel.png)
+[![ru_banner](assets_for_git/ru_banner.png)](https://github.com/ksh1vn/DoomerWave/blob/main/README.md)
 
 **You can watch trailer for **Ex Machina: Doomer Wave** [here](https://www.youtube.com/watch?v=oGKfYa-B-08).**
 
