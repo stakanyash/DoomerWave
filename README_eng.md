@@ -14,6 +14,8 @@
 ### [Download the latest version](https://github.com/ksh1vn/DoomerWave/releases/tag/1.4.2_240415a)
 ### Required game version: 1.14.1 [ComRemaster] (RU/ENG) or 1.02 [Clean HTA] (RU)
 
+* (RU/ENG) - Russian and English localization are supported, (RU) - only Russian localization supported
+
 -----------------------------------------------------------------------------------------------
 
 ### Modification screenshots:
