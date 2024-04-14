@@ -3,8 +3,8 @@ name: doomer_wave
 
 # required human readable info
 display_name: Doomer Wave [ComRemaster]
-version: "1.4.1"
-build: "240410b"
+version: "1.4.2"
+build: "240414"
 description: |
   Модификация, направленная на изменение игровой атмосферы в депрессивную сторону. Сюжет остаётся оригинальным и никак его повествование не изменено.
 
@@ -55,7 +55,7 @@ data_dirs:
 options_base_dir: options
 
 # installation confguration
-patcher_version_requirement: "2.1"
+patcher_version_requirement: "2.1.1"
 prerequisites: 
   - name: community_remaster
     versions:

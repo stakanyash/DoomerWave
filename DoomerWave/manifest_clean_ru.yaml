@@ -3,8 +3,8 @@ name: doomer_wave_clean
 
 # required human readable info
 display_name: Doomer Wave [Clean]
-version: "1.4.1"
-build: "240410b"
+version: "1.4.2"
+build: "240414"
 description: |
   Модификация, направленная на изменение игровой атмосферы в депрессивную сторону. Сюжет остаётся оригинальным и никак его повествование не изменено.
 
@@ -33,5 +33,5 @@ config_options:
   firstLevel: "r1m1"
   DoNotLoadMainmenuLevel: "false"
 
-patcher_version_requirement: "2.1"
+patcher_version_requirement: "2.1.1"
 no_base_content: false

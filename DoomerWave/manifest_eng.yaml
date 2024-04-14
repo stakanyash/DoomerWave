@@ -3,12 +3,12 @@ name: doomer_wave
 
 # required human readable info
 display_name: Doomer Wave [ComRemaster]
-version: "1.4.1"
-build: "240410b"
+version: "1.4.2"
+build: "240414"
 description: |
-  A modification aimed at changing the game atmosphere to a depressing side. The plot remains original and its narration is not changed in any way.
+  Doomer Wave is a mod aimed at changing the game atmosphere to a depressing side. The plot remains original and its narration is not changed in any way.
 
-  Compared to the original interface and maps - gray, soundtrack in slowed + reverb format, darker nights, as well as the main character has no joyful phrases and exclamations.
+  The interface and maps, compared to the original game - black and white, soundtrack in slowed + reverb format, darker nights, as well as the main character has no joyful phrases and exclamations.
   
 authors: stakan
 
@@ -51,7 +51,7 @@ data_dirs:
 options_base_dir: options
 
 # installation confguration
-patcher_version_requirement: "2.1"
+patcher_version_requirement: "2.1.1"
 prerequisites: 
   - name: community_remaster
     versions:
@@ -61,7 +61,7 @@ prerequisites:
 optional_content:
   - name: exmfall
     display_name: "Ex Machina: Fall"
-    description: "Ex Machina: Fall это текстурпак от DOLBOYASCHERS_TEAM, основная цель которого — максимально преобразить атмосферу игры без ущерба оптимизации и стилистике оригинала. Общее настроение — осенний мотив, заброшенность."
+    description: "Fall is a texturepack for Hard Truck Apocalypse, main aim of which is to bring the game's atmosphere to the new level without any losses to optimization and original visual style. General mood — autumnal motive, abandonment."
     default_option: skip
   - name: english_localization
     display_name: English Localization
