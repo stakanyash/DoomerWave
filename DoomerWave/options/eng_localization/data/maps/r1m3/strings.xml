@@ -1,0 +1,529 @@
+<?xml version='1.0' encoding='windows-1251'?>
+<resource>
+	<string
+		id="1"
+		modelName="mask_hero"
+		value="|The bridge is blown up. The bandits won't be able to travel this way for a long time. It's time to go back."
+		sound="data\sounds\Speech\r1m3\r1m3_1_hero.ogg"
+		time="4" />
+
+	<string
+		id="4"
+		modelName="mask_hero"
+		value="|There's a lot of strange things here... And everything is smashed. My name is carved on this board... It's a stash, and there's some kind of amulet inside. Сurious thing. I'll keep it. "
+		sound="data\sounds\Speech\r1m3\r1m3_4_hero.ogg"
+		time="8" />
+
+	<string
+		id="401"
+		modelAutosized="true"
+		modelName="gadget_12"
+		modelSlot="1"
+		value="RADIO|Hey! I think it's working! This is Ben, over. I've set up the radio transmitter. How's the search going?"
+		sound="data\sounds\Speech\r1m3\r1m3_401_ben_radio.ogg"
+		time="8" />
+
+	<string
+		id="402"
+		modelName="mask_hero"
+		value="|Radio communication at this distance? You're an actual wizard! The search turned up nothing, unfortunately. There's nothing here but junk. But I did find an amusing amulet with buttons and the inscription: &quot;UB-627 Red access&quot;."
+		sound="data\sounds\Speech\r1m3\r1m3_402_hero.ogg"
+		time="8" />
+
+	<string
+		id="403"
+		modelAutosized="true"
+		modelName="gadget_12"
+		modelSlot="1"
+		value="RADIO|Just like in the old manuscripts! It's the key to the Sea Gate! But where did your father get it? It doesn't matter. Listen carefully..."
+		sound="data\sounds\Speech\r1m3\r1m3_403_ben_radio.ogg"
+		time="8" />
+
+	<string
+		id="404"
+		modelAutosized="true"
+		modelName="gadget_12"
+		modelSlot="1"
+		value="RADIO|It is said that an Oracle lives on an island lost in the ocean. Whoever passes all the challenges on the way to his dwelling will get an answer to any question he may have. Naturally, all of this is fiction. However, there are reasons to believe that this legend has an entirely scientific basis."
+		sound="data\sounds\Speech\r1m3\r1m3_404_ben_radio.ogg"
+		time="12" />
+
+	<string
+		id="4041"
+		modelAutosized="true"
+		modelName="gadget_12"
+		modelSlot="1"
+		value="RADIO|And the key that you are now wearing around your neck is clear evidence of this."
+		sound="data\sounds\Speech\r1m3\r1m3_4041_ben_radio.ogg"
+		time="6" />
+
+	<string
+		id="405"
+		modelName="mask_hero"
+		value="|It would be nice to find out from this Oracle what happened to Ivan. In any case, it was for a reason that such a rare thing ended up in his stash."
+		sound="data\sounds\Speech\r1m3\r1m3_405_hero.ogg"
+		time="8" />
+
+	<string
+		id="406"
+		modelAutosized="true"
+		modelName="gadget_12"
+		modelSlot="1"
+		value="RADIO|I have read ancient documents which said, or rather one could read between the lines, that there was some sort of major and very classified construction on one island."
+		sound="data\sounds\Speech\r1m3\r1m3_406_ben_radio.ogg"
+		time="8" />
+
+	<string
+		id="407"
+		modelAutosized="true"
+		modelName="gadget_12"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m3\r1m3_407_ben_radio.ogg"
+		value="RADIO|Drive all the way north. Somewhere at the very edge of the land are the Sea Gates. You'll know it when you see it. I don't know any more than that myself. It looks like my radio is completely broken..."
+		time="12" />
+
+	<string
+		id="408"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_408_hero.ogg"
+		value="|The signal's lost... But I understood what Ben was talking about. I'll get the details in Minin."
+		time="4" />
+
+	<string
+		id="5"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_5_hero.ogg"
+		value="|So how do I open these enormous gates? The barman is not as simple as I thought. If I go back, he's gonna charge a hell of a price for the key... Maybe I should come up with another plan?"
+		time="8" />
+
+	<string
+		id="6"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_6_hero.ogg"
+		value="|Since I'm already here, this is where I'll wait! Somebody's gotta show up. All I have to do is find an inconspicuous place to hide."
+		time="8" />
+
+	<string
+		id="7"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_7_hero.ogg"
+		value="|This is where I'm going to hide. It's a great place for an ambush."
+		time="4" />
+
+	<string
+		id="8"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_8_hero.ogg"
+		value="|Someone is coming out of the tunnel! I could attack right away. Or is it better to follow him and try to obtain the key peacefully?"
+		time="8" />
+
+	<string
+		id="9"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_9_hero.ogg"
+		value="|I'm sorry it had to end this way. But I need that key."
+		time="4" />
+
+	<string
+		id="10"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_10_hero.ogg"
+		value="|Right, he went to a bar to have some fun. I should definitely follow him."
+		time="4" />
+
+	<string
+		id="11"
+		modelName="r1_man"
+		modelSkin="2"
+		modelCfg="118"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m3\r1m3_11_bob.ogg"
+		value="SLEAZY BOB|I can see that you are one tough guy. Do you wanna join our team? We could use a psycho like you."
+		time="8" />
+
+	<string
+		id="12"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_12_hero.ogg"
+		value="|I don't give a damn about you and your filthy bandit business! I'm looking for the man who killed my father!"
+		time="4" />
+
+	<string
+		id="13"
+		modelName="r1_man"
+		modelSkin="2"
+		modelCfg="118"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m3\r1m3_13_bob.ogg"
+		value="SLEAZY BOB|I better not get in your way. Lisa was here a short while ago with a message from her boss. But she was obviously in a hurry, and as soon as she finished her business, she was gone."
+		time="8" />
+
+	<string
+		id="14"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_14_hero.ogg"
+		value="|Do you know where she went?"
+		time="4" />
+
+	<string
+		id="15"
+		modelName="r1_man"
+		modelSkin="2"
+		modelCfg="118"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m3\r1m3_15_bob.ogg"
+		value="SLEAZY BOB|She didn't say straight out, but she seemed to need some sophisticated machinery. And the only place to get this stuff is Midgard, from what I know."
+		time="8" />
+
+	<string
+		id="16"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_16_hero.ogg"
+		value="|I think the mayor is in that car! Where, I wonder, is he going in such a hurry? I'd better follow..."
+		time="4" />
+
+	<string
+		id="17"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_17_hero.ogg"
+		value="|Look at all that stuff crammed into this stash! So the mayor really is a thief! If I report this to the people at Minin, he will be kicked out of his seat for sure. If not worse. And the workers may be willing to do the job!"
+		time="12" />
+
+	<string
+		id="18"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_18_hero.ogg"
+		value="|Well, following him didn't work out..."
+		time="4" />
+
+	<string
+		id="19"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_19_hero.ogg"
+		value="|I've failed to follow the mayor to the destination..."
+		time="4" />
+
+	<string
+		id="20"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_20_hero.ogg"
+		value="|Well, the oil rig has been secured! The last enemy is fleeing. He can lead me to the bandit base. But do I need it?"
+		time="8" />
+
+	<string
+		id="30"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_30_hero.ogg"
+		value="|What happened here? The wall panels have been removed! There was a secret stash behind them, but now it's open... And empty. Somebody did a thorough job here!"
+		time="8" />
+
+	<string
+		id="31"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_31_hero.ogg"
+		value="|The enemy is defeated! I have the disc! Time to go to the Oracle!"
+		time="4" />
+
+	<string
+		id="32"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_32_hero.ogg"
+		value="|Lisa, you?! It's not often you see a familiar face in a far away land. How have you been?"
+		time="4" />
+
+	<string
+		id="33"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m3\r1m3_33_alice.ogg"
+		value="LISA|It's all right, thank you. You've matured since the last time I saw you. If I'd known who you were right away, it would have saved me a lot of time. It's not that bad, though."
+		time="8" />
+
+	<string
+		id="34"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_34_hero.ogg"
+		value="|What are you doing? Stop! That's mine! Thief, I'll get you! She stole the disc, and without it, I won't be able to learn anything from the Oracle!"
+		time="8" />
+
+	<string
+		id="3412"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_3412_hero.ogg"
+		value="|What the hell is that?!"
+		time="4" />
+
+	<string
+		id="35"
+		modelName="mask_oracul"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m3\r1m3_35_oracle.ogg"
+		value="ORACLE|Human! You have arrived on time."
+		time="4" />
+
+	<string
+		id="36"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_36_hero.ogg"
+		value="|Oracle? You've transformed. How lucky we have met! I have to talk to you."
+		time="4" />
+
+	<string
+		id="361"
+		modelName="mask_oracul"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m3\r1m3_361_oracle.ogg"
+		value="ORACLE|First hear me out. I trust you completely and I want to reveal one secret to you. It is very important. Many years ago, alien invaders irradiated our planet with death rays, resulting in a drastic reduction in the planet's biomass."
+		time="22" />
+
+	<string
+		id="3610"
+		modelName="mask_oracul"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m3\r1m3_3610_oracle.ogg"
+		value="ORACLE|Being in hibernation mode, I analyzed the data and prepared a counterattack. I almost managed to locate the source of the emissions, but I need more accurate data."
+		time="15" />
+
+	<string
+		id="362"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_362_hero.ogg"
+		value="|It is in the desert! I found a terrible place in the middle of the dunes, that kills everyone who comes near! It is the source of the contagion that has poisoned the planet and killed so many people! The devil's machine must be stopped to cleanse our world!"
+		time="12" />
+
+	<string
+		id="363"
+		modelName="mask_oracul"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m3\r1m3_363_oracle.ogg"
+		value="ORACLE|Your information is invaluable. These coordinates coincide with my calculations. I, like you, see only one way - the complete destruction of the alien element."
+		time="8" />
+
+	<string
+		id="364"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_364_hero.ogg"
+		value="|We just need to find a weapon powerful enough, and I will indicate the coordinates of the target. Surely our ancestors must have had a stockpile of weapons. Try to remember!"
+		time="8" />
+
+	<string
+		id="365"
+		modelName="mask_oracul"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m3\r1m3_365_oracle.ogg"
+		value="ORACLE|Indeed, humans have accumulated an enormous number of deadly devices. Right now there are dozens of satellites loaded with atomic warheads circling in the sky above us. Orbital bombardment is the best way to attack in this situation."
+		time="12" />
+
+	<string
+		id="366"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_366_hero.ogg"
+		value="|Then what are you waiting for?!"
+		time="4" />
+
+	<string
+		id="367"
+		modelName="mask_oracul"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m3\r1m3_367_oracle.ogg"
+		value="ORACLE|The powerful interference source blocking most of my signals is in Librium. My guess is that it's powered by the Seil power plant. Deactivate it, and my control over the entirety of the ancients' technology will be complete."
+		time="12" />
+
+	<string
+		id="368"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_368_hero.ogg"
+		value="|I am glad to have such an ally as you, Oracle."
+		time="4" />
+
+	<string
+		id="369"
+		modelName="mask_oracul"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m3\r1m3_369_oracle.ogg"
+		value="ORACLE|Soon the planet will be saved!"
+		time="4" />
+
+	<string
+		id="37"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_37_hero.ogg"
+		value="|Now I'll have to look for workers in another village."
+		time="4" />
+
+	<string
+		id="38"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_38_hero.ogg"
+		value="|Now I'll have no clue where the bandit base is."
+		time="4" />
+
+	<string
+		id="3001"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_3001_hero.ogg"
+		value="|What the hell is this?"
+		time="4" />
+
+	<string
+		id="3002"
+		modelName="mask_oracul"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m3\r1m3_3002_oracle.ogg"
+		value="ORACLE|Human, you helped me regain my former power, but now you are interfering with matters beyond your understanding."
+		time="8" />
+
+	<string
+		id="3003"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_3003_hero.ogg"
+		value="Oracle?! You have wings now! That's fantastic! I could use your help! Humanity is in danger!"
+		time="8" />
+
+	<string
+		id="3004"
+		modelName="mask_oracul"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m3\r1m3_3004_oracle.ogg"
+		value="ORACLE|I am aware of the source of the emissions and am seeking means to destroy it."
+		time="4" />
+
+	<string
+		id="3005"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_3005_hero.ogg"
+		value="|Why destroy? There are plenty of people around! There is always another way. We just need to use this device and..."
+		time="8" />
+
+	<string
+		id="3006"
+		modelName="mask_oracul"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m3\r1m3_3006_oracle.ogg"
+		value="ORACLE|Fool! I know who gave you this. Once you turn on your device, life on Earth will cease. This is the last part of their plan to take over the planet! Step back!"
+		time="8" />
+
+	<string
+		id="3007"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_3007_hero.ogg"
+		value="|You're insane! I intend to save all of you, and no one can stop me!"
+		time="4" />
+
+	<string
+		id="3008"
+		modelName="mask_oracul"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m3\r1m3_3008_oracle.ogg"
+		value="ORACLE|Cooperation with the enemy is unacceptable. The traitor must be destroyed."
+		time="4" />
+
+	<string
+		id="3009"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r1m3\r1m3_3009_hero.ogg"
+		value="|Then I'll have to fight you!"
+		time="4" />
+
+	<string
+		id="8801"
+		value="Do you wish to travel to another region?"
+		numButtons="2" />
+
+	<string
+		id="8802"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r3m1\r3m1_8802_hero.ogg"
+		value="|I don't know where this road leads, so I'll stay here."
+		time="5" />
+
+	<string
+		id="8803"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r3m1\r3m1_8803_hero.ogg"
+		value="|It's a strange place. I'd better stay away from here."
+		time="3" />
+
+	<string
+		id="8804"
+		value="Do you wish to cross the bridge?"
+		numButtons="2" />
+
+	<string
+		id="8805"
+		value="Do you wish to cross the bridge?|The passage fee is 250 coins."
+		numButtons="2" />
+
+	<string
+		id="6006"
+		value="You must pay 250 coins to cross the bridge. You do not have that much money." />
+
+	<string
+		id="77771"
+		msgType="SCROLL" image="data\if\ico\CinemaPanel\foreground_movie_shade_midle.dds" upOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_up.dds" downOverlay="data\if\ico\CinemaPanel\foreground_movie_shade.dds"
+		value="@ffffffff|    Although the Oracle’s mobile module was destroyed, the computer remained intact. Its metal servants have retreated to the jungle and launch occasional surprise raids on Njeri's expeditions. The successful installation of the jammer caused a noticeable change in the lives of humans. The alien base moved to Zarmek, where they were finally able to safely study the emission and its effects on humans. The first experiments were quite successful: some people managed to take off their masks and survive. However, only within the walls of Njeri's laboratory. For the first time in many years, people had hope for the revival of the old world. But the shrewd ones began to realize that the falling of the saucer was not accidental, and the plans of the new allies may be very different from the people's aspirations."
+		sound="data\sounds\Speech\rolik\ending1.ogg"
+		fontSize="18"
+		scrollSpeed="0.5"
+		time="57" />
+
+	<string
+		id="77772"
+		msgType="SCROLL"
+		image="data\if\ico\CinemaPanel\foreground_movie_clear_midle.dds"
+		upOverlay="data\if\ico\CinemaPanel\foreground_movie_clear_up.dds"
+		downOverlay="data\if\ico\CinemaPanel\foreground_movie_clear.dds"
+		value="@00ffffff|АААААААААААААААААААААААAAАААА@ffffa600Developer studio «Targem Games»| | | |@00ffffffААААААААААААААААААAAААААААААААAAAAAA@ffffa600Internal producer||@00ffffffАААААААААААААААААААAAAАAAAААААААА@ffffffffStanislav «scorp» Skorb| | |@00ffffffААААААААААААААААААAAААААААААААAAAAA@ffffa600Technical director||@00ffffffАААААААААААAAAАААААААAAАААAААААААААА@ffffffffAlexey Skriabin| | |@00ffffffАААААAAАААААААААААААAAIААААААААААААА@ffffa600Project manager||@00ffffffААААААААААААAAAАААAIААААААААААААА@ffffffffEvgeniy «Hrrr» Khrunov| | |@00ffffffААААААААААААААAAААAAAAАААААААААААААААААА@ffffa600Writer||@00ffffffАААААААAAААААААААААААААAAААААА@ffffffffAlexey «Alex TG» Tchestnikh| | |@00ffffffАААААААAIАААААААААААAAAAAAAAААААААА@ffffa600Lead programmer||@00ffffffАААААIАААAAААAAААААААAAААААААААААА@ffffffffAnton «anger» Savin| | |@00ffffffАААААААAIАААААААААААAAAAAAAAAAААААААА@ffffa600Lead designer||@00ffffffАААААААAAААААААААААААААAAААААА@ffffffffAlexey «Alex TG» Tchestnikh| | |@00ffffffААААААААААAAАААААААААAAAАAAAAAААААААА@ffffa600Lead artist||@00ffffffАААААААAAААААIIIАААААААААААААА@ffffffffAlexander «Alex ML» Magrushin| | |@00ffffffАААААAAААААААААААААААААIIIIАААААААААААА@ffffa600Designers||@00ffffffАААААААIААААААAAIIIIАААААААААААААА@ffffffffDenis «mif2000» Galanin|@00ffffffААААААААААААIIIIААААААААAAАААААА@ffffffffSergey «JSinx» Udurminskiy|@00ffffffАААААААAAААААААIIIIАААААААААААААА@ffffffffAlexey «Razaz» Anufriev|@00ffffffААААААААААААААААААААIIIIАAIAАААААА@ffffffffStanislav «scorp» Skorb|@00ffffffАААААААAAААIIIIАААААААААААААААААААА@ffffffffBoris «borg» Smirnov| | |@00ffffffААААААААААААААААААAAААIIIIIIIАААААААААА@ffffa600Programmers||@00ffffffААААААААААAIIIIIIAААААААААААААААА@ffffffffElena «SoftKitty» Evdokimova|@00ffffffАААААААААААААААААIIIIААААААААAAААААА@ffffffffIvan «Vano» Vlasov|@00ffffffАААААААAAАААААААIIIIАААААААААААААА@ffffffffIlya «phosgen» Ruzakov|@00ffffffААААААААААААААIIIIАААААААААААAAАА@ffffffffMaxim «Shadow» Sarmanov|@00ffffffАААААААААААIIIIААААААААAIAААААА@ffffffffSergey «Ice Cat» Kluchkovsky|@00ffffffАААААААААAAААIIIIААААААААААААААААА@ffffffffIgor «Goryh» Dyagterev| | |@00ffffffАААААААААААААААААААААIIIIIIАAAАААААААААААА@ffffa600Artists||@00ffffffААААААААААААААААIIIIIIААAAААААААА@ffffffffAlexander «Alex ML» Magrushin|@00ffffffААААААAAАААААIIIIIIААААААААААААААААААААА@ffffffffIvan Snigirev|@00ffffffАААААААААААААIIIIIIААААААААААAAАААА@ffffffffEvgeny «Dzhin» Goltsov|@00ffffffААААААAAААААААААIIIIIIАААААААААААА@ffffffffVladimir «Price» Seleznev|@00ffffffААААААААAAААААААААIIIIIIАААААААААААА@ffffffffStanislav «Staz» Cherva|@00ffffffААААААААAААААААААААAАIIIIIIАААААААААА@ffffffffRustam «Rychi» Turey|@00ffffffАААААААААААAAААIIIIIIАААААААААААААААААА@ffffffffEvgeny Tokarev|@00ffffffАААААААААAAААААААIIIIIIААААААААААААА@ffffffffSergey «Sega» Mitryaev|@00ffffffААААААААААIIIIIIAААААААААААAАААААА@ffffffffViktor «isymbosi» Koryakin|@00ffffffААААААААААААААААIIIIААААААAAАААААААААА@ffffffffRoman Latynov| | |@00ffffffАААААААААААААAAААААААААААААAAAААААААА@ffffa600Level designers||@00ffffffААААААААIААААААААААAAAААААAAААААА@ffffffffDenis «mif2000» Galanin|@00ffffffАААААААААААААААAAAААААAAААААААА@ffffffffSergey «JSinx» Udurminskiy|@00ffffffАААААААAAААААAAAАААААААААААIАААААА@ffffffffArtem «solo» Solovev|@00ffffffАААААААААIААААААAAAААААААААAAАА@ffffffffDaniil «HiKiller» Kondratiev|@00ffffffААААААААААААААAAAААААААAIAАААААААА@ffffffffStanislav «Staz» Cherva| | |@00ffffffАААААААAAАААAAAAAААААААAАААААААААААА@ffffa600Interface designer||@00ffffffАААААААAAАAAАААAAААААААААААААААААА@ffffffffMikhail «Rai» Matvienko| | |@00ffffffААААААААААААААААААААААAAAAAAAAААААAAААААААА@ffffa600FX||@00ffffffААААААAАААААААААAAAAAААААААААAAААААА@ffffffffAlexey «Hal» Lobanov| | |@00ffffffАААААААААААААААААААААAAAAААААAАААААААА@ffffa600Sound director||@00ffffffААААААААААААAAАААААААААAAАAAААААААААААА@ffffffffAnton Popov|@00ffffffАААААААAAAAIААAAАААААААААААААААААААА@ffffffffEkaterina Shvemmer| | |@00ffffffАААААААААААААААААAAАААААААААAAААААААА@ffffa600Quality assurance||@00ffffffАААААААААAАAAIАААAAАААААААААААААААА@ffffffffVyacheslav «ls» Avdeev| | |@00ffffffААААААААААAAАААAАААAAAААААААААААААААААА@ffffa600PR-manager||@00ffffffААААААААAAAААAААIIIАААААААААААААА@ffffffffSvetlana «Сrystal» Tchestnikh| | |@00ffffffAAAАААААAAAAAAAAAAAAAАААААAA@ffffa600The soundtrack includes tracks of the music|@00ffffffААAAАААААААААААAAAААААААААААААААААААААА@ffffa600contest winners:||@00ffffffААААААААААAAААААААААAAAAAAАААААААААААА@ffffffffAlexander Chekster|@00ffffffААААААААААААAAAAAAAAААААААААААААААААААА@ffffffffBoris Vedensky|@00ffffffАААААААААAAАААААААAAAAAAААААААААААААААА@ffffffffAlexander Treger|@00ffffffАААААААААААAAAAAAААААААААААААAAААААААААА@ffffffffMikhail Sidorov|@00ffffffАААААААААААAAААААAAAAAAААААААААААААААА@ffffffffAlexander Lisenkov|@00ffffffААААААAAАААААААААААAAAAAAIААААААААААААААА@ffffffffParalaxeen|@00ffffffАААААААААААAAААААААААААAAAAAAААААААААААА@ffffffffIgor Belousov| | |@00ffffffААААААААААААAAAAAAAAAAAAAAАААААAAАААА@ffffa600Special thanks to:||@00ffffffААААААААААAAAАAAIАААААААAAАААА@ffffffffConstantine Sokharev - programming|@00ffffffААААААААAAAААААААААААААAAАААА@ffffffffSvyatoslav Patashnikov - management|@00ffffffААААААААААААААAAAАААААААAAАААА@ffffffffAlexey Andruschenko – web design"
+		sound=""
+		fontSize="19"
+		scrollSpeed="1.62"
+		time="98" />
+
+	<string
+		id="77773"
+		msgType="SCROLL"
+		image="data\if\ico\CinemaPanel\foreground_movie_clear_midle.dds"
+		upOverlay="data\if\ico\CinemaPanel\foreground_movie_clear_up.dds"
+		downOverlay="data\if\ico\CinemaPanel\foreground_movie_clear.dds"
+		value="@00ffffffАААААААААAAААААААААААААААААА@ffffa600Publisher «Buka Entertainment»| | | |@00ffffffААААААААAAАААААААААААААААААААААААААА@ffffa600Producer||@00ffffffААААААААААААAAAАIАААААААААААААААААА@ffffffffIvan Bunakov| | |@00ffffffАААААААААААAAААААААААААААААААА@ffffa600Senior executive producer||@00ffffffААAAААААААААААААААААААААААААААААААА@ffffffffIvan Moroz| | |@00ffffffААААААААAAАAAAAAAAAAIААААААААААААА@ffffa600Sales managers||@00ffffffААААААААААААААААААAAААААААААААААААА@ffffffffYouriy Virich|@00ffffffААААААААААAАAAААААААААААААААААААА@ffffffffAlexey Pisklukov| | |@00ffffffАААААААAAААIIIАААААААААААААААААААА@ffffa600Technical expert||@00ffffffААААААААAAIАIАААААААААААААААААААА@ffffffffKirill Bestemyanov| | |@00ffffffААААААААААААААААAIIAAAAAAАААААААААААААА@ffffa600Sound expert||@00ffffffААААААААААААIАAAАAAAAААААААААААААААААА@ffffffffRuslan Dmitriev| | |@00ffffffААААААААAAAAAAAAAАААААААААААААААААААА@ffffa600Cover designers||@00ffffffААААAAААААААААААААААAAAААААААААААААААА@ffffffffSanan Ushanov|@00ffffffААААAAААIАААААААААAAAААААААААААААА@ffffffffDaniella Klimashevskaya| | |@00ffffffААААААААААААААААAAААAAAAААААААААААААААА@ffffa600PR manager||@00ffffffААААААААААААAAAAAAАААААААААААААААААА@ffffffffAlexey Pastushenko| | |@00ffffffААААААAAАААААIАААAAAАААААААААААААА@ffffa600PR manager’s assiatant||@00ffffffАААААААААAAАААAAAААААААААААААААААААААА@ffffffffOleg Morozov| | |@00ffffffААААААААAAААААААIАААAAAАААААААААААА@ffffa600Producer’s assistant||@00ffffffААААААААААААААIAAААААAAАААААААААААА@ffffffffAlexey Peshekhonov|@00ffffffААААAAIIААААAAАIААААААААААААААААААААА@ffffffffNikolay Safronov| | |@00ffffffААААААААААAAААААAAAAAАААААААААААА@ffffa600Manager of new teams||@00ffffffААААААААААААAAААIIIIААААААААААААААААА@ffffffffNikolay Safronov| | |@00ffffffААААAAАААААААIIIIIАААААААААААААААААА@ffffa600Executive producer||@00ffffffАААААААААААIIAAAААААААААААААААААААААА@ffffffffAlexander Pak| | |@00ffffffАААAAАААААААIIIААААААAAAAААААААААААААА@ffffa600QA supervisor||@00ffffffАААААААAAАIААААААIIIАААААААААААААААААА@ffffffffEvgeny Popov|@00ffffffАААААААААААAAААIIIIААААААААААААААААААААА@ffffffffIvan Rid| | |@00ffffffААААААAAААААIААААAAAAAAAААААААААААААААА@ffffa600QA team||@00ffffffАААААААААААААААААIАAAААААААААААААААА@ffffffffAnton Epishin|@00ffffffААААААААААААAIIIAАААААААААААААААААААА@ffffffffDmitry Lesin|@00ffffffААААААААIIАAAААААААААААААААААААААА@ffffffffAlexander Poloshin|@00ffffffАААААААААААIIААAAААААААААААААААААААА@ffffffffEvgeny Popov|@00ffffffААААААААAAАААААААААААIАААААААААААААА@ffffffffIvan Raynov|@00ffffffАААААААААААААААААААIIАAAАААААААААААААА@ffffffffIvan Rid|@00ffffffААААААААААААAAАIААААААААААААААААА@ffffffffAlexey Chebotarev| | |@00ffffffАААААААААААААAAААAAAAAAААААААААААААAI@ffffa600External testing||@00ffffffАААААААААAAАААААААIIIААААААААААААААААА@ffffffffPeter Beliaev|@00ffffffАААААААААAAААААААААIIIIААААААААААААААА@ffffffffAlexey Bunak|@00ffffffААААААААAAААIIIIIIААААААААААААААААААААА@ffffffffIgor Dmitriev|@00ffffffАААААААAAАААААААААIIIААААААААААААААА@ffffffffMichael Matushov|@00ffffffАААААААААААAAААААIIIIААААААААААААААААА@ffffffffDenis Sokolov|@00ffffffАААААААААAAААААААIIАААААААААААААААА@ffffffffIgor Peshekhontsev|@00ffffffАААААААААААAAААААААIIААААААААААААААА@ffffffffDmitry Chichikov|@00ffffffААААААIIААААААААAAААААААААААААААААА@ffffffffAlexey Shekhovtsev|@00ffffffАААААААААААAIIIAАААААААААААААААААААААА@ffffffffIlia Yusipov|@00ffffffААААААААААAAАIIАААААААААААААААААААААА@ffffffffTimur Yusipov| | |@00ffffffАААААААAAААААААААIIААААААААААААААААА@ffffa600Sales department||@00ffffffАААААААAAАААААААIIIIIАААААААААААААААА@ffffffffMaxim О. Alexeev|@00ffffffААААААААААААААAAААААIIIIIАААААААААААА@ffffffffMaxim U. Alexeev|@00ffffffААААААААAAААААААААААIIIIIАААААААААААА@ffffffffMaxim A. Alexeev|@00ffffffАААААААААIIIAAАAААААААААААААААААААА@ffffffffNatalia Ankundinova|@00ffffffААААААААAAААААААААААААААААAAАААААААА@ffffffffElena Antonova|@00ffffffАААААААAAАААААААААAAАААААААААААААААА@ffffffffIlia Brovchenko|@00ffffffААААААААААААAAАААААААAAAАААААААААААА@ffffffffPavel Grigoriev|@00ffffffАААААААAAАААIААААAAAАААААААААААААААА@ffffffffVictoria Kiseleva|@00ffffffААААAAААААААААААIIIАААААААААААААААА@ffffffffAlexander Kochetkov|@00ffffffАААААААAAАААААААAААIIIIААААААААААААААА@ffffffffPavel Kruglov|@00ffffffААААААААAAАААААIIIААААААААААААААААААА@ffffffffAndrey Osipov|@00ffffffАААААААААААААААAAАААAAAAААААААААААА@ffffffffAlexandr Petrinsky|@00ffffffАААААААААААAAААААААААААAAAААААААААА@ffffffffOlga Polkovnikova|@00ffffffААААААААAAААAAIААААААААААААААААААААА@ffffffffLarisa Savelieva|@00ffffffАААААААAAАААААAAААААААААААААААААААА@ffffffffEvgeny Samsonov|@00ffffffААААААААААAAААААААААAAАААААААААААА@ffffffffSvetlana Samsonova|@00ffffffАААААААААААAAAAАААAAАААААААААААААААА@ffffffffValery Tikhvonski|@00ffffffАААААААAAАААААААAAАААААААААААААААААА@ffffffffSergey Fedosof| | |@00ffffffААААААААААААAAААААААAAAAAAАААААААААААА@ffffa600Marketing||@00ffffffААААААААAAААAAААААААААААААААААААААА@ffffffffTatiana Vasekina| | |@00ffffffАААААAAААААААААAAААААААААААААААААА@ffffa600Community manager||@00ffffffАААААААААAAАAAАAААААААААААААААААААА@ffffffffAlexander Kovalev| | |@00ffffffААААААААAAААААААAAIААААААААААААААААА@ffffa600Experts’ council||@00ffffffАААААААААААAAАААААAAААААААААААААААА@ffffffffVladimir Miniaev|@00ffffffААААААААAAААААААААААAIIАААААААААААА@ffffffffMaxim N. Mikhalev|@00ffffffААААААААAAАААААААААААААIААААААААААААА@ffffffffIvan Moroz|@00ffffffАААААААIIIАААААААAAААААААААААААААААА@ffffffffSergey Rudenko|@00ffffffААААААААAАAAААААAАААААAААААААААААА@ffffffffVitaly Kharitonenko| | |@00ffffffАААААААAAААААААААAAAAIААААААААААААА@ffffa600Juridical support||@00ffffffАААААААAAААААААААAIIАААААААААААААААА@ffffffffGeorgy Vitaliev| | |@00ffffffААААААААAAААIААAAAАААААААААААААААА@ffffa600Technical support||@00ffffffААААААААААААAAАIIАААААААААААААААААА@ffffffffEvgeny Dmitriev| | |@00ffffffААААААААААAAАAAAAAAAAАААААААААААААААААА@ffffa600CEO||@00ffffffААААААААAAААААААААААААААIIАААААААА@ffffffffAlexander Mikhailov| | |@00ffffffААААААААААAAАAAAAAAAAАААААААААААААААААА@ffffa600CFO||@00ffffffАAAАААААААААААААААААААААААААААААААА@ffffffffMarina Ravoon| | |@00ffffffАААААААAAАAААААAAАААААААААААА@ffffa600Marketing department’s head||@00ffffffААААAIАААААAAААААААААААААААААААААА@ffffffffMaxim N. Mikhalev| | |@00ffffffААААААААAAAАААAAAAAAААААААААААА@ffffa600Sales department’s head||@00ffffffААIААААААAAААААААААААААААААААААААА@ffffffffTatiana Ustinova| | |@00ffffffААААААААAAАAААААААААААААААА@ffffa600Development department’s head||@00ffffffАААААААААAAАААААААААААААААААААААААА@ffffffffIvan Bunalov| | |@00ffffffААААААAAААААААААAAАААААААААААААААА@ffffa600Special thanks:||@00ffffffААААААААААААААААAAААААААААААААААААА@ffffffffYoulia Belova|@00ffffffААААААААААAAАААААААААААААААААААААА@ffffffffSergey Bobkov|@00ffffffАААААААAAААААААААААААААААААААААААА@ffffffffIlia Brovchenko|@00ffffffАААAAААААААААААААААIАААААААААААААА@ffffffffDmitry Zakharov|@00ffffffААААААААААААААAAIААААААААААААААААА@ffffffffDmitry Kuleshov|@00ffffffААААААААААААIАAAААААААААААААААААААА@ffffffffDmitry Lesin|@00ffffffАААААААААААААААAAААААIАААААААААААА@ffffffffVladimir Miniaev|@00ffffffААААААAAАААААААААААААААААААААААААААА@ffffffffIvan Moroz|@00ffffffАААААААААААAAААААIААААААААААААААААА@ffffffffMarina Ravoon|@00ffffffАААААААААААAAАААААААIАААААААААААААААА@ffffffffIvan Rid|@00ffffffАААААААAAААААААААААААААААААААААААА@ffffffffInna Sutsepina|@00ffffffАААААААААААААААAAАAАААААААААААААААА@ffffffffIgor Ustinov|@00ffffffААААААААAAААААААААААААААААААААААААА@ffffffffIrina Tsareva|@00ffffffАААААААААААAAААААААААIААААААААААААА@ffffffffVictoria Enns"
+		sound=""
+		fontSize="19"
+		scrollSpeed="1.48"
+		time="146" />
+
+	<string
+		id="77775"
+		msgType="SCROLL"
+		image="data\if\ico\CinemaPanel\foreground_movie_clear_midle.dds"
+		upOverlay="data\if\ico\CinemaPanel\foreground_movie_clear_up.dds"
+		downOverlay="data\if\ico\CinemaPanel\foreground_movie_clear.dds"
+		value="@00ffffffАААААААААААААAАААААААААААААААI@ffffa600Community Patch / Remaster| | | |@00ffffffАААААААААААААААААAАААAААААААА@ffffa600Aleksandr «Seel» Parfenenkov||@00ffffffАААААААААIААAAAAAААAAААААААААI@ffffffffproject manager, tools, design| | |@00ffffffАААААААААААААААААААААААААAAАА@ffffa600Aleksandr «ThePlain» Fateev||@00ffffffААААААААААААAAAAAAAAААААААААI.@fffffffftools, graphics, 3D modeling| | |@00ffffffААААААААААААААААААААААААААI@ffffa600Alexei «__nEmPoBu4__» Smirnov||@00ffffffАААААААААААAIАААААAAААААААААI@ffffffff3D modeling, scripting, quests| | |@00ffffffААААААААААААААААААААААААААААААААААА.@ffffa600Anna Zhukova||@00ffffffАААААААААААААААААААAAAIААААААААААААА@ffffffffgraphic design| | |@00ffffffАААААААААААААААААААААААААААААААААААI@ffffa600Anton Popov||@00ffffffААААААААААААААААААААAААААААААААААААААА@ffffffffmusic| | |@00ffffffААААААААААААААAААААААААААААAI@ffffa600Vladislav «OverLine» Kurochkin||@00ffffffАААААААААААААААAAAААААААААААAAА@ffffffffcontent design, level design| | |@00ffffffАААААААААААААААААААААААААААААА@ffffa600Dmitry «Gnome» Saschenko||@00ffffffАААААAAAАААААААААААААААААAААА.@ffffffffscripting, quests, 3D modeling| | |@00ffffffАААААААААААААААААААААААААААААI@ffffa600Ivan «ICAS-14» Cherepanov||@00ffffffААААААААААААААААААААAAAIААААААААААААА@ffffffff3D modeling| | |@00ffffffААААААААААААААААААААААААААААААI@ffffa600Leonid «KoYoT» Kochetov||@00ffffffААААААААААААААAAAAAAАААААААААААААААААА@ffffffffbugfixes| | |@00ffffffААААААААААААAАААААААААААААААААI@ffffa600Maxim «Spok» Berdnikov||@00ffffffААААААААААААААААААААAAAIААААААААААААА@ffffffff3D modeling| | |@00ffffffААААААААААААААAАААААААААААААA@ffffa600Mark «Apocalypse007» Malygin||@00ffffffААААААААААAАААААААААААААААААААААААI@fffffffftext proofreading| | |@00ffffffААААААААААААААААААААAAААААААААI@ffffa600Nick «BIBIKUZ» Kononenko||@00ffffffААААААААААААААААААААAAAIААААААААААААА@ffffffff3D modeling| | |@00ffffffАААААААААААААААААААAAАААIААААААA@ffffa600Pavel «pavlikrpg» Ivanov||@00ffffffААААААААААААААAAАААААААААААААААIАААI@ffffffffscripting, quests| | |@00ffffffААААААААААААААААAААААААААААААА.@ffffa600Serafim «Varisane» Shagin||@00ffffffАААААААААAAАААААААААААААААAAI@ffffffffcontent design, text proofreading| | |@00ffffffААААААААAAААААААAAIААААААААААААААААА@ffffa600Expert’s council||@00ffffffАААААААААААААААААААААAAААААААААААААААААА@ffffffffBuba|@00ffffffААААААААААААААAAАААААААААААААААААААААААI@ffffffffOracle|@00ffffffААААААААААААААААААААААAAААААААААААААААI@ffffffffRusya_27|@00ffffffААААААААААAAААААААААААААААААААААААААААА@ffffffffTraygen|@00ffffffААААААААААААААААААААААААААAAАААААААААА@ffffffffSemimahov| | |@00ffffffААААААААААААААAAAAААААААААААААААААААААА@ffffa600Testing||@00ffffffААААААААААААААААAAАААААААААААААААААААА@ffffffffSuslo Red|@00ffffffААААААААAAАААААААААААААААААААААI@ffffffffIvan «MrKarfen» Atamanov|@00ffffffАААААААААAAАААААААААААААААААААI.@ffffffffSemen «Omezera» Ozeritsky|@00ffffffАААААAAААААААААААААААААААААААААААААА@ffffffffPushistik_7977|@00ffffffАААААААААААААААААААAAАААААААААААААААААI@ffffffffAnarxolis|@00ffffffААААААААААААААААААAAААААААААААААААААААА@ffffffffScorpyX|@00ffffffАААААААААААААААААААААААААААAAАААААААА@ffffffffAlexander192|@00ffffffААААААААААААААAAААААААААААААААААААААААI@ffffffffTerorchat| | |@00ffffffААААААААААААААААAAAААААААААААААААААI@ffffa600Special thanks to||@00ffffffААААААААААААААААAAIААААААААААААA@ffffffffDeus Ex Machina community|@00ffffffАААААААААААААAAAАААААААIАAАААААААААА@ffffffffdiscord.gg/qKK2Efx||@00ffffffАААААААААААААААААAAAААААААIААААААААА@ffffffffEM2ch community|@00ffffffААААААААААААААААAAAАIААААААААААААААААА@ffffffffvk.com/em2ch||@00ffffffААААААААААААААIAAAААААААААААААA.@ffffffffEx Machina VK public page|@00ffffffАААААААААААААААААААAAAАIАААААААAААА@ffffffffvk.com/exmachina2||@00ffffffАААААААААААААААААААААААААААA.@ffffffff«Павлик RPG»’s channel viewers||@00ffffffААААААААААAААААААААAA.@ffffffffOur wifes, girlfriends, husbands, relatives and cats,|@00ffffffААААААААААААААAАААААААAAAI@ffffffffwho tolerated us during the development||@00ffffffАААААААААААААААААААAAAI@ffffffffTo all of those who waited for and supported this project"
+		sound=""
+		fontSize="19"
+		scrollSpeed="1.6"
+		time="88" />
+
+	<string
+		id="77776"
+		msgType="SCROLL"
+		image="data\if\ico\CinemaPanel\foreground_movie_clear_midle.dds"
+		upOverlay="data\if\ico\CinemaPanel\foreground_movie_clear_up.dds"
+		downOverlay="data\if\ico\CinemaPanel\foreground_movie_clear.dds"
+		value="@00ffffffАААААААААААААAАAAAAAAAAААAAIAAAAAA@ffffa600Hard Truck Apocalypse| | |@00ffffffАААААААААААААAАAAAAAAAAAAААAAIAAAAAA@ffffa600«Doomer Wave»| | | |@00ffffffААААААААААААIАAАAAAAAAAAAAAAAАAAA@ffffa600Nikita «stakan» Kashlev||@00ffffffААААAААААIAAAAAААААAAАAAAAA@ffffffffScripts, music, graphic, weather, testing| | | |@00ffffffАIIААААААААAAAAAAAАААAАААAAAAAAAАAAA@ffffa600Modification OST| | |@00ffffffАААААAAAAAAAAAAАААААAA@ffffffffHard Truck Apocalypse original OST (slowed+reverb)| | |@00ffffffААААААААAAAААААAAААААААAAААА@ffffffffk1LLj0Y - The End (slowed+reverb)| | |@00ffffffАААААААААAAAААААAAAАIАААAААА@ffffffffk1LLj0Y - Symphony (slowed+reverb)| | | |@00ffffffААААААААААААААААAAAААААААААААААААААI@ffffa600Special thanks to||@00ffffffААААААААААААААААAAIАIААААААААААA.@ffffffffDeus Ex Machina community| | |@00ffffffААAAАААААIIIААAAAAAААAAААААААААAI.@ffffffffIvan «Carsen» Buryashkin| | |@00ffffffААААААААААААААААAAААААААААААААА.@ffffffffSerafim «Varisane» Shagin| | |@00ffffffААААIIАAAAAAAAAAAAIAAAAAААААAАААAI.@fffffffffor help in development| | | |@00ffffffАААААААААААААААААAААAAАААIААААААA@ffffffffPavel «pavlikrpg» Ivanov| | |@00ffffffААААААААIАAAAAAAAAAAAAAАAAААА@fffffffffor granting permission to use credits||@00ffffffААААAAAАААААААAAAAIAAAAАAAАА@fffffffffrom his Improved Storyline modification| | | |@00ffffffАААААААААААААAAAAAАААААIAААААAAААААI@ffffa600Thanks for playing!"
+		sound=""
+		fontSize="20"
+		scrollSpeed="1.45"
+		time="54" />	
+
+	<string
+		id="77774"
+		msgType="SCROLL"
+		image="data\if\ico\CinemaPanel\foreground_movie_clear_midle.dds"
+		upOverlay="data\if\ico\CinemaPanel\foreground_movie_clear_up.dds"
+		downOverlay="data\if\ico\CinemaPanel\foreground_movie_clear.dds"
+		value=""
+		sound=""
+		fontSize="19"
+		scrollSpeed="1"
+		time="2" />
+</resource>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?><!-- edited with XML Spy v4.2 U (http://www.xmlspy.com) by Morgoth (Targem) -->
+<resource><!--Default buttons-->
+	<string
+		id="stat_Wares"
+		value="@ff000000Merchandise sold (pcs.)" />
+
+	<string
+		id="stat_RealTime"
+		value="@ff000000Game time (hh : mm)" />
+
+	<string
+		id="stat_GameTime"
+		value="@ff000000In-game days passed" />
+
+	<string
+		id="stat_PeoplesKilled"
+		value="@ff000000Dwellers killed" />
+
+	<string
+		id="stat_PathElapsed"
+		value="@ff000000Distance traveled (km)" />
+
+	<string
+		id="stat_GDP"
+		value="@ff000000Money earned" />
+
+	<string
+		id="stat_DeathCounter"
+		value="@ff000000Was killed (times)" />
+
+	<string
+		id="stat_VehiclesKilled"
+		value="@ff000000Vehicles destroyed" />
+
+	<string
+		id="stat_ShellsEmitted"
+		value="@ff000000Shots made" />
+
+	<string
+		id="stat_FavoriteGun"
+		value="@ff000000Favorite weapon" />
+
+	<string
+		id="stat_HitRatio"
+		value="@ff000000Hit accuracy (%)" />
+</resource>
