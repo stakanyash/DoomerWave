@@ -1,0 +1,72 @@
+# unique service name
+name: doomer_wave
+
+# required human readable info
+display_name: Doomer Wave [ComRemaster]
+version: "1.4.2"
+build: "240415a"
+description: |
+  Doomer Wave is a mod aimed at changing the game atmosphere to a depressing side. The plot remains original and its narration is not changed in any way.
+
+  The interface and maps, compared to the original game - black and white, soundtrack in slowed + reverb format, darker nights, as well as the main character has no joyful phrases and exclamations.
+  
+authors: stakan
+
+# optional human readable info
+release_date: "22.06.2022"
+language: eng
+link: https://github.com/ksh1vn/DoomerWave
+trailer_url: https://www.youtube.com/watch?v=oGKfYa-B-08
+logo: assets/dw_logo.png
+install_banner: assets/dw_banner.png
+tags: [visual, audio]
+change_log: assets/changelog_dw_eng.md
+screenshots:
+  - img: assets/scr_1.jpg
+    text: |
+      Doomer Wave main menu
+  - img: assets/scr_2.jpg
+    text: |
+      Daylight Krai
+  - img: assets/scr_3.jpg
+    text: |
+      Nighttime Krai
+  - img: assets/scr_4.jpg
+    text: |
+      Nighttime Librium
+  - img: assets/scr_5.jpg
+    text: |
+      Nighttime Village of Scientist
+  - img: assets/scr_6.jpg
+    text: |
+      Evening Helvetia
+  - img: assets/scr_7.jpg
+    text: |
+      Gluhoe with HTA: Fall installed (Community Remastered version only)
+
+data_dirs:
+  - data
+  - data_hd
+
+options_base_dir: options
+
+# installation confguration
+patcher_version_requirement: "2.1.1"
+prerequisites: 
+  - name: community_remaster
+    versions:
+      - ">=1.14.1"
+
+# optional mod content
+optional_content:
+  - name: exmfall
+    display_name: "Ex Machina: Fall"
+    description: "Fall is a texturepack for Hard Truck Apocalypse, main aim of which is to bring the game's atmosphere to the new level without any losses to optimization and original visual style. General mood — autumnal motive, abandonment."
+    default_option: skip
+  - name: english_localization
+    display_name: English Localization
+    forced_option: True
+    data_dirs: 
+      - "eng_localization"
+    description: |
+      English localization for Doomer Wave without English voiceover.

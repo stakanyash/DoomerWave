@@ -1,4 +1,9 @@
-# Doomer Wave Changelog
+# Doomer Wave Changelog [RU builds]
+
+## Версия 1.4.2 [build 240415a]
+
+- **Добавлена английская локализация (пока доступно только для Community Remaster)**
+- **Текстовые правки в катсценах**
 
 ## Версия 1.4.1 [build 240410b]
 
