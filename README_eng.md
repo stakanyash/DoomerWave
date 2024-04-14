@@ -4,8 +4,6 @@
 
 **Doomer Wave** - modification aimed at changing the game atmosphere to a depressing side. This modification does not add a new plot, it remains original.
 
-The modification currently works only with the Russian version of the game. English version is under development!
-
 ![engbanner_sel](assets_for_git/eng_banner_sel.png)
 [![ru_banner](assets_for_git/ru_banner.png)](https://github.com/ksh1vn/DoomerWave/blob/main/README.md)
 
@@ -13,15 +11,15 @@ The modification currently works only with the Russian version of the game. Engl
 
 -----------------------------------------------------------------------------------------------
 
-### [Download the latest version](https://github.com/ksh1vn/DoomerWave/releases/tag/1.4.1_240410b)
-### Required game version: 1.14.1 [ComRemaster] or 1.02 [Clean HTA] 
+### [Download the latest version](https://github.com/ksh1vn/DoomerWave/releases/tag/1.4.2_240415a)
+### Required game version: 1.14.1 [ComRemaster] (RU/ENG) or 1.02 [Clean HTA] (RU)
 
 -----------------------------------------------------------------------------------------------
 
 ### Modification screenshots:
 
 > ![scr_1](https://github.com/ksh1vn/DoomerWave/assets/60093741/9084e705-63be-40e5-b785-52327e592551)
-**Ex Machina: Doomer Wave main menu (Community Remaster Version)**
+**HTA: Doomer Wave main menu (Community Remaster Version)**
 
 > ![scr_2](https://github.com/ksh1vn/DoomerWave/assets/60093741/8238351b-531e-4fb9-b73d-bb532e5157fa)
 **Daylight Krai**
@@ -39,7 +37,7 @@ The modification currently works only with the Russian version of the game. Engl
 **Evening Helvetia**
 
 > ![scr_7](https://github.com/ksh1vn/DoomerWave/assets/60093741/0774205a-d659-45a5-bdb3-4b787e3fd964)
-**Gluhoe with Ex Machina: Fall installed (Community Remastered version only)**
+**Gluhoe with HTA: Fall installed (Community Remastered version only)**
 
 -----------------------------------------------------------------------------------------------
 
