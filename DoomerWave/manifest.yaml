@@ -20,7 +20,7 @@ trailer_url: https://www.youtube.com/watch?v=oGKfYa-B-08
 logo: assets/dw_logo.png
 install_banner: assets/dw_banner.png
 tags: [visual, audio]
-change_log: assets/changelog_dw.md
+change_log: assets/changelog_dw_ru.md
 screenshots:
   - img: assets/scr_1.jpg
     text: |
