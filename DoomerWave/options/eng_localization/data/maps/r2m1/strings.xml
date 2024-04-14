@@ -28,7 +28,7 @@
 		id="3"
 		modelName="mask_hero"
 		sound="data\sounds\Speech\r2m1\r2m1_3_hero.ogg"
-		value="|Hmm... He is a great man as I can see. How may I meet this &quot;provider&quot;?"
+		value="|Hmm... How may I meet this &quot;provider&quot;?"
 		time="4" />
 
 	<string
