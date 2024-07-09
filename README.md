@@ -9,6 +9,8 @@
 
 **Трейлер **Ex Machina: Doomer Wave** можно посмотреть [здесь](https://www.youtube.com/watch?v=oGKfYa-B-08).**
 
+**[Страница мода на DeusWiki](https://deuswiki.com/w/Doomer_Wave)**
+
 -----------------------------------------------------------------------------------------------
 
 ### [Скачать последнюю версию](https://github.com/ksh1vn/DoomerWave/releases/tag/1.4.2_240415a) 
