@@ -10,6 +10,15 @@
 **You can watch trailer for **Ex Machina: Doomer Wave** [here](https://www.youtube.com/watch?v=oGKfYa-B-08).**
 
 -----------------------------------------------------------------------------------------------
+### Table of contents:
+
+- [Description](#ex-machina-doomer-wave)
+- [Table of contents](#table-of-contents)
+- [Download](#download-the-latest-version)
+- [Screenshots](#modification-screenshots)
+- [Changelog](#list-of-changes)
+- [My thanks](#my-thanks-to)
+-----------------------------------------------------------------------------------------------
 
 ### [Download the latest version](https://github.com/ksh1vn/DoomerWave/releases/tag/1.4.2_240415a)
 ### Required game version: 1.14.1 [ComRemaster] (RU/ENG) or 1.02 [Clean HTA] (RU)
