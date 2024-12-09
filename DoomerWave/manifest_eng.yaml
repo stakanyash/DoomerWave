@@ -3,8 +3,8 @@ name: doomer_wave
 
 # required human readable info
 display_name: Doomer Wave [ComRemaster]
-version: "1.4.2"
-build: "240415a"
+version: "1.4.3"
+build: "241209a"
 description: |
   Doomer Wave is a mod aimed at changing the game atmosphere to a depressing side. The plot remains original and its narration is not changed in any way.
 
