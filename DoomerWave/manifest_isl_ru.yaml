@@ -1,0 +1,57 @@
+# unique service name
+name: doomer_wave
+
+# required human readable info
+display_name: Doomer Wave [Improved Storyline]
+version: "1.4.5"
+build: "241213a"
+description: |
+  Модификация, направленная на изменение игровой атмосферы в депрессивную сторону.  Сюжет Improved Storyline остаётся оригинальным и никак его повествование не изменено.
+
+  По сравнению с оригиналом интерфейс и карты - серые, саундтрек в slowed + reverb формате, более тёмные ночи, а так-же у главного героя отсутствуют радостные фразы и восклицания.
+  
+authors: стакан
+
+# optional human readable info
+release_date: "22.06.2022"
+language: ru
+link: https://github.com/stakanyash/DoomerWave
+trailer_url: https://www.youtube.com/watch?v=YkAFHkLSdzc
+logo: assets/dw_logo.png
+install_banner: assets/dw_banner.png
+tags: [visual, audio]
+change_log: assets/changelog_dw_isl.md
+screenshots:
+  - img: assets/scr_1.jpg
+    text: |
+      Главное меню Doomer Wave
+  - img: assets/scr_2.jpg
+    text: |
+      Дневной Край
+  - img: assets/scr_3.jpg
+    text: |
+      Ночной Край
+  - img: assets/scr_4.jpg
+    text: |
+      Ночной Либриум
+  - img: assets/scr_5.jpg
+    text: |
+      Ночной Посёлок Учёного
+  - img: assets/scr_6.jpg
+    text: |
+      Вечерняя Гельвеция
+
+data_dirs:
+  - data
+  - data_hd
+  - data_isl
+
+# installation confguration
+patcher_version_requirement: "2.1.1"
+prerequisites: 
+  - name: community_remaster
+    versions:
+      - ">=1.14.1"
+  - name: [improved_storyline_hd]
+    versions:
+     - ">=1.2"
