@@ -2,12 +2,15 @@
 
 ![dw_banner](https://github.com/ksh1vn/DoomerWave/assets/60093741/424ba622-42cd-43b4-90e2-91c836675dbf)
 
+<div align="center">
+
 **Doomer Wave** - modification aimed at changing the game atmosphere to a depressing side. This modification does not add a new plot, it remains original.
 
-![engbanner_sel](assets_for_git/eng_banner_sel.png)
-[![ru_banner](assets_for_git/ru_banner.png)](https://github.com/ksh1vn/DoomerWave/blob/main/README.md)
+![engbanner_sel](assets_for_git/eng_banner_sel.png) [![ru_banner](assets_for_git/ru_banner.png)](https://github.com/ksh1vn/DoomerWave/blob/main/README.md)
 
 **You can watch trailer for **Ex Machina: Doomer Wave** [here](https://www.youtube.com/watch?v=oGKfYa-B-08).**
+
+</div>
 
 -----------------------------------------------------------------------------------------------
 ### Table of contents:
@@ -20,14 +23,20 @@
 - [My thanks](#my-thanks-to)
 -----------------------------------------------------------------------------------------------
 
+<div align="center">
+
 ### [Download the latest version](https://github.com/stakanyash/DoomerWave/releases/tag/1.4.3_241209a)
 ### Required game version: 1.14.1 [ComRemaster] (RU/ENG) or 1.02 [Clean HTA] (RU)
 
-* (RU/ENG) - Russian and English localization are supported, (RU) - only Russian localization supported
+(RU/ENG) - Russian and English localization are supported, (RU) - only Russian localization supported
+
+</div>
 
 -----------------------------------------------------------------------------------------------
 
 ### Modification screenshots:
+
+<div align="center">
 
 > ![scr_1](https://github.com/ksh1vn/DoomerWave/assets/60093741/9084e705-63be-40e5-b785-52327e592551)
 **HTA: Doomer Wave main menu (Community Remaster Version)**
@@ -49,6 +58,8 @@
 
 > ![scr_7](https://github.com/ksh1vn/DoomerWave/assets/60093741/0774205a-d659-45a5-bdb3-4b787e3fd964)
 **Gluhoe with HTA: Fall installed (Community Remastered version only)**
+
+</div>
 
 -----------------------------------------------------------------------------------------------
 
@@ -80,8 +91,12 @@
 
 -----------------------------------------------------------------------------------------------
 
+<div align="center">
+
 **If you have found a bug, a flaw or just want to leave feedback about the modification, you can do it on my [Discord server](https://discord.gg/5UAjrrsM5B) in the "багрепы-bugreports" channel, or on the [Deus Ex Machina](https://discord.gg/PVW57kr) server in the channel "Ex Machina Doomer Wave" of the section "витрина-модов"**.
 
 -----------------------------------------------------------------------------------------------
 
-README written by [стакан](https://github.com/ksh1vn)
+README written by [стакан](https://github.com/stakanyash)
+
+</div>
