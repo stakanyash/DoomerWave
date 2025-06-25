@@ -2,16 +2,18 @@
 
 ![dw_banner](https://github.com/ksh1vn/DoomerWave/assets/60093741/424ba622-42cd-43b4-90e2-91c836675dbf)
 
-**Doomer Wave** - модификация, направленная на изменение игровой атмосферы в депрессивную сторону. Данная модификация не добавляет новый сюжет, он остаётся оригинальным.
+<div align="center">
 
-![ru_banner_sel](assets_for_git/ru_banner_sel.png)
-[![engbanner](assets_for_git/eng_banner.png)](https://github.com/ksh1vn/DoomerWave/blob/main/README_eng.md)
+**Doomer Wave** - модификация, направленная на изменение игровой атмосферы в депрессивную сторону. Данная модификация не добавляет новый сюжет, он остаётся оригинальным.
+  
+![ru_banner_sel](assets_for_git/ru_banner_sel.png) [![engbanner](assets_for_git/eng_banner.png)](https://github.com/ksh1vn/DoomerWave/blob/main/README_eng.md)
 
 **Трейлер **Ex Machina: Doomer Wave** можно посмотреть [здесь](https://www.youtube.com/watch?v=oGKfYa-B-08).**
 
 **[Страница мода на DeusWiki](https://deuswiki.com/w/Doomer_Wave)**
 
 **[Страница мода на форуме Deus Ex Machina](https://forum.deuswiki.com/t/doomer-wave/2945)**
+</div>
 
 -----------------------------------------------------------------------------------------------
 
@@ -25,15 +27,20 @@
 - [Благодарности](#выражаю-благодарность)
 
 -----------------------------------------------------------------------------------------------
-
+<div align="center">
+  
 ### [Скачать последнюю версию](https://github.com/stakanyash/DoomerWave/releases/tag/1.4.3_241209a)
 ### Требуемая версия игры: 1.14.1 [ComRemaster] (RU/ENG) или 1.02 [Чистая Ex Machina] (RU)
 
-* (RU) - поддерживается только русская локализация, (RU/ENG) - поддерживаются русская и английская локализация
+(RU) - поддерживается только русская локализация, (RU/ENG) - поддерживаются русская и английская локализация
+
+</div>
 
 -----------------------------------------------------------------------------------------------
 
 ### Скриншоты модификации:
+
+<div align="center">
 
 > ![scr_1](https://github.com/ksh1vn/DoomerWave/assets/60093741/9084e705-63be-40e5-b785-52327e592551)
 **Главное меню Ex Machina: Doomer Wave (Community Remaster версия)**
@@ -55,6 +62,8 @@
 
 > ![scr_7](https://github.com/ksh1vn/DoomerWave/assets/60093741/0774205a-d659-45a5-bdb3-4b787e3fd964)
 **Глухое с установленным Ex Machina: Fall (Только в Community Remaster версии)**
+
+</div>
 
 -----------------------------------------------------------------------------------------------
 
@@ -86,8 +95,12 @@
 
 -----------------------------------------------------------------------------------------------
 
+<div align="center">
+
 **Если вы нашли какой-то баг, недоработку или просто хотите оставить отзыв о модификации, то сделать вы это можете на моём [Discord-сервере](https://discord.gg/5UAjrrsM5B), либо же на сервере [Deus Ex Machina](https://discord.gg/PVW57kr) в канале "Ex Machina Doomer Wave" разделa "витрина-модов"**
 
 -----------------------------------------------------------------------------------------------
 
 README written by [стакан](https://github.com/stakanyash)
+
+</div>
